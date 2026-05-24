@@ -1,0 +1,219 @@
+shelter_id,name,district,state,shelter_type,capacity_persons,current_occupancy,latitude,longitude,elevation_m,has_electricity,has_water_supply,has_medical_facility,has_food_storage,helicopter_access_only,road_access,nearest_hospital_km,nearest_police_station_km,contact_number,district_nodal_officer,last_used_year,structural_condition
+SH_0001,Ahmednagar College 1,Ahmednagar,Maharashtra,College,400,0,19.0593,74.6007,654,True,True,False,True,False,True,8.6,16.3,07516-268248,Officer_629,2022,Good
+SH_0002,Ahmednagar College 2,Ahmednagar,Maharashtra,College,600,0,19.1235,74.7246,696,True,False,True,True,False,True,12.7,10.5,06183-115669,Officer_675,2020,Good
+SH_0003,Ahmednagar Government School 3,Ahmednagar,Maharashtra,Government School,400,0,19.1089,74.7487,630,True,True,True,False,False,True,40.8,21.0,01730-167062,Officer_397,2023,Good
+SH_0004,Ahmednagar Government School 4,Ahmednagar,Maharashtra,Government School,400,0,19.0891,74.7029,678,True,True,True,False,False,True,12.7,12.6,04768-313900,Officer_471,2019,Good
+SH_0005,Ahmednagar Panchayat Bhavan 5,Ahmednagar,Maharashtra,Panchayat Bhavan,500,0,19.1875,74.7338,702,True,False,False,True,False,True,12.0,9.8,09794-276596,Officer_719,2022,Good
+SH_0006,Ahmednagar Relief Camp 6,Ahmednagar,Maharashtra,Relief Camp,400,0,19.1962,74.7006,627,True,True,False,True,False,True,35.8,29.1,05389-289337,Officer_412,2022,Good
+SH_0007,Ahmednagar Panchayat Bhavan 7,Ahmednagar,Maharashtra,Panchayat Bhavan,1500,0,19.1199,74.6467,629,True,True,False,True,False,True,40.9,23.7,07201-125143,Officer_822,2021,Fair
+SH_0008,Akola Community Hall 1,Akola,Maharashtra,Community Hall,200,0,20.759,77.1415,370,True,True,True,True,False,True,11.0,14.8,08539-715375,Officer_666,2023,Good
+SH_0009,Akola Community Hall 2,Akola,Maharashtra,Community Hall,600,0,20.7701,76.9577,239,True,True,False,True,False,True,31.2,3.7,06837-988737,Officer_333,2024,Needs Repair
+SH_0010,Akola College 3,Akola,Maharashtra,College,400,0,20.6854,76.9051,374,True,True,False,False,False,True,35.6,20.5,05058-262890,Officer_864,2021,Good
+SH_0011,Akola Government School 4,Akola,Maharashtra,Government School,800,0,20.5759,76.9422,251,True,False,False,False,False,True,44.6,12.6,08238-650397,Officer_434,2021,Good
+SH_0012,Amravati College 1,Amravati,Maharashtra,College,600,0,20.9823,77.8136,271,False,True,False,True,False,True,44.2,25.9,07584-244328,Officer_132,2019,Fair
+SH_0013,Amravati Government School 2,Amravati,Maharashtra,Government School,800,0,20.8783,77.8673,363,True,True,False,True,False,True,33.2,26.5,05093-991295,Officer_357,2019,Fair
+SH_0014,Amravati Community Hall 3,Amravati,Maharashtra,Community Hall,600,0,21.0522,77.9169,382,True,True,True,True,False,True,35.0,11.7,08962-282198,Officer_940,2021,Good
+SH_0015,Amravati Community Hall 4,Amravati,Maharashtra,Community Hall,200,0,20.8841,77.8022,340,True,True,True,True,False,True,37.5,18.4,06384-556410,Officer_939,2024,Fair
+SH_0016,Amravati Relief Camp 5,Amravati,Maharashtra,Relief Camp,500,0,20.9594,77.7893,259,False,True,True,False,False,True,29.3,25.9,07303-555783,Officer_534,2023,Needs Repair
+SH_0017,Amravati Relief Camp 6,Amravati,Maharashtra,Relief Camp,500,0,20.9506,77.7949,305,True,True,False,True,False,True,16.1,28.1,04529-727138,Officer_373,2019,Good
+SH_0018,Amravati Relief Camp 7,Amravati,Maharashtra,Relief Camp,500,0,20.8957,77.8317,395,False,True,True,True,False,True,44.3,28.9,05603-964304,Officer_575,2022,Fair
+SH_0019,Aurangabad Relief Camp 1,Aurangabad,Maharashtra,Relief Camp,800,0,19.8366,75.4603,632,False,True,True,True,False,True,40.7,17.5,04116-314795,Officer_730,2023,Good
+SH_0020,Aurangabad Panchayat Bhavan 2,Aurangabad,Maharashtra,Panchayat Bhavan,800,0,19.8956,75.2307,617,True,False,True,True,False,True,26.0,19.1,04467-951246,Officer_464,2022,Good
+SH_0021,Aurangabad Government School 3,Aurangabad,Maharashtra,Government School,800,0,19.9684,75.4342,549,False,True,False,True,False,True,40.3,13.5,04211-674572,Officer_364,2021,Fair
+SH_0022,Aurangabad College 4,Aurangabad,Maharashtra,College,500,0,19.7932,75.2028,669,True,True,False,True,False,True,4.8,8.2,06020-352292,Officer_632,2020,Fair
+SH_0023,Aurangabad Government School 5,Aurangabad,Maharashtra,Government School,200,0,19.8696,75.2677,578,True,True,False,True,False,True,23.3,19.7,06006-949341,Officer_187,2021,Good
+SH_0024,Aurangabad Government School 6,Aurangabad,Maharashtra,Government School,200,0,19.758,75.2413,702,True,True,False,False,False,True,4.2,20.1,04535-548825,Officer_302,2024,Fair
+SH_0025,Aurangabad College 7,Aurangabad,Maharashtra,College,200,0,19.7823,75.3772,543,False,True,False,True,False,True,20.5,27.5,05159-498752,Officer_197,2021,Good
+SH_0026,Beed Panchayat Bhavan 1,Beed,Maharashtra,Panchayat Bhavan,2000,0,19.0362,75.8429,682,True,True,False,True,False,True,12.1,13.3,01801-662237,Officer_747,2024,Needs Repair
+SH_0027,Beed College 2,Beed,Maharashtra,College,500,0,18.9004,75.8356,574,True,True,True,True,False,True,34.6,21.0,09936-827826,Officer_725,2024,Good
+SH_0028,Beed College 3,Beed,Maharashtra,College,300,0,18.9815,75.801,635,True,True,True,False,False,True,2.5,22.0,02967-129391,Officer_152,2020,Good
+SH_0029,Beed Stadium 4,Beed,Maharashtra,Stadium,500,0,18.876,75.8621,611,False,True,False,False,False,True,10.9,18.5,02986-690570,Officer_776,2021,Good
+SH_0030,Beed Panchayat Bhavan 5,Beed,Maharashtra,Panchayat Bhavan,300,0,19.0922,75.8602,592,True,False,True,True,False,True,13.0,29.7,03426-162492,Officer_791,2019,Good
+SH_0031,Beed Panchayat Bhavan 6,Beed,Maharashtra,Panchayat Bhavan,400,0,18.8595,75.673,665,True,True,False,True,False,True,27.4,9.4,02362-260368,Officer_979,2023,Fair
+SH_0032,Beed Community Hall 7,Beed,Maharashtra,Community Hall,600,0,19.0236,75.8923,705,True,True,True,True,False,True,37.7,13.4,08949-892794,Officer_133,2021,Good
+SH_0033,Bhandara Relief Camp 1,Bhandara,Maharashtra,Relief Camp,600,0,21.1113,79.6133,360,True,True,False,False,False,True,43.0,28.7,08443-122790,Officer_312,2019,Good
+SH_0034,Bhandara College 2,Bhandara,Maharashtra,College,400,0,21.1779,79.5046,221,False,True,True,False,False,True,22.9,12.9,02676-596557,Officer_708,2024,Fair
+SH_0035,Bhandara Community Hall 3,Bhandara,Maharashtra,Community Hall,500,0,21.2099,79.734,238,True,False,True,True,False,True,39.4,26.9,07839-981006,Officer_529,2022,Good
+SH_0036,Bhandara Relief Camp 4,Bhandara,Maharashtra,Relief Camp,200,0,21.1396,79.716,361,True,True,True,True,False,True,20.6,19.9,03849-475290,Officer_697,2021,Good
+SH_0037,Buldhana Panchayat Bhavan 1,Buldhana,Maharashtra,Panchayat Bhavan,600,0,20.5409,76.2417,435,True,True,False,True,False,True,36.3,7.3,01756-399552,Officer_335,2021,Fair
+SH_0038,Buldhana College 2,Buldhana,Maharashtra,College,300,0,20.4917,76.1577,474,True,True,False,True,False,True,6.6,8.2,01524-872525,Officer_328,2019,Good
+SH_0039,Buldhana Government School 3,Buldhana,Maharashtra,Government School,200,0,20.4003,76.2154,435,True,False,True,False,False,True,26.1,27.6,04997-647837,Officer_147,2019,Good
+SH_0040,Buldhana Stadium 4,Buldhana,Maharashtra,Stadium,500,0,20.3852,76.0797,525,True,True,True,False,False,True,9.1,29.8,07041-326549,Officer_228,2020,Good
+SH_0041,Buldhana Panchayat Bhavan 5,Buldhana,Maharashtra,Panchayat Bhavan,1500,0,20.668,76.1955,432,True,True,False,True,False,True,23.5,5.0,03639-320732,Officer_577,2020,Fair
+SH_0042,Chandrapur Stadium 1,Chandrapur,Maharashtra,Stadium,200,0,20.0579,79.3304,288,True,False,False,False,False,True,6.0,5.4,06495-112782,Officer_611,2019,Fair
+SH_0043,Chandrapur College 2,Chandrapur,Maharashtra,College,1500,0,19.9335,79.2437,163,True,True,False,False,False,True,7.3,4.9,06334-721863,Officer_168,2022,Needs Repair
+SH_0044,Chandrapur College 3,Chandrapur,Maharashtra,College,200,0,20.0697,79.2491,186,True,True,True,True,False,True,12.5,23.5,06885-879094,Officer_430,2020,Good
+SH_0045,Chandrapur Panchayat Bhavan 4,Chandrapur,Maharashtra,Panchayat Bhavan,600,0,19.8395,79.2429,183,True,True,True,False,False,True,15.9,20.4,08495-601607,Officer_945,2021,Needs Repair
+SH_0046,Chandrapur Relief Camp 5,Chandrapur,Maharashtra,Relief Camp,400,0,20.0905,79.2978,240,True,True,False,True,False,True,4.8,20.7,06430-307109,Officer_429,2022,Good
+SH_0047,Chandrapur Relief Camp 6,Chandrapur,Maharashtra,Relief Camp,400,0,19.9262,79.3952,209,True,True,False,True,False,True,44.2,27.2,07078-801794,Officer_586,2019,Needs Repair
+SH_0048,Chandrapur Community Hall 7,Chandrapur,Maharashtra,Community Hall,1500,0,19.9136,79.2898,137,True,True,True,True,False,True,32.6,3.2,04985-815863,Officer_234,2024,Fair
+SH_0049,Chandrapur Relief Camp 8,Chandrapur,Maharashtra,Relief Camp,400,0,19.9477,79.2426,254,True,True,False,True,False,True,12.8,12.0,08147-326039,Officer_186,2023,Fair
+SH_0050,Dhule Panchayat Bhavan 1,Dhule,Maharashtra,Panchayat Bhavan,500,0,20.998,74.6855,298,True,True,False,False,False,True,43.0,24.0,01318-828757,Officer_489,2022,Needs Repair
+SH_0051,Dhule Panchayat Bhavan 2,Dhule,Maharashtra,Panchayat Bhavan,1500,0,20.83,74.9047,272,True,True,True,True,False,True,34.2,18.2,02785-584637,Officer_545,2023,Fair
+SH_0052,Dhule Relief Camp 3,Dhule,Maharashtra,Relief Camp,1500,0,20.9366,74.8562,267,True,False,False,False,False,True,12.3,11.6,02815-559482,Officer_970,2020,Good
+SH_0053,Dhule Relief Camp 4,Dhule,Maharashtra,Relief Camp,400,0,20.9122,74.8467,444,False,True,True,False,False,True,37.4,1.3,08503-219814,Officer_586,2019,Good
+SH_0054,Gadchiroli Community Hall 1,Gadchiroli,Maharashtra,Community Hall,600,0,20.0414,79.99,157,True,True,False,True,False,True,11.1,5.9,05244-413136,Officer_940,2020,Good
+SH_0055,Gadchiroli Community Hall 2,Gadchiroli,Maharashtra,Community Hall,400,0,20.3009,79.896,231,False,True,False,True,False,True,24.7,16.4,06365-441160,Officer_358,2019,Good
+SH_0056,Gadchiroli Panchayat Bhavan 3,Gadchiroli,Maharashtra,Panchayat Bhavan,400,0,20.2903,79.8589,349,True,True,True,True,False,True,13.8,1.1,06027-899902,Officer_220,2022,Needs Repair
+SH_0057,Gadchiroli Government School 4,Gadchiroli,Maharashtra,Government School,400,0,20.3182,79.8706,323,True,True,False,False,False,True,28.0,11.1,09577-785288,Officer_955,2023,Good
+SH_0058,Gondia Stadium 1,Gondia,Maharashtra,Stadium,200,0,21.353,80.0531,242,True,True,True,False,False,True,37.8,1.5,04438-350333,Officer_990,2020,Good
+SH_0059,Gondia Community Hall 2,Gondia,Maharashtra,Community Hall,600,0,21.496,80.0912,233,True,True,True,True,False,True,36.3,13.5,05042-749234,Officer_140,2022,Fair
+SH_0060,Gondia Community Hall 3,Gondia,Maharashtra,Community Hall,300,0,21.4909,80.1793,296,True,True,True,True,False,True,21.8,29.0,08530-541688,Officer_882,2020,Fair
+SH_0061,Gondia Community Hall 4,Gondia,Maharashtra,Community Hall,300,0,21.3576,80.2746,339,False,True,True,True,False,True,44.0,5.6,01243-271862,Officer_751,2020,Fair
+SH_0062,Gondia Government School 5,Gondia,Maharashtra,Government School,300,0,21.3482,80.0709,330,True,True,True,True,False,True,29.3,3.3,07922-537978,Officer_804,2022,Fair
+SH_0063,Gondia Relief Camp 6,Gondia,Maharashtra,Relief Camp,500,0,21.3796,80.2553,251,True,True,True,True,False,True,20.6,12.8,06799-504015,Officer_141,2019,Good
+SH_0064,Gondia Community Hall 7,Gondia,Maharashtra,Community Hall,400,0,21.4931,80.0784,309,True,True,True,False,False,True,19.5,16.8,07217-849958,Officer_632,2019,Fair
+SH_0065,Gondia Stadium 8,Gondia,Maharashtra,Stadium,400,0,21.3407,80.1357,302,True,True,True,True,False,True,15.4,2.4,05975-250709,Officer_933,2021,Fair
+SH_0066,Hingoli Relief Camp 1,Hingoli,Maharashtra,Relief Camp,150,0,19.6094,77.1381,508,True,True,True,True,False,True,17.9,17.6,04897-843659,Officer_994,2021,Fair
+SH_0067,Hingoli Stadium 2,Hingoli,Maharashtra,Stadium,1000,0,19.7529,77.1466,438,True,True,True,True,False,True,25.7,16.9,03122-792319,Officer_976,2022,Fair
+SH_0068,Hingoli Relief Camp 3,Hingoli,Maharashtra,Relief Camp,300,0,19.8023,77.147,376,True,True,False,True,False,True,43.6,29.5,03445-658526,Officer_986,2021,Good
+SH_0069,Hingoli College 4,Hingoli,Maharashtra,College,150,0,19.8292,77.2811,393,True,True,False,True,False,True,6.2,21.2,05723-973022,Officer_692,2022,Good
+SH_0070,Hingoli Community Hall 5,Hingoli,Maharashtra,Community Hall,500,0,19.7308,77.0132,359,True,False,False,True,False,True,2.5,17.4,04188-517629,Officer_726,2022,Good
+SH_0071,Hingoli Panchayat Bhavan 6,Hingoli,Maharashtra,Panchayat Bhavan,600,0,19.6659,77.2318,524,True,True,True,True,False,True,33.6,29.8,02658-432659,Officer_503,2024,Good
+SH_0072,Hingoli Relief Camp 7,Hingoli,Maharashtra,Relief Camp,400,0,19.7013,77.0608,523,True,False,True,True,False,True,18.0,28.2,09865-207703,Officer_454,2020,Fair
+SH_0073,Hingoli Panchayat Bhavan 8,Hingoli,Maharashtra,Panchayat Bhavan,1000,0,19.7951,77.2499,375,True,True,True,True,False,True,29.8,29.1,01619-510078,Officer_246,2021,Good
+SH_0074,Jalgaon College 1,Jalgaon,Maharashtra,College,200,0,20.8743,75.6852,130,True,True,True,True,False,True,23.4,20.8,09088-478198,Officer_257,2023,Good
+SH_0075,Jalgaon Relief Camp 2,Jalgaon,Maharashtra,Relief Camp,1000,0,21.006,75.62,144,True,False,True,False,False,True,4.5,20.4,04021-414044,Officer_452,2023,Fair
+SH_0076,Jalgaon Relief Camp 3,Jalgaon,Maharashtra,Relief Camp,500,0,20.8685,75.6778,299,True,True,False,True,False,True,37.3,15.2,05960-862420,Officer_373,2019,Good
+SH_0077,Jalgaon Relief Camp 4,Jalgaon,Maharashtra,Relief Camp,1000,0,20.8589,75.6286,115,True,True,False,True,False,True,41.8,20.1,08325-595403,Officer_867,2019,Good
+SH_0078,Jalgaon Relief Camp 5,Jalgaon,Maharashtra,Relief Camp,200,0,21.1357,75.4681,117,True,True,True,True,False,True,41.4,4.6,05628-645938,Officer_118,2020,Fair
+SH_0079,Jalna Panchayat Bhavan 1,Jalna,Maharashtra,Panchayat Bhavan,1000,0,19.7563,75.9876,555,True,True,False,True,False,True,11.9,26.0,07753-217300,Officer_416,2024,Good
+SH_0080,Jalna Relief Camp 2,Jalna,Maharashtra,Relief Camp,500,0,19.7447,75.923,500,True,True,False,True,False,True,2.7,12.8,02709-226463,Officer_915,2019,Good
+SH_0081,Jalna Stadium 3,Jalna,Maharashtra,Stadium,1000,0,19.7539,75.8063,555,True,True,False,True,False,True,10.1,10.1,08494-888048,Officer_889,2021,Good
+SH_0082,Jalna Community Hall 4,Jalna,Maharashtra,Community Hall,400,0,19.845,75.7987,548,True,True,False,True,False,True,24.4,12.7,03017-553947,Officer_991,2019,Good
+SH_0083,Jalna Panchayat Bhavan 5,Jalna,Maharashtra,Panchayat Bhavan,800,0,19.8202,75.9361,396,False,True,True,True,False,True,19.5,23.3,08423-621111,Officer_882,2022,Fair
+SH_0084,Kolhapur College 1,Kolhapur,Maharashtra,College,400,0,16.6846,74.308,770,False,True,False,True,False,True,14.0,15.7,05295-482435,Officer_291,2024,Fair
+SH_0085,Kolhapur Community Hall 2,Kolhapur,Maharashtra,Community Hall,400,0,16.5603,74.0958,883,True,True,True,False,False,True,22.2,6.3,06387-145589,Officer_700,2024,Good
+SH_0086,Kolhapur Panchayat Bhavan 3,Kolhapur,Maharashtra,Panchayat Bhavan,500,0,16.7674,74.2134,760,True,True,False,False,False,True,11.4,7.0,07203-322692,Officer_297,2020,Fair
+SH_0087,Kolhapur Community Hall 4,Kolhapur,Maharashtra,Community Hall,300,0,16.8208,74.3129,734,True,True,False,True,False,True,9.1,15.3,01238-582095,Officer_174,2020,Good
+SH_0088,Kolhapur College 5,Kolhapur,Maharashtra,College,400,0,16.7061,74.392,742,False,True,False,False,False,True,42.2,5.4,01269-436048,Officer_920,2020,Good
+SH_0089,Kolhapur Panchayat Bhavan 6,Kolhapur,Maharashtra,Panchayat Bhavan,600,0,16.721,74.1741,814,True,True,False,True,False,True,8.4,5.1,01714-100351,Officer_809,2020,Fair
+SH_0090,Kolhapur College 7,Kolhapur,Maharashtra,College,500,0,16.7997,74.3606,772,False,True,True,True,False,True,35.2,16.7,09981-185955,Officer_454,2022,Good
+SH_0091,Kolhapur Relief Camp 8,Kolhapur,Maharashtra,Relief Camp,500,0,16.8043,74.2647,874,False,True,True,False,False,True,11.6,12.9,02587-622997,Officer_708,2022,Fair
+SH_0092,Latur Relief Camp 1,Latur,Maharashtra,Relief Camp,1000,0,18.4229,76.6909,593,True,False,False,True,False,True,11.5,4.5,09256-467806,Officer_617,2024,Good
+SH_0093,Latur Government School 2,Latur,Maharashtra,Government School,400,0,18.5454,76.4938,578,False,True,True,True,False,True,34.1,17.2,02643-675714,Officer_405,2022,Good
+SH_0094,Latur Community Hall 3,Latur,Maharashtra,Community Hall,1000,0,18.3626,76.4881,728,True,True,False,True,False,True,40.0,30.0,04049-646258,Officer_627,2022,Good
+SH_0095,Latur Relief Camp 4,Latur,Maharashtra,Relief Camp,400,0,18.4535,76.4115,605,False,True,False,True,False,True,16.0,12.3,06152-864182,Officer_942,2023,Fair
+SH_0096,Mumbai City Community Hall 1,Mumbai City,Maharashtra,Community Hall,300,0,18.9479,72.7377,18,True,True,False,True,False,True,5.6,2.7,09585-852422,Officer_637,2021,Fair
+SH_0097,Mumbai City College 2,Mumbai City,Maharashtra,College,500,0,18.911,72.786,42,False,True,True,False,False,True,10.7,26.7,05644-824851,Officer_486,2020,Needs Repair
+SH_0098,Mumbai City Stadium 3,Mumbai City,Maharashtra,Stadium,500,0,18.9257,72.7532,-54,False,True,True,True,False,True,27.0,10.1,03118-268273,Officer_582,2023,Fair
+SH_0099,Mumbai City Government School 4,Mumbai City,Maharashtra,Government School,300,0,19.0146,72.9815,-86,True,True,False,False,False,True,30.4,1.1,03920-188841,Officer_673,2024,Good
+SH_0100,Mumbai City Government School 5,Mumbai City,Maharashtra,Government School,300,0,19.073,72.9163,45,True,True,True,True,False,True,17.2,23.8,08597-375675,Officer_715,2019,Good
+SH_0101,Mumbai City Stadium 6,Mumbai City,Maharashtra,Stadium,600,0,18.9082,72.8121,-68,True,True,False,False,False,True,6.2,6.5,05006-663853,Officer_911,2022,Fair
+SH_0102,Mumbai City Community Hall 7,Mumbai City,Maharashtra,Community Hall,300,0,18.8695,72.9723,-68,False,True,False,True,False,True,11.4,7.5,03526-320378,Officer_544,2019,Needs Repair
+SH_0103,Mumbai City Panchayat Bhavan 8,Mumbai City,Maharashtra,Panchayat Bhavan,400,0,18.9194,72.7554,75,True,True,False,True,False,True,3.2,15.0,04062-956965,Officer_140,2020,Good
+SH_0104,Mumbai Suburban Government School 1,Mumbai Suburban,Maharashtra,Government School,1000,0,19.0028,72.9275,-39,True,True,False,True,False,True,12.4,24.2,04261-871861,Officer_692,2021,Good
+SH_0105,Mumbai Suburban Relief Camp 2,Mumbai Suburban,Maharashtra,Relief Camp,300,0,19.0465,72.7529,90,True,False,True,True,False,True,18.9,11.3,03249-943397,Officer_914,2024,Needs Repair
+SH_0106,Mumbai Suburban Community Hall 3,Mumbai Suburban,Maharashtra,Community Hall,1500,0,19.0042,72.8852,18,True,False,False,True,False,True,38.0,21.5,03347-817904,Officer_696,2022,Good
+SH_0107,Mumbai Suburban Government School 4,Mumbai Suburban,Maharashtra,Government School,2000,0,18.9266,72.8602,26,True,True,False,True,False,True,38.3,7.4,03818-617657,Officer_902,2019,Fair
+SH_0108,Mumbai Suburban Relief Camp 5,Mumbai Suburban,Maharashtra,Relief Camp,200,0,19.0726,73.0113,26,True,True,False,False,False,True,42.7,13.3,06254-582753,Officer_519,2020,Needs Repair
+SH_0109,Mumbai Suburban Community Hall 6,Mumbai Suburban,Maharashtra,Community Hall,150,0,19.1547,72.9193,-1,False,True,True,True,False,True,13.5,12.6,04534-175931,Officer_709,2021,Good
+SH_0110,Nagpur Panchayat Bhavan 1,Nagpur,Maharashtra,Panchayat Bhavan,600,0,21.0731,79.1502,379,False,True,False,True,False,True,11.1,2.5,08323-911077,Officer_312,2021,Good
+SH_0111,Nagpur Panchayat Bhavan 2,Nagpur,Maharashtra,Panchayat Bhavan,150,0,21.1097,79.1367,336,True,True,False,True,False,True,20.2,11.7,01172-306132,Officer_740,2021,Good
+SH_0112,Nagpur Relief Camp 3,Nagpur,Maharashtra,Relief Camp,600,0,21.189,79.0889,361,True,True,False,False,False,True,12.5,17.1,07119-915120,Officer_440,2019,Good
+SH_0113,Nagpur Panchayat Bhavan 4,Nagpur,Maharashtra,Panchayat Bhavan,800,0,21.1078,79.1394,326,True,False,False,True,False,True,39.5,11.9,04603-520704,Officer_684,2024,Good
+SH_0114,Nagpur Stadium 5,Nagpur,Maharashtra,Stadium,300,0,21.0257,79.1896,223,True,True,False,False,False,True,22.6,14.3,04835-596060,Officer_996,2024,Good
+SH_0115,Nagpur Community Hall 6,Nagpur,Maharashtra,Community Hall,200,0,21.1159,79.2327,249,True,True,True,False,False,True,22.7,25.7,07090-231980,Officer_273,2023,Good
+SH_0116,Nanded College 1,Nanded,Maharashtra,College,2000,0,19.1935,77.3426,356,True,True,False,True,False,True,8.8,13.9,06507-453051,Officer_467,2019,Fair
+SH_0117,Nanded Government School 2,Nanded,Maharashtra,Government School,500,0,19.076,77.4603,359,True,False,True,True,False,True,35.3,5.8,09321-796567,Officer_277,2021,Fair
+SH_0118,Nanded Stadium 3,Nanded,Maharashtra,Stadium,300,0,19.0159,77.2528,323,True,True,True,True,False,True,15.3,17.9,03797-474574,Officer_461,2020,Good
+SH_0119,Nanded Relief Camp 4,Nanded,Maharashtra,Relief Camp,500,0,19.0467,77.4637,452,True,True,False,True,False,True,20.8,20.3,01736-512454,Officer_392,2021,Good
+SH_0120,Nanded Stadium 5,Nanded,Maharashtra,Stadium,300,0,19.228,77.2918,407,True,True,False,True,False,True,24.7,22.9,07056-445997,Officer_495,2019,Fair
+SH_0121,Nandurbar Relief Camp 1,Nandurbar,Maharashtra,Relief Camp,800,0,21.3626,74.104,181,True,False,True,True,False,True,14.9,14.9,06144-290652,Officer_966,2021,Good
+SH_0122,Nandurbar Community Hall 2,Nandurbar,Maharashtra,Community Hall,300,0,21.3637,74.1965,109,True,True,True,True,False,True,30.6,27.3,09642-183975,Officer_346,2022,Good
+SH_0123,Nandurbar Government School 3,Nandurbar,Maharashtra,Government School,500,0,21.3141,74.1597,173,False,True,True,True,False,True,5.1,29.9,05743-668652,Officer_674,2021,Fair
+SH_0124,Nandurbar Government School 4,Nandurbar,Maharashtra,Government School,800,0,21.2444,74.3343,132,True,True,False,True,False,True,39.3,6.5,01134-876219,Officer_839,2023,Good
+SH_0125,Nandurbar Government School 5,Nandurbar,Maharashtra,Government School,500,0,21.4161,74.1103,157,True,True,False,True,False,True,43.2,13.1,02523-274567,Officer_560,2019,Fair
+SH_0126,Nashik Community Hall 1,Nashik,Maharashtra,Community Hall,1000,0,20.1283,73.7629,613,True,True,True,True,False,True,9.6,10.0,04131-562825,Officer_329,2024,Good
+SH_0127,Nashik Community Hall 2,Nashik,Maharashtra,Community Hall,200,0,19.9601,73.8323,747,True,True,False,True,False,True,26.3,19.3,06918-674868,Officer_867,2024,Fair
+SH_0128,Nashik College 3,Nashik,Maharashtra,College,150,0,19.9823,73.8689,785,True,True,True,True,False,True,43.2,7.0,07388-283998,Officer_688,2020,Fair
+SH_0129,Nashik Panchayat Bhavan 4,Nashik,Maharashtra,Panchayat Bhavan,500,0,19.9475,73.8163,743,True,True,False,False,False,True,37.3,19.0,02009-496901,Officer_425,2023,Good
+SH_0130,Nashik Community Hall 5,Nashik,Maharashtra,Community Hall,500,0,19.927,73.667,772,False,True,False,True,False,True,4.3,21.1,03224-600777,Officer_995,2022,Good
+SH_0131,Nashik Government School 6,Nashik,Maharashtra,Government School,1000,0,19.9594,73.7153,611,True,True,True,True,False,True,42.2,27.0,01139-695160,Officer_601,2020,Fair
+SH_0132,Osmanabad Stadium 1,Osmanabad,Maharashtra,Stadium,500,0,18.1826,76.0566,595,False,True,False,True,False,True,22.6,2.8,01778-825244,Officer_462,2024,Good
+SH_0133,Osmanabad Panchayat Bhavan 2,Osmanabad,Maharashtra,Panchayat Bhavan,400,0,18.0603,75.8959,687,True,True,True,True,False,True,14.7,8.6,08118-609587,Officer_944,2020,Good
+SH_0134,Osmanabad College 3,Osmanabad,Maharashtra,College,300,0,18.1156,75.9567,582,False,False,False,False,False,True,36.2,4.8,09514-245399,Officer_448,2024,Needs Repair
+SH_0135,Osmanabad Panchayat Bhavan 4,Osmanabad,Maharashtra,Panchayat Bhavan,600,0,18.21,76.0922,695,True,True,False,False,False,True,42.5,15.9,01931-874486,Officer_187,2024,Good
+SH_0136,Osmanabad College 5,Osmanabad,Maharashtra,College,400,0,18.2121,75.961,758,True,True,True,False,False,True,27.0,22.5,06243-788273,Officer_974,2024,Good
+SH_0137,Palghar Panchayat Bhavan 1,Palghar,Maharashtra,Panchayat Bhavan,500,0,19.6633,72.88,115,True,True,False,False,False,True,25.0,7.4,06917-441370,Officer_478,2024,Good
+SH_0138,Palghar Government School 2,Palghar,Maharashtra,Government School,1500,0,19.7661,72.7916,100,True,True,True,False,False,True,41.0,6.7,01218-488153,Officer_279,2024,Needs Repair
+SH_0139,Palghar Relief Camp 3,Palghar,Maharashtra,Relief Camp,800,0,19.6634,72.7686,-53,False,True,False,True,False,True,38.1,14.3,06028-158904,Officer_403,2024,Good
+SH_0140,Palghar Community Hall 4,Palghar,Maharashtra,Community Hall,1000,0,19.8013,72.671,41,True,True,True,True,False,True,32.5,4.2,01263-255977,Officer_495,2024,Good
+SH_0141,Palghar Stadium 5,Palghar,Maharashtra,Stadium,300,0,19.7917,72.9109,124,True,True,True,True,False,True,12.3,15.3,02746-973867,Officer_581,2024,Good
+SH_0142,Palghar Panchayat Bhavan 6,Palghar,Maharashtra,Panchayat Bhavan,400,0,19.7558,72.7668,-55,True,False,True,False,False,True,12.0,26.7,08848-971645,Officer_142,2021,Good
+SH_0143,Palghar Panchayat Bhavan 7,Palghar,Maharashtra,Panchayat Bhavan,600,0,19.7968,72.6981,-54,False,True,False,True,False,True,14.2,13.1,09876-216683,Officer_512,2022,Good
+SH_0144,Palghar Government School 8,Palghar,Maharashtra,Government School,400,0,19.624,72.6208,63,False,True,True,False,False,True,36.8,22.5,04569-837431,Officer_385,2023,Good
+SH_0145,Parbhani College 1,Parbhani,Maharashtra,College,300,0,19.319,76.7376,343,True,True,False,True,False,True,31.1,4.6,02919-867615,Officer_608,2023,Fair
+SH_0146,Parbhani Community Hall 2,Parbhani,Maharashtra,Community Hall,200,0,19.1576,76.6856,352,True,True,True,True,False,True,38.1,11.6,05840-944905,Officer_413,2021,Fair
+SH_0147,Parbhani Stadium 3,Parbhani,Maharashtra,Stadium,800,0,19.1901,76.6949,313,True,True,False,True,False,True,41.6,13.5,05060-381057,Officer_250,2020,Good
+SH_0148,Parbhani Relief Camp 4,Parbhani,Maharashtra,Relief Camp,400,0,19.3907,76.6214,408,True,False,True,True,False,True,7.8,26.7,07689-912360,Officer_400,2023,Good
+SH_0149,Pune Panchayat Bhavan 1,Pune,Maharashtra,Panchayat Bhavan,300,0,18.6625,73.84,810,True,True,False,True,False,True,5.0,15.3,02444-444482,Officer_180,2019,Good
+SH_0150,Pune College 2,Pune,Maharashtra,College,500,0,18.5623,73.839,763,False,True,False,True,False,True,35.3,22.0,05031-120428,Officer_832,2019,Good
+SH_0151,Pune Relief Camp 3,Pune,Maharashtra,Relief Camp,200,0,18.4413,73.971,717,True,False,False,True,False,True,9.1,19.9,08519-326929,Officer_556,2021,Needs Repair
+SH_0152,Pune Community Hall 4,Pune,Maharashtra,Community Hall,800,0,18.6029,73.9355,783,True,True,True,False,False,True,42.0,24.9,06325-777867,Officer_346,2021,Good
+SH_0153,Pune Panchayat Bhavan 5,Pune,Maharashtra,Panchayat Bhavan,200,0,18.4149,73.7378,644,True,True,True,True,False,True,42.5,11.4,03833-121012,Officer_401,2021,Fair
+SH_0154,Pune Government School 6,Pune,Maharashtra,Government School,1500,0,18.4832,73.7295,723,True,True,True,True,False,True,14.8,6.6,06539-676881,Officer_237,2023,Good
+SH_0155,Raigad College 1,Raigad,Maharashtra,College,200,0,18.6316,73.2681,298,True,True,False,True,False,True,43.6,28.8,04822-473171,Officer_978,2024,Fair
+SH_0156,Raigad Relief Camp 2,Raigad,Maharashtra,Relief Camp,800,0,18.4512,73.2706,235,False,True,False,True,False,True,28.0,2.1,01761-377452,Officer_645,2021,Fair
+SH_0157,Raigad Government School 3,Raigad,Maharashtra,Government School,300,0,18.4621,73.258,398,True,False,True,True,False,True,14.9,7.2,03534-251896,Officer_709,2022,Good
+SH_0158,Raigad Panchayat Bhavan 4,Raigad,Maharashtra,Panchayat Bhavan,300,0,18.5033,73.2555,377,True,False,False,True,False,True,18.1,27.3,02592-582619,Officer_372,2023,Good
+SH_0159,Ratnagiri Government School 1,Ratnagiri,Maharashtra,Government School,500,0,16.8538,73.3788,355,True,True,True,False,False,True,27.0,26.1,03322-972101,Officer_789,2024,Good
+SH_0160,Ratnagiri Stadium 2,Ratnagiri,Maharashtra,Stadium,400,0,16.9333,73.2693,206,True,True,False,True,False,True,19.4,15.8,04202-901714,Officer_151,2022,Fair
+SH_0161,Ratnagiri Community Hall 3,Ratnagiri,Maharashtra,Community Hall,300,0,16.91,73.275,251,True,True,False,True,False,True,30.2,16.8,06318-213761,Officer_198,2019,Good
+SH_0162,Ratnagiri Government School 4,Ratnagiri,Maharashtra,Government School,400,0,16.9319,73.4591,304,True,True,True,True,False,True,30.0,9.6,02126-698162,Officer_977,2023,Good
+SH_0163,Ratnagiri Stadium 5,Ratnagiri,Maharashtra,Stadium,1000,0,16.8646,73.1859,214,True,True,True,True,False,True,20.7,13.5,01763-646493,Officer_522,2022,Fair
+SH_0164,Ratnagiri Stadium 6,Ratnagiri,Maharashtra,Stadium,300,0,16.913,73.4413,230,False,True,True,True,False,True,44.9,2.1,08024-312138,Officer_164,2022,Fair
+SH_0165,Ratnagiri Government School 7,Ratnagiri,Maharashtra,Government School,600,0,17.0572,73.357,335,True,True,True,True,False,True,16.5,29.9,05764-605460,Officer_723,2024,Good
+SH_0166,Ratnagiri Panchayat Bhavan 8,Ratnagiri,Maharashtra,Panchayat Bhavan,600,0,17.1292,73.2361,193,True,True,True,True,False,True,15.7,24.0,08862-136794,Officer_615,2019,Good
+SH_0167,Sangli Relief Camp 1,Sangli,Maharashtra,Relief Camp,300,0,16.9072,74.5809,706,True,True,True,True,False,True,44.9,11.4,05905-362108,Officer_458,2021,Good
+SH_0168,Sangli College 2,Sangli,Maharashtra,College,300,0,16.7587,74.5034,661,True,True,True,True,False,True,10.8,2.9,09100-468969,Officer_699,2019,Good
+SH_0169,Sangli Stadium 3,Sangli,Maharashtra,Stadium,200,0,16.8489,74.4755,631,True,True,False,True,False,True,18.7,25.7,05969-350056,Officer_455,2020,Good
+SH_0170,Sangli Community Hall 4,Sangli,Maharashtra,Community Hall,800,0,16.8923,74.4941,697,False,True,True,True,False,True,3.2,12.0,02652-761685,Officer_512,2023,Good
+SH_0171,Sangli Stadium 5,Sangli,Maharashtra,Stadium,300,0,16.8397,74.5274,664,True,True,False,True,False,True,4.2,29.1,07715-981210,Officer_431,2020,Needs Repair
+SH_0172,Sangli Community Hall 6,Sangli,Maharashtra,Community Hall,400,0,16.7803,74.7209,637,True,True,False,True,False,True,13.5,10.2,04409-261584,Officer_211,2023,Good
+SH_0173,Sangli Panchayat Bhavan 7,Sangli,Maharashtra,Panchayat Bhavan,300,0,16.9262,74.5737,637,True,True,True,True,False,True,31.3,11.2,03460-103159,Officer_811,2019,Good
+SH_0174,Satara Relief Camp 1,Satara,Maharashtra,Relief Camp,800,0,17.7,74.0421,717,True,False,True,False,False,True,10.0,22.1,02208-790475,Officer_353,2019,Fair
+SH_0175,Satara College 2,Satara,Maharashtra,College,600,0,17.8141,74.03,828,True,False,True,True,False,True,7.0,6.6,08704-310696,Officer_328,2020,Good
+SH_0176,Satara College 3,Satara,Maharashtra,College,1000,0,17.7049,74.0648,651,True,True,True,False,False,True,42.3,2.6,04685-125998,Officer_929,2020,Good
+SH_0177,Satara College 4,Satara,Maharashtra,College,2000,0,17.5674,74.0307,770,False,True,False,False,False,True,3.2,26.6,07692-477525,Officer_436,2023,Good
+SH_0178,Satara Stadium 5,Satara,Maharashtra,Stadium,200,0,17.6434,73.9855,665,True,True,True,True,False,True,18.4,5.1,06788-339534,Officer_295,2019,Fair
+SH_0179,Satara Panchayat Bhavan 6,Satara,Maharashtra,Panchayat Bhavan,400,0,17.5406,74.1677,664,True,True,False,False,False,True,21.2,10.9,09238-647047,Officer_159,2021,Good
+SH_0180,Sindhudurg Relief Camp 1,Sindhudurg,Maharashtra,Relief Camp,300,0,16.2314,73.8725,137,True,True,True,True,False,True,29.4,17.0,01977-412880,Officer_533,2019,Good
+SH_0181,Sindhudurg Government School 2,Sindhudurg,Maharashtra,Government School,600,0,16.339,73.8194,141,True,True,False,False,False,True,42.0,1.4,05680-423512,Officer_979,2022,Good
+SH_0182,Sindhudurg Government School 3,Sindhudurg,Maharashtra,Government School,500,0,16.2354,73.8186,60,True,True,False,True,False,True,38.0,5.0,01051-222447,Officer_882,2024,Fair
+SH_0183,Sindhudurg Relief Camp 4,Sindhudurg,Maharashtra,Relief Camp,200,0,16.4503,73.7535,87,True,True,False,True,False,True,21.7,12.5,01333-519316,Officer_731,2024,Good
+SH_0184,Solapur Government School 1,Solapur,Maharashtra,Government School,200,0,17.5749,75.9666,554,True,False,False,True,False,True,31.9,18.2,05142-575584,Officer_920,2019,Good
+SH_0185,Solapur Panchayat Bhavan 2,Solapur,Maharashtra,Panchayat Bhavan,200,0,17.669,76.0192,443,True,True,False,False,False,True,44.3,7.3,03909-859185,Officer_117,2024,Good
+SH_0186,Solapur Community Hall 3,Solapur,Maharashtra,Community Hall,200,0,17.772,75.7956,568,True,True,False,True,False,True,13.0,3.3,05277-912375,Officer_140,2021,Good
+SH_0187,Solapur Government School 4,Solapur,Maharashtra,Government School,300,0,17.5319,75.9539,423,True,True,False,True,False,True,23.4,5.5,09008-816233,Officer_430,2023,Fair
+SH_0188,Solapur Government School 5,Solapur,Maharashtra,Government School,1500,0,17.7303,75.8902,452,True,True,True,False,False,True,8.7,14.2,07666-827084,Officer_597,2019,Fair
+SH_0189,Solapur Community Hall 6,Solapur,Maharashtra,Community Hall,600,0,17.6312,75.8524,405,True,True,False,True,False,True,43.9,25.5,07176-661082,Officer_468,2023,Fair
+SH_0190,Solapur Community Hall 7,Solapur,Maharashtra,Community Hall,800,0,17.5886,76.0461,429,False,True,True,False,False,True,17.3,11.0,05980-246975,Officer_588,2022,Good
+SH_0191,Solapur Relief Camp 8,Solapur,Maharashtra,Relief Camp,300,0,17.6345,75.9496,432,False,True,False,True,False,True,16.8,22.6,05508-545362,Officer_442,2021,Fair
+SH_0192,Thane Stadium 1,Thane,Maharashtra,Stadium,150,0,19.0819,73.1057,-4,False,True,False,True,False,True,16.5,3.1,02451-433324,Officer_833,2024,Good
+SH_0193,Thane College 2,Thane,Maharashtra,College,400,0,19.2134,73.0826,-13,False,True,False,True,False,True,21.5,7.0,02618-965014,Officer_821,2021,Good
+SH_0194,Thane Stadium 3,Thane,Maharashtra,Stadium,1000,0,19.3317,72.9096,95,True,True,False,True,False,True,15.0,15.1,07405-857853,Officer_810,2023,Fair
+SH_0195,Thane Relief Camp 4,Thane,Maharashtra,Relief Camp,200,0,19.0957,73.0017,38,False,True,False,False,False,True,36.3,29.3,01579-650631,Officer_671,2021,Fair
+SH_0196,Thane Relief Camp 5,Thane,Maharashtra,Relief Camp,600,0,19.1074,73.093,112,True,True,True,True,False,True,30.1,21.9,04651-909005,Officer_901,2024,Needs Repair
+SH_0197,Thane Community Hall 6,Thane,Maharashtra,Community Hall,1500,0,19.3309,73.1032,52,True,True,True,True,False,True,13.8,17.6,01426-533568,Officer_978,2019,Good
+SH_0198,Thane Panchayat Bhavan 7,Thane,Maharashtra,Panchayat Bhavan,300,0,19.079,72.8457,-17,True,False,False,True,False,True,13.2,19.5,06543-378625,Officer_505,2020,Good
+SH_0199,Thane Community Hall 8,Thane,Maharashtra,Community Hall,300,0,19.3545,73.0736,43,True,True,True,True,False,True,29.7,22.9,02986-239846,Officer_624,2020,Good
+SH_0200,Wardha College 1,Wardha,Maharashtra,College,600,0,20.689,78.7233,256,True,True,True,False,False,True,25.1,7.9,01269-176349,Officer_474,2020,Good
+SH_0201,Wardha College 2,Wardha,Maharashtra,College,600,0,20.8113,78.4832,361,False,True,False,True,False,True,2.4,27.0,01982-526152,Officer_720,2020,Good
+SH_0202,Wardha College 3,Wardha,Maharashtra,College,600,0,20.857,78.5257,347,True,False,False,True,False,True,16.5,7.6,03103-338473,Officer_878,2020,Good
+SH_0203,Wardha College 4,Wardha,Maharashtra,College,200,0,20.7826,78.4615,290,True,False,True,False,False,True,41.1,13.7,04542-192959,Officer_942,2023,Good
+SH_0204,Wardha Stadium 5,Wardha,Maharashtra,Stadium,600,0,20.6593,78.5733,324,True,True,True,True,False,True,25.3,21.2,01377-915128,Officer_239,2023,Fair
+SH_0205,Washim Community Hall 1,Washim,Maharashtra,Community Hall,300,0,20.1165,77.1257,388,True,False,False,True,False,True,22.6,19.5,04651-583956,Officer_520,2021,Needs Repair
+SH_0206,Washim Panchayat Bhavan 2,Washim,Maharashtra,Panchayat Bhavan,200,0,20.0764,77.1575,480,False,True,False,True,False,True,9.1,22.8,05451-463433,Officer_290,2022,Good
+SH_0207,Washim Panchayat Bhavan 3,Washim,Maharashtra,Panchayat Bhavan,200,0,20.1867,77.2253,334,False,True,False,True,False,True,21.1,4.6,08129-931166,Officer_315,2022,Good
+SH_0208,Washim Government School 4,Washim,Maharashtra,Government School,200,0,20.1595,77.1504,490,True,False,False,True,False,True,35.4,4.2,08239-401374,Officer_594,2023,Fair
+SH_0209,Washim Government School 5,Washim,Maharashtra,Government School,800,0,20.0095,76.9975,325,True,False,False,True,False,True,16.5,19.8,06870-227500,Officer_179,2021,Needs Repair
+SH_0210,Washim College 6,Washim,Maharashtra,College,150,0,20.0365,77.0025,374,True,False,False,True,False,True,33.2,29.4,08908-553484,Officer_404,2022,Good
+SH_0211,Yavatmal Panchayat Bhavan 1,Yavatmal,Maharashtra,Panchayat Bhavan,800,0,20.3154,77.9787,493,False,True,True,True,False,True,13.4,15.6,03233-198502,Officer_556,2024,Fair
+SH_0212,Yavatmal Stadium 2,Yavatmal,Maharashtra,Stadium,600,0,20.3345,77.9738,440,True,True,True,True,False,True,25.7,18.0,03792-255107,Officer_769,2021,Good
+SH_0213,Yavatmal Community Hall 3,Yavatmal,Maharashtra,Community Hall,400,0,20.2931,78.0949,553,True,True,True,True,False,True,22.4,28.2,05259-314388,Officer_265,2024,Fair
+SH_0214,Yavatmal Government School 4,Yavatmal,Maharashtra,Government School,400,0,20.2557,77.9867,416,True,True,True,False,False,True,27.1,1.9,04815-562441,Officer_861,2023,Good
+SH_0215,Yavatmal College 5,Yavatmal,Maharashtra,College,800,0,20.4991,77.9804,408,True,True,False,False,False,True,35.5,14.4,03642-825277,Officer_798,2020,Fair
+SH_0216,Yavatmal Stadium 6,Yavatmal,Maharashtra,Stadium,300,0,20.2651,78.1823,396,False,True,False,True,False,True,21.6,14.7,08135-248493,Officer_611,2022,Fair
+SH_0217,Yavatmal Government School 7,Yavatmal,Maharashtra,Government School,200,0,20.5309,78.1703,559,True,True,False,True,False,True,34.2,26.2,08389-716540,Officer_792,2021,Fair
+SH_0218,Yavatmal Community Hall 8,Yavatmal,Maharashtra,Community Hall,300,0,20.319,78.07,454,True,True,False,True,False,True,40.8,28.3,02784-279259,Officer_220,2021,Good

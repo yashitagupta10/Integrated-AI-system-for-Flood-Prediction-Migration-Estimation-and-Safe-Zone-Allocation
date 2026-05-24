@@ -1,0 +1,391 @@
+district,state,point_id,latitude,longitude,elevation_m,slope_degrees,aspect_degrees,slope_direction,terrain_type,flood_risk_elevation,landslide_risk,land_cover,soil_type,drainage_density
+Almora,Uttarakhand,ALM_001,29.3772,79.6111,1104.1,47.4,97.9,East,Hillside,Low,Extreme,Barren,Red Laterite,1.47
+Almora,Uttarakhand,ALM_002,29.7718,79.7994,931.2,30.5,305.2,West,Valley,Low,Very High,Forest,Alluvial,2.56
+Almora,Uttarakhand,ALM_003,29.6196,79.6247,1741.3,17.1,58.6,East,Hillside,Low,Moderate,Forest,Black Cotton,3.0
+Almora,Uttarakhand,ALM_004,29.7519,79.8766,767.3,58.6,23.5,North,Valley,Moderate,Extreme,Forest,Rocky,1.86
+Almora,Uttarakhand,ALM_005,29.6784,79.4199,2213.1,48.2,85.0,East,Peak,Very Low,Extreme,Barren,Black Cotton,4.2
+Almora,Uttarakhand,ALM_006,29.5333,79.5267,1237.1,29.3,40.0,North,Hillside,Low,High,Forest,Black Cotton,2.67
+Almora,Uttarakhand,ALM_007,29.6542,79.6669,1304.0,29.3,255.3,West,Hillside,Low,High,Agricultural,Black Cotton,3.42
+Almora,Uttarakhand,ALM_008,29.6649,79.473,797.9,49.4,168.3,South,Valley,Moderate,Extreme,Barren,Sandy,3.81
+Almora,Uttarakhand,ALM_009,29.5084,79.6851,1632.7,31.9,88.1,East,Hillside,Low,Very High,Forest,Red Laterite,1.05
+Almora,Uttarakhand,ALM_010,29.3134,79.8428,1812.4,31.9,28.7,North,Hillside,Low,Very High,Forest,Black Cotton,3.09
+Almora,Uttarakhand,ALM_011,29.7024,79.908,1651.1,44.5,108.0,East,Hillside,Low,Extreme,Forest,Red Laterite,1.31
+Almora,Uttarakhand,ALM_012,29.3596,79.6755,1715.0,40.6,261.7,West,Hillside,Low,Extreme,Agricultural,Black Cotton,3.11
+Almora,Uttarakhand,ALM_013,29.307,79.8035,1819.1,50.3,5.0,North,Hillside,Low,Extreme,Agricultural,Alluvial,2.14
+Almora,Uttarakhand,ALM_014,29.7671,79.4695,1427.2,29.5,356.3,North,Hillside,Low,High,Forest,Red Laterite,4.35
+Almora,Uttarakhand,ALM_015,29.4025,79.4049,1230.1,31.4,12.2,North,Hillside,Low,Very High,Forest,Alluvial,3.81
+Almora,Uttarakhand,ALM_016,29.4804,79.79,1727.7,51.9,259.8,West,Hillside,Low,Extreme,Forest,Red Laterite,4.32
+Almora,Uttarakhand,ALM_017,29.6754,79.7209,2031.5,30.0,254.8,West,Peak,Very Low,Very High,Agricultural,Rocky,1.04
+Almora,Uttarakhand,ALM_018,29.8906,79.5873,1283.1,22.5,280.4,West,Hillside,Low,High,Barren,Black Cotton,3.31
+Almora,Uttarakhand,ALM_019,29.6702,79.5342,1910.5,18.4,225.3,West,Hillside,Low,Moderate,Agricultural,Black Cotton,2.31
+Almora,Uttarakhand,ALM_020,29.6931,79.8785,1185.6,51.8,255.7,West,Hillside,Low,Extreme,Agricultural,Alluvial,3.99
+Almora,Uttarakhand,ALM_021,29.3334,79.8328,1499.0,36.1,159.7,South,Hillside,Low,Very High,Urban,Rocky,1.42
+Almora,Uttarakhand,ALM_022,29.7602,79.5844,899.4,31.4,76.5,East,Valley,Moderate,Very High,Barren,Black Cotton,2.2
+Almora,Uttarakhand,ALM_023,29.6336,79.8496,1676.6,35.4,228.2,West,Hillside,Low,Very High,Water Body,Black Cotton,3.13
+Almora,Uttarakhand,ALM_024,29.4763,79.4305,517.7,39.0,175.7,South,Valley,Moderate,Very High,Agricultural,Rocky,3.61
+Almora,Uttarakhand,ALM_025,29.5835,79.5437,1041.7,32.4,65.0,East,Hillside,Low,Very High,Agricultural,Sandy,1.93
+Almora,Uttarakhand,ALM_026,29.4932,79.6703,2075.8,11.8,346.3,North,Peak,Very Low,Moderate,Agricultural,Alluvial,0.75
+Almora,Uttarakhand,ALM_027,29.4107,79.6356,2050.9,32.1,147.0,South,Peak,Very Low,Very High,Forest,Black Cotton,4.39
+Almora,Uttarakhand,ALM_028,29.4676,79.711,1482.1,34.5,349.6,North,Hillside,Low,Very High,Agricultural,Black Cotton,3.45
+Almora,Uttarakhand,ALM_029,29.6747,79.7268,2326.1,43.5,20.5,North,Peak,Very Low,Extreme,Barren,Black Cotton,2.25
+Almora,Uttarakhand,ALM_030,29.5643,79.8753,1386.4,6.1,183.3,South,Hillside,Low,Low,Urban,Black Cotton,4.47
+Bageshwar,Uttarakhand,BAG_001,30.0705,80.0165,1276.6,31.5,324.7,North,Peak,Low,Very High,Agricultural,Black Cotton,3.88
+Bageshwar,Uttarakhand,BAG_002,30.108,79.8708,340.7,40.0,247.6,West,Valley,High,Extreme,Urban,Black Cotton,1.8
+Bageshwar,Uttarakhand,BAG_003,29.9044,79.7312,876.7,41.3,255.0,West,Hillside,Moderate,Extreme,Barren,Alluvial,3.31
+Bageshwar,Uttarakhand,BAG_004,29.8767,80.0061,886.6,18.2,64.8,East,Hillside,Moderate,Moderate,Agricultural,Sandy,4.11
+Bageshwar,Uttarakhand,BAG_005,29.6162,79.8768,1133.4,36.5,304.5,West,Hillside,Low,Very High,Agricultural,Black Cotton,4.21
+Bageshwar,Uttarakhand,BAG_006,29.9513,80.052,1115.1,33.9,91.1,East,Hillside,Low,Very High,Forest,Black Cotton,3.3
+Bageshwar,Uttarakhand,BAG_007,29.6431,79.816,966.3,47.4,79.5,East,Hillside,Low,Extreme,Forest,Black Cotton,3.37
+Bageshwar,Uttarakhand,BAG_008,29.7364,79.9985,1160.6,31.1,118.1,East,Hillside,Low,Very High,Forest,Red Laterite,3.62
+Bageshwar,Uttarakhand,BAG_009,29.9297,80.0425,879.5,40.7,186.7,South,Hillside,Moderate,Extreme,Forest,Sandy,4.5
+Bageshwar,Uttarakhand,BAG_010,29.6236,80.0138,1106.8,52.0,58.0,East,Hillside,Low,Extreme,Forest,Black Cotton,2.53
+Bageshwar,Uttarakhand,BAG_011,29.7087,79.7207,1465.8,46.0,347.4,North,Peak,Low,Extreme,Agricultural,Red Laterite,2.88
+Bageshwar,Uttarakhand,BAG_012,29.5673,79.9668,896.5,64.5,266.7,West,Hillside,Moderate,Extreme,Forest,Red Laterite,4.2
+Bageshwar,Uttarakhand,BAG_013,29.9307,79.4793,727.5,22.4,237.5,West,Hillside,Moderate,High,Agricultural,Sandy,1.57
+Bageshwar,Uttarakhand,BAG_014,30.0555,79.7692,808.8,47.0,87.2,East,Hillside,Moderate,Extreme,Forest,Alluvial,0.83
+Bageshwar,Uttarakhand,BAG_015,29.8476,79.8039,755.6,21.5,342.1,North,Hillside,Moderate,High,Agricultural,Black Cotton,2.59
+Bageshwar,Uttarakhand,BAG_016,29.9253,79.6822,1222.7,57.4,96.1,East,Peak,Low,Extreme,Forest,Alluvial,4.25
+Bageshwar,Uttarakhand,BAG_017,29.9635,79.8759,1351.1,26.1,337.5,North,Peak,Low,High,Forest,Black Cotton,2.75
+Bageshwar,Uttarakhand,BAG_018,30.1188,80.0026,1118.3,53.3,291.3,West,Hillside,Low,Extreme,Agricultural,Sandy,2.16
+Bageshwar,Uttarakhand,BAG_019,29.5615,79.5233,1084.5,46.6,165.0,South,Hillside,Low,Extreme,Forest,Alluvial,4.01
+Bageshwar,Uttarakhand,BAG_020,29.6084,79.4939,882.2,30.0,193.5,South,Hillside,Moderate,Very High,Urban,Black Cotton,3.61
+Bageshwar,Uttarakhand,BAG_021,29.9809,79.8518,511.3,29.4,159.3,South,Valley,Moderate,High,Forest,Black Cotton,1.6
+Bageshwar,Uttarakhand,BAG_022,29.7659,79.9779,1200.3,42.0,121.7,East,Hillside,Low,Extreme,Urban,Sandy,1.05
+Bageshwar,Uttarakhand,BAG_023,29.8145,79.9552,978.7,29.5,179.0,South,Hillside,Low,High,Forest,Sandy,1.06
+Bageshwar,Uttarakhand,BAG_024,29.5849,79.8054,1301.5,29.6,289.9,West,Peak,Low,High,Urban,Black Cotton,2.17
+Bageshwar,Uttarakhand,BAG_025,30.0283,79.8971,1219.5,26.8,174.5,South,Peak,Low,High,Agricultural,Alluvial,1.63
+Bageshwar,Uttarakhand,BAG_026,30.132,79.4922,1169.9,57.9,312.3,West,Hillside,Low,Extreme,Forest,Alluvial,2.37
+Bageshwar,Uttarakhand,BAG_027,29.7215,79.5512,1209.5,32.5,165.0,South,Peak,Low,Very High,Agricultural,Sandy,3.06
+Bageshwar,Uttarakhand,BAG_028,29.5749,79.5228,1390.0,34.4,117.2,East,Peak,Low,Very High,Barren,Sandy,1.81
+Bageshwar,Uttarakhand,BAG_029,29.7086,79.584,904.2,59.2,124.1,East,Hillside,Low,Extreme,Urban,Black Cotton,3.98
+Bageshwar,Uttarakhand,BAG_030,29.5742,80.0689,1136.8,27.2,88.1,East,Hillside,Low,High,Urban,Alluvial,2.18
+Chamoli,Uttarakhand,CHA_001,30.3517,79.4807,2832.6,14.7,181.4,South,Hillside,Very Low,Moderate,Forest,Alluvial,0.61
+Chamoli,Uttarakhand,CHA_002,30.4755,79.3968,3662.9,20.2,181.8,South,Peak,Very Low,High,Forest,Black Cotton,2.23
+Chamoli,Uttarakhand,CHA_003,30.1856,79.0517,2186.2,57.4,164.6,South,Hillside,Very Low,Extreme,Forest,Red Laterite,4.32
+Chamoli,Uttarakhand,CHA_004,30.6894,79.5037,747.3,48.0,227.3,West,Valley,Moderate,Extreme,Agricultural,Black Cotton,2.98
+Chamoli,Uttarakhand,CHA_005,30.6881,79.4634,2873.4,38.7,138.8,South,Hillside,Very Low,Very High,Forest,Sandy,2.52
+Chamoli,Uttarakhand,CHA_006,30.6172,79.6208,2461.8,13.8,32.3,North,Hillside,Very Low,Moderate,Forest,Alluvial,1.12
+Chamoli,Uttarakhand,CHA_007,30.253,79.0936,3742.2,29.8,220.0,South,Peak,Very Low,High,Agricultural,Alluvial,1.39
+Chamoli,Uttarakhand,CHA_008,30.236,79.2872,1871.3,34.9,143.4,South,Hillside,Low,Very High,Agricultural,Black Cotton,2.13
+Chamoli,Uttarakhand,CHA_009,30.3555,79.0995,2498.7,57.2,120.1,East,Hillside,Very Low,Extreme,Barren,Alluvial,2.99
+Chamoli,Uttarakhand,CHA_010,30.3762,79.5777,2705.1,49.5,144.8,South,Hillside,Very Low,Extreme,Forest,Red Laterite,0.69
+Chamoli,Uttarakhand,CHA_011,30.5515,79.3712,2526.7,52.2,179.3,South,Hillside,Very Low,Extreme,Forest,Rocky,1.98
+Chamoli,Uttarakhand,CHA_012,30.1557,79.0338,2777.5,55.4,328.8,North,Hillside,Very Low,Extreme,Urban,Red Laterite,3.3
+Chamoli,Uttarakhand,CHA_013,30.2044,79.116,3344.3,37.4,42.6,North,Hillside,Very Low,Very High,Urban,Black Cotton,1.28
+Chamoli,Uttarakhand,CHA_014,30.3062,79.0905,2022.0,18.9,75.0,East,Hillside,Very Low,Moderate,Urban,Black Cotton,4.47
+Chamoli,Uttarakhand,CHA_015,30.587,79.4953,2561.3,39.0,140.0,South,Hillside,Very Low,Very High,Agricultural,Sandy,2.48
+Chamoli,Uttarakhand,CHA_016,30.5879,79.0631,2893.6,15.7,190.3,South,Hillside,Very Low,Moderate,Forest,Red Laterite,3.5
+Chamoli,Uttarakhand,CHA_017,30.3462,79.069,2705.7,25.1,255.5,West,Hillside,Very Low,High,Forest,Rocky,4.35
+Chamoli,Uttarakhand,CHA_018,30.1863,79.5648,3961.8,48.8,17.7,North,Peak,Very Low,Extreme,Agricultural,Alluvial,2.7
+Chamoli,Uttarakhand,CHA_019,30.5508,79.0522,2874.9,34.4,236.2,West,Hillside,Very Low,Very High,Agricultural,Sandy,2.27
+Chamoli,Uttarakhand,CHA_020,30.1385,79.2996,1969.9,39.9,335.2,North,Hillside,Low,Very High,Forest,Black Cotton,1.38
+Chamoli,Uttarakhand,CHA_021,30.1105,79.5523,1648.1,6.4,130.4,East,Valley,Low,Low,Agricultural,Red Laterite,1.05
+Chamoli,Uttarakhand,CHA_022,30.4383,79.5765,2850.5,26.2,287.9,West,Hillside,Very Low,High,Agricultural,Black Cotton,2.97
+Chamoli,Uttarakhand,CHA_023,30.1461,79.0696,3148.0,32.6,72.6,East,Hillside,Very Low,Very High,Agricultural,Alluvial,1.91
+Chamoli,Uttarakhand,CHA_024,30.1083,79.5919,3630.3,21.1,133.1,East,Peak,Very Low,High,Urban,Alluvial,3.58
+Chamoli,Uttarakhand,CHA_025,30.1103,79.1436,3095.0,17.3,118.2,East,Hillside,Very Low,Moderate,Agricultural,Alluvial,2.45
+Chamoli,Uttarakhand,CHA_026,30.1222,79.2025,2386.2,51.3,261.9,West,Hillside,Very Low,Extreme,Forest,Red Laterite,0.92
+Chamoli,Uttarakhand,CHA_027,30.6992,79.5378,3037.8,42.1,288.7,West,Hillside,Very Low,Extreme,Forest,Alluvial,2.68
+Chamoli,Uttarakhand,CHA_028,30.4099,79.6124,1885.6,22.4,92.4,East,Hillside,Low,High,Water Body,Rocky,1.67
+Chamoli,Uttarakhand,CHA_029,30.3645,79.2609,2915.1,71.3,69.3,East,Hillside,Very Low,Extreme,Forest,Rocky,1.87
+Chamoli,Uttarakhand,CHA_030,30.3424,79.0415,2113.8,7.9,70.8,East,Hillside,Very Low,Low,Urban,Sandy,0.92
+Champawat,Uttarakhand,CHA_001,29.4803,80.3782,2009.5,37.7,103.9,East,Peak,Very Low,Very High,Agricultural,Alluvial,3.06
+Champawat,Uttarakhand,CHA_002,29.4878,80.0718,1677.8,42.4,172.9,South,Hillside,Low,Extreme,Forest,Rocky,3.8
+Champawat,Uttarakhand,CHA_003,29.341,80.2299,1741.6,25.8,354.1,North,Hillside,Low,High,Urban,Black Cotton,1.67
+Champawat,Uttarakhand,CHA_004,29.271,80.0615,1974.5,25.1,291.3,West,Peak,Low,High,Urban,Rocky,1.98
+Champawat,Uttarakhand,CHA_005,29.5664,79.8261,1263.5,26.2,20.7,North,Hillside,Low,High,Forest,Black Cotton,4.44
+Champawat,Uttarakhand,CHA_006,29.133,80.0981,2243.3,40.0,120.4,East,Peak,Very Low,Very High,Barren,Red Laterite,1.3
+Champawat,Uttarakhand,CHA_007,29.5706,80.2958,1715.4,55.8,250.8,West,Hillside,Low,Extreme,Urban,Black Cotton,4.13
+Champawat,Uttarakhand,CHA_008,29.3767,80.222,2734.7,32.0,167.0,South,Peak,Very Low,Very High,Forest,Black Cotton,2.66
+Champawat,Uttarakhand,CHA_009,29.2913,80.1103,1625.4,7.9,36.9,North,Hillside,Low,Low,Agricultural,Rocky,2.18
+Champawat,Uttarakhand,CHA_010,29.3597,80.1111,2118.8,37.5,332.1,North,Peak,Very Low,Very High,Agricultural,Sandy,0.56
+Champawat,Uttarakhand,CHA_011,29.1362,80.178,844.0,29.8,281.9,West,Valley,Moderate,High,Urban,Rocky,2.67
+Champawat,Uttarakhand,CHA_012,29.1361,80.3697,1369.3,51.6,76.2,East,Hillside,Low,Extreme,Urban,Red Laterite,3.95
+Champawat,Uttarakhand,CHA_013,29.3416,79.9513,1929.0,34.0,79.8,East,Hillside,Low,Very High,Forest,Red Laterite,1.42
+Champawat,Uttarakhand,CHA_014,29.2307,80.1031,1161.8,51.4,265.9,West,Hillside,Low,Extreme,Barren,Sandy,0.85
+Champawat,Uttarakhand,CHA_015,29.3682,79.9137,1353.3,51.2,41.8,North,Hillside,Low,Extreme,Forest,Black Cotton,1.62
+Champawat,Uttarakhand,CHA_016,29.0711,79.8014,987.6,34.9,193.2,South,Hillside,Low,Very High,Agricultural,Black Cotton,3.05
+Champawat,Uttarakhand,CHA_017,29.3278,80.2672,2552.4,37.2,191.4,South,Peak,Very Low,Very High,Agricultural,Alluvial,0.89
+Champawat,Uttarakhand,CHA_018,29.3522,79.8199,1541.1,15.5,157.8,South,Hillside,Low,Moderate,Agricultural,Alluvial,0.64
+Champawat,Uttarakhand,CHA_019,29.2644,79.9653,1528.6,50.9,295.2,West,Hillside,Low,Extreme,Forest,Rocky,3.26
+Champawat,Uttarakhand,CHA_020,29.549,80.0862,1499.2,23.6,126.9,East,Hillside,Low,High,Forest,Red Laterite,3.77
+Champawat,Uttarakhand,CHA_021,29.439,79.8993,1307.9,37.9,263.5,West,Hillside,Low,Very High,Forest,Alluvial,3.94
+Champawat,Uttarakhand,CHA_022,29.1238,80.115,2189.0,52.9,62.0,East,Peak,Very Low,Extreme,Forest,Black Cotton,1.87
+Champawat,Uttarakhand,CHA_023,29.0949,80.0888,859.5,31.8,211.9,South,Valley,Moderate,Very High,Barren,Sandy,0.8
+Champawat,Uttarakhand,CHA_024,29.4349,79.894,1545.1,38.2,171.6,South,Hillside,Low,Very High,Urban,Alluvial,4.35
+Champawat,Uttarakhand,CHA_025,29.1332,80.2261,1449.3,13.7,173.2,South,Hillside,Low,Moderate,Barren,Alluvial,2.81
+Champawat,Uttarakhand,CHA_026,29.2245,80.0402,1014.3,34.0,93.0,East,Hillside,Low,Very High,Agricultural,Sandy,2.96
+Champawat,Uttarakhand,CHA_027,29.0615,80.2257,1103.5,47.0,152.9,South,Hillside,Low,Extreme,Forest,Rocky,4.1
+Champawat,Uttarakhand,CHA_028,29.2954,79.8909,2240.6,60.3,39.2,North,Peak,Very Low,Extreme,Agricultural,Rocky,2.71
+Champawat,Uttarakhand,CHA_029,29.4363,80.3806,2332.8,54.0,97.7,East,Peak,Very Low,Extreme,Urban,Rocky,1.87
+Champawat,Uttarakhand,CHA_030,29.1302,79.9773,1179.1,27.3,103.0,East,Hillside,Low,High,Water Body,Alluvial,4.25
+Dehradun,Uttarakhand,DEH_001,30.5071,78.1094,1078.0,29.1,46.1,East,Hillside,Low,High,Forest,Rocky,2.3
+Dehradun,Uttarakhand,DEH_002,30.4951,77.7587,291.4,19.6,340.7,North,Valley,High,Moderate,Barren,Red Laterite,3.35
+Dehradun,Uttarakhand,DEH_003,30.0323,78.1317,755.2,13.1,271.1,West,Hillside,Moderate,Moderate,Forest,Alluvial,4.39
+Dehradun,Uttarakhand,DEH_004,30.3441,77.9002,994.9,11.6,194.7,South,Hillside,Low,Moderate,Forest,Black Cotton,0.58
+Dehradun,Uttarakhand,DEH_005,30.3024,77.9438,1252.0,23.1,125.4,East,Peak,Low,High,Agricultural,Red Laterite,1.25
+Dehradun,Uttarakhand,DEH_006,30.1905,78.0125,618.6,24.5,86.2,East,Hillside,Moderate,High,Agricultural,Red Laterite,2.27
+Dehradun,Uttarakhand,DEH_007,30.4982,78.1677,1201.2,28.4,351.2,North,Peak,Low,High,Urban,Black Cotton,3.93
+Dehradun,Uttarakhand,DEH_008,30.2131,78.233,1173.1,9.5,207.8,South,Peak,Low,Low,Forest,Sandy,3.26
+Dehradun,Uttarakhand,DEH_009,30.0792,77.9208,1089.5,15.1,213.7,South,Peak,Low,Moderate,Water Body,Rocky,4.49
+Dehradun,Uttarakhand,DEH_010,30.2042,78.2285,1499.5,36.0,336.0,North,Peak,Low,Very High,Urban,Red Laterite,0.63
+Dehradun,Uttarakhand,DEH_011,30.2831,78.2914,702.0,16.0,294.8,West,Hillside,Moderate,Moderate,Forest,Black Cotton,1.39
+Dehradun,Uttarakhand,DEH_012,30.419,77.8225,1220.5,13.2,54.8,East,Peak,Low,Moderate,Barren,Red Laterite,1.2
+Dehradun,Uttarakhand,DEH_013,30.1927,77.8136,938.7,39.1,352.6,North,Hillside,Low,Very High,Agricultural,Red Laterite,2.1
+Dehradun,Uttarakhand,DEH_014,30.5413,78.2681,794.3,32.4,131.3,East,Hillside,Moderate,Very High,Water Body,Sandy,0.55
+Dehradun,Uttarakhand,DEH_015,30.2922,78.1617,1371.2,17.9,26.5,North,Peak,Low,Moderate,Urban,Red Laterite,1.72
+Dehradun,Uttarakhand,DEH_016,30.5512,78.032,607.5,22.6,302.3,West,Hillside,Moderate,High,Forest,Black Cotton,0.55
+Dehradun,Uttarakhand,DEH_017,30.5998,77.8231,1047.5,28.4,307.7,West,Hillside,Low,High,Barren,Black Cotton,4.25
+Dehradun,Uttarakhand,DEH_018,30.0968,77.8655,1085.2,20.2,114.3,East,Peak,Low,High,Forest,Red Laterite,2.46
+Dehradun,Uttarakhand,DEH_019,30.2395,77.7559,929.6,37.7,306.2,West,Hillside,Low,Very High,Agricultural,Black Cotton,0.65
+Dehradun,Uttarakhand,DEH_020,30.1241,77.9776,752.2,37.0,21.2,North,Hillside,Moderate,Very High,Agricultural,Alluvial,3.56
+Dehradun,Uttarakhand,DEH_021,30.3141,78.0824,967.3,11.0,96.5,East,Hillside,Low,Moderate,Agricultural,Red Laterite,3.47
+Dehradun,Uttarakhand,DEH_022,30.4325,77.7704,1157.0,18.3,197.8,South,Peak,Low,Moderate,Forest,Rocky,3.46
+Dehradun,Uttarakhand,DEH_023,30.5293,77.8923,1498.7,25.5,185.5,South,Peak,Low,High,Forest,Sandy,2.27
+Dehradun,Uttarakhand,DEH_024,30.0475,78.2191,704.1,26.5,258.2,West,Hillside,Moderate,High,Urban,Rocky,0.56
+Dehradun,Uttarakhand,DEH_025,30.0343,77.7662,1159.9,21.3,112.1,East,Peak,Low,High,Urban,Red Laterite,1.83
+Dehradun,Uttarakhand,DEH_026,30.0217,77.9302,505.6,14.5,129.6,East,Valley,Moderate,Moderate,Agricultural,Alluvial,1.98
+Dehradun,Uttarakhand,DEH_027,30.1005,77.7835,766.3,20.7,212.0,South,Hillside,Moderate,High,Urban,Red Laterite,2.48
+Dehradun,Uttarakhand,DEH_028,30.0951,78.0178,1019.9,20.6,177.5,South,Hillside,Low,High,Agricultural,Black Cotton,3.92
+Dehradun,Uttarakhand,DEH_029,30.1124,78.3117,752.8,14.1,328.1,North,Hillside,Moderate,Moderate,Agricultural,Red Laterite,3.34
+Dehradun,Uttarakhand,DEH_030,30.4249,78.2464,1009.3,31.4,113.9,East,Hillside,Low,Very High,Forest,Rocky,3.61
+Haridwar,Uttarakhand,HAR_001,30.2293,78.2523,315.3,12.4,3.8,North,Hillside,High,Moderate,Urban,Black Cotton,3.43
+Haridwar,Uttarakhand,HAR_002,30.1173,78.1848,223.6,17.5,120.1,East,Hillside,High,Moderate,Agricultural,Black Cotton,1.53
+Haridwar,Uttarakhand,HAR_003,29.9642,78.2743,161.9,17.1,81.9,East,Valley,High,Moderate,Urban,Black Cotton,1.6
+Haridwar,Uttarakhand,HAR_004,30.0051,78.2776,305.5,18.4,109.3,East,Hillside,High,Moderate,Urban,Red Laterite,0.63
+Haridwar,Uttarakhand,HAR_005,30.1989,78.0672,175.7,13.9,349.9,North,Valley,High,Moderate,Forest,Sandy,2.63
+Haridwar,Uttarakhand,HAR_006,30.006,78.2801,321.4,16.2,222.0,South,Hillside,High,Moderate,Water Body,Alluvial,3.55
+Haridwar,Uttarakhand,HAR_007,29.9979,78.2784,513.2,13.7,226.3,West,Peak,Moderate,Moderate,Forest,Red Laterite,1.25
+Haridwar,Uttarakhand,HAR_008,29.693,78.3196,332.5,7.3,197.8,South,Hillside,High,Low,Barren,Alluvial,2.06
+Haridwar,Uttarakhand,HAR_009,30.1481,78.2728,261.6,14.2,221.3,South,Hillside,High,Moderate,Urban,Alluvial,4.03
+Haridwar,Uttarakhand,HAR_010,29.9685,78.2299,178.0,8.7,4.1,North,Valley,High,Low,Agricultural,Red Laterite,3.19
+Haridwar,Uttarakhand,HAR_011,29.9565,78.0883,229.1,17.1,52.6,East,Hillside,High,Moderate,Forest,Black Cotton,2.09
+Haridwar,Uttarakhand,HAR_012,30.0059,78.425,390.7,17.9,122.7,East,Peak,High,Moderate,Barren,Rocky,3.44
+Haridwar,Uttarakhand,HAR_013,29.6783,78.2306,247.9,24.9,63.6,East,Hillside,High,High,Water Body,Sandy,3.15
+Haridwar,Uttarakhand,HAR_014,30.1879,78.1673,304.1,20.5,105.7,East,Hillside,High,High,Urban,Red Laterite,1.85
+Haridwar,Uttarakhand,HAR_015,29.9763,78.1495,112.7,17.5,111.6,East,Valley,High,Moderate,Agricultural,Sandy,2.28
+Haridwar,Uttarakhand,HAR_016,29.8439,77.9914,240.0,15.4,260.6,West,Hillside,High,Moderate,Forest,Alluvial,0.69
+Haridwar,Uttarakhand,HAR_017,29.9473,78.0831,365.4,13.2,307.2,West,Hillside,High,Moderate,Forest,Alluvial,3.11
+Haridwar,Uttarakhand,HAR_018,30.1201,78.2957,465.1,9.4,329.5,North,Peak,Moderate,Low,Forest,Red Laterite,1.86
+Haridwar,Uttarakhand,HAR_019,30.0488,78.0219,250.2,22.9,233.6,West,Hillside,High,High,Urban,Black Cotton,3.52
+Haridwar,Uttarakhand,HAR_020,29.8207,78.0287,454.6,12.9,125.6,East,Peak,Moderate,Moderate,Urban,Red Laterite,2.53
+Haridwar,Uttarakhand,HAR_021,30.1987,78.0837,441.0,5.3,332.5,North,Peak,Moderate,Low,Forest,Red Laterite,4.39
+Haridwar,Uttarakhand,HAR_022,29.6741,78.4602,197.1,5.8,274.8,West,Hillside,High,Low,Urban,Black Cotton,4.05
+Haridwar,Uttarakhand,HAR_023,30.1953,77.8928,301.0,9.3,171.5,South,Hillside,High,Low,Agricultural,Sandy,4.0
+Haridwar,Uttarakhand,HAR_024,30.2342,78.1661,273.8,20.8,24.2,North,Hillside,High,High,Forest,Sandy,1.81
+Haridwar,Uttarakhand,HAR_025,29.8965,77.9941,383.0,8.8,29.8,North,Peak,High,Low,Forest,Rocky,0.51
+Haridwar,Uttarakhand,HAR_026,29.7146,78.099,431.3,19.5,277.9,West,Peak,Moderate,Moderate,Forest,Red Laterite,3.27
+Haridwar,Uttarakhand,HAR_027,30.0454,77.8764,467.7,9.0,311.5,West,Peak,Moderate,Low,Urban,Rocky,3.57
+Haridwar,Uttarakhand,HAR_028,29.874,78.3201,461.4,10.0,348.5,North,Peak,Moderate,Moderate,Urban,Alluvial,2.81
+Haridwar,Uttarakhand,HAR_029,30.2169,77.9771,423.4,13.7,340.9,North,Peak,Moderate,Moderate,Forest,Red Laterite,2.25
+Haridwar,Uttarakhand,HAR_030,29.7434,78.2179,297.0,6.3,106.7,East,Hillside,High,Low,Water Body,Red Laterite,2.41
+Nainital,Uttarakhand,NAI_001,29.0983,79.1956,1918.9,14.5,137.6,South,Hillside,Low,Moderate,Agricultural,Alluvial,2.11
+Nainital,Uttarakhand,NAI_002,29.463,79.5848,2731.4,42.2,166.0,South,Peak,Very Low,Extreme,Barren,Sandy,0.9
+Nainital,Uttarakhand,NAI_003,29.132,79.4478,2134.6,28.3,316.5,North,Hillside,Very Low,High,Urban,Alluvial,1.08
+Nainital,Uttarakhand,NAI_004,29.1974,79.2011,2282.5,17.6,241.5,West,Hillside,Very Low,Moderate,Barren,Alluvial,4.33
+Nainital,Uttarakhand,NAI_005,29.4051,79.459,3150.9,32.0,19.7,North,Peak,Very Low,Very High,Forest,Alluvial,3.81
+Nainital,Uttarakhand,NAI_006,29.415,79.3645,1346.1,41.5,109.0,East,Hillside,Low,Extreme,Forest,Sandy,2.64
+Nainital,Uttarakhand,NAI_007,29.5014,79.5902,1988.7,20.9,336.9,North,Hillside,Low,High,Forest,Red Laterite,3.25
+Nainital,Uttarakhand,NAI_008,29.1667,79.5328,2390.4,16.2,22.3,North,Hillside,Very Low,Moderate,Forest,Sandy,4.12
+Nainital,Uttarakhand,NAI_009,29.2177,79.2521,724.3,52.2,207.1,South,Valley,Moderate,Extreme,Agricultural,Rocky,0.74
+Nainital,Uttarakhand,NAI_010,29.6316,79.175,2433.8,31.3,4.9,North,Hillside,Very Low,Very High,Forest,Red Laterite,2.12
+Nainital,Uttarakhand,NAI_011,29.5951,79.6118,1391.6,25.7,30.4,North,Hillside,Low,High,Forest,Alluvial,4.48
+Nainital,Uttarakhand,NAI_012,29.1007,79.6139,0.0,36.9,1.6,North,Valley,Very High,Very High,Urban,Sandy,3.08
+Nainital,Uttarakhand,NAI_013,29.1626,79.4872,2318.6,64.4,44.6,North,Hillside,Very Low,Extreme,Urban,Black Cotton,3.98
+Nainital,Uttarakhand,NAI_014,29.4002,79.5988,2189.5,75.4,99.3,East,Hillside,Very Low,Extreme,Urban,Rocky,1.19
+Nainital,Uttarakhand,NAI_015,29.3707,79.1614,126.9,43.5,258.3,West,Valley,High,Extreme,Urban,Black Cotton,1.74
+Nainital,Uttarakhand,NAI_016,29.342,79.4385,2415.2,29.3,26.8,North,Hillside,Very Low,High,Barren,Alluvial,1.31
+Nainital,Uttarakhand,NAI_017,29.3205,79.5355,2478.9,28.4,11.0,North,Hillside,Very Low,High,Agricultural,Red Laterite,0.69
+Nainital,Uttarakhand,NAI_018,29.5284,79.4296,2304.7,40.0,112.2,East,Hillside,Very Low,Extreme,Agricultural,Black Cotton,3.44
+Nainital,Uttarakhand,NAI_019,29.1177,79.6106,1425.4,39.5,178.4,South,Hillside,Low,Very High,Agricultural,Black Cotton,4.12
+Nainital,Uttarakhand,NAI_020,29.1692,79.2805,1529.4,30.5,105.4,East,Hillside,Low,Very High,Forest,Black Cotton,4.46
+Nainital,Uttarakhand,NAI_021,29.5538,79.2432,2052.3,30.0,180.7,South,Hillside,Very Low,High,Forest,Rocky,2.76
+Nainital,Uttarakhand,NAI_022,29.1782,79.6267,2217.1,56.7,298.2,West,Hillside,Very Low,Extreme,Agricultural,Black Cotton,1.68
+Nainital,Uttarakhand,NAI_023,29.4956,79.1683,1766.5,56.5,300.0,West,Hillside,Low,Extreme,Forest,Sandy,2.59
+Nainital,Uttarakhand,NAI_024,29.358,79.3101,2094.2,21.3,291.9,West,Hillside,Very Low,High,Forest,Red Laterite,1.23
+Nainital,Uttarakhand,NAI_025,29.6169,79.3156,1380.5,41.7,51.5,East,Hillside,Low,Extreme,Forest,Rocky,1.12
+Nainital,Uttarakhand,NAI_026,29.2304,79.5069,1023.2,62.5,317.7,North,Valley,Low,Extreme,Agricultural,Sandy,3.5
+Nainital,Uttarakhand,NAI_027,29.5296,79.2188,430.8,10.0,221.0,South,Valley,Moderate,Low,Forest,Alluvial,0.57
+Nainital,Uttarakhand,NAI_028,29.2391,79.1871,1771.6,3.6,170.4,South,Hillside,Low,Low,Forest,Rocky,4.06
+Nainital,Uttarakhand,NAI_029,29.3647,79.2225,2374.9,29.7,280.2,West,Hillside,Very Low,High,Urban,Sandy,2.06
+Nainital,Uttarakhand,NAI_030,29.1292,79.6865,2064.0,71.4,344.5,North,Hillside,Very Low,Extreme,Urban,Alluvial,4.34
+Pauri Garhwal,Uttarakhand,PAU_001,30.0175,78.5065,1148.8,40.8,297.5,West,Hillside,Low,Extreme,Forest,Rocky,3.57
+Pauri Garhwal,Uttarakhand,PAU_002,30.0523,78.687,2063.1,12.5,200.0,South,Hillside,Very Low,Moderate,Water Body,Rocky,1.95
+Pauri Garhwal,Uttarakhand,PAU_003,29.7823,78.7403,2990.2,40.8,112.6,East,Peak,Very Low,Extreme,Forest,Black Cotton,3.66
+Pauri Garhwal,Uttarakhand,PAU_004,30.0343,79.0347,2039.1,26.5,295.1,West,Hillside,Very Low,High,Urban,Black Cotton,4.41
+Pauri Garhwal,Uttarakhand,PAU_005,29.9477,78.7791,2305.1,35.0,254.6,West,Peak,Very Low,Very High,Forest,Red Laterite,3.65
+Pauri Garhwal,Uttarakhand,PAU_006,29.635,78.8877,1047.8,67.7,263.1,West,Valley,Low,Extreme,Agricultural,Alluvial,1.35
+Pauri Garhwal,Uttarakhand,PAU_007,29.7301,78.8579,2061.8,21.6,202.7,South,Hillside,Very Low,High,Barren,Black Cotton,1.7
+Pauri Garhwal,Uttarakhand,PAU_008,29.6657,78.7109,1818.4,27.3,11.3,North,Hillside,Low,High,Agricultural,Red Laterite,3.14
+Pauri Garhwal,Uttarakhand,PAU_009,29.8748,79.081,2002.7,31.5,39.8,North,Hillside,Very Low,Very High,Agricultural,Alluvial,3.38
+Pauri Garhwal,Uttarakhand,PAU_010,29.6941,78.9048,1741.4,31.9,272.7,West,Hillside,Low,Very High,Agricultural,Red Laterite,3.92
+Pauri Garhwal,Uttarakhand,PAU_011,29.6772,78.5974,2608.9,30.0,214.8,South,Peak,Very Low,Very High,Forest,Red Laterite,1.95
+Pauri Garhwal,Uttarakhand,PAU_012,29.6745,78.5302,1588.9,3.3,73.8,East,Hillside,Low,Low,Agricultural,Sandy,3.57
+Pauri Garhwal,Uttarakhand,PAU_013,30.0453,78.6326,1372.7,18.1,61.1,East,Hillside,Low,Moderate,Agricultural,Black Cotton,3.01
+Pauri Garhwal,Uttarakhand,PAU_014,30.0354,78.9606,2519.4,20.9,154.0,South,Peak,Very Low,High,Agricultural,Rocky,0.86
+Pauri Garhwal,Uttarakhand,PAU_015,29.6452,78.6467,2039.1,33.3,228.8,West,Hillside,Very Low,Very High,Agricultural,Sandy,2.22
+Pauri Garhwal,Uttarakhand,PAU_016,30.0308,78.5442,2208.7,51.6,176.1,South,Peak,Very Low,Extreme,Urban,Red Laterite,3.39
+Pauri Garhwal,Uttarakhand,PAU_017,30.0014,78.8072,1945.8,48.7,183.7,South,Hillside,Low,Extreme,Barren,Black Cotton,0.58
+Pauri Garhwal,Uttarakhand,PAU_018,30.012,79.056,2131.6,34.4,282.5,West,Hillside,Very Low,Very High,Urban,Alluvial,1.96
+Pauri Garhwal,Uttarakhand,PAU_019,29.6792,79.0303,2162.7,35.7,103.4,East,Hillside,Very Low,Very High,Agricultural,Alluvial,0.99
+Pauri Garhwal,Uttarakhand,PAU_020,29.9361,78.9389,2784.6,40.4,260.1,West,Peak,Very Low,Extreme,Agricultural,Alluvial,3.25
+Pauri Garhwal,Uttarakhand,PAU_021,29.8802,78.7669,1728.8,46.9,65.1,East,Hillside,Low,Extreme,Water Body,Alluvial,1.89
+Pauri Garhwal,Uttarakhand,PAU_022,29.8934,78.5027,1747.1,43.1,318.4,North,Hillside,Low,Extreme,Forest,Rocky,1.45
+Pauri Garhwal,Uttarakhand,PAU_023,29.941,78.851,2104.0,40.8,9.6,North,Hillside,Very Low,Extreme,Urban,Alluvial,3.87
+Pauri Garhwal,Uttarakhand,PAU_024,29.5358,78.7039,796.5,27.8,269.7,West,Valley,Moderate,High,Forest,Alluvial,3.02
+Pauri Garhwal,Uttarakhand,PAU_025,29.7436,78.7556,1608.9,12.0,55.0,East,Hillside,Low,Moderate,Agricultural,Alluvial,3.76
+Pauri Garhwal,Uttarakhand,PAU_026,29.8483,78.9151,2045.3,48.9,222.7,South,Hillside,Very Low,Extreme,Forest,Black Cotton,4.18
+Pauri Garhwal,Uttarakhand,PAU_027,29.9712,78.496,1704.8,31.5,56.4,East,Hillside,Low,Very High,Agricultural,Sandy,2.86
+Pauri Garhwal,Uttarakhand,PAU_028,29.7931,78.4996,2111.4,20.6,195.5,South,Hillside,Very Low,High,Forest,Sandy,2.38
+Pauri Garhwal,Uttarakhand,PAU_029,29.691,78.9594,2665.2,8.6,35.4,North,Peak,Very Low,Low,Urban,Red Laterite,1.83
+Pauri Garhwal,Uttarakhand,PAU_030,29.6678,79.0755,1962.6,46.9,206.6,South,Hillside,Low,Extreme,Forest,Sandy,2.57
+Pithoragarh,Uttarakhand,PIT_001,29.4394,79.9622,1747.9,25.5,274.9,West,Hillside,Low,High,Forest,Sandy,2.94
+Pithoragarh,Uttarakhand,PIT_002,29.5027,79.9317,1250.8,42.6,114.7,East,Valley,Low,Extreme,Forest,Black Cotton,2.36
+Pithoragarh,Uttarakhand,PIT_003,29.7234,80.1407,2146.1,32.9,263.3,West,Hillside,Very Low,Very High,Forest,Alluvial,4.14
+Pithoragarh,Uttarakhand,PIT_004,29.7357,80.2191,3749.4,19.4,240.1,West,Peak,Very Low,Moderate,Agricultural,Rocky,4.36
+Pithoragarh,Uttarakhand,PIT_005,29.3494,80.033,2723.0,16.6,98.0,East,Hillside,Very Low,Moderate,Forest,Black Cotton,4.16
+Pithoragarh,Uttarakhand,PIT_006,29.8364,80.2424,1656.8,69.2,105.6,East,Hillside,Low,Extreme,Urban,Red Laterite,3.99
+Pithoragarh,Uttarakhand,PIT_007,29.4766,80.2951,1607.0,13.6,18.2,North,Hillside,Low,Moderate,Forest,Sandy,3.4
+Pithoragarh,Uttarakhand,PIT_008,29.7788,80.1225,3076.9,48.5,10.0,North,Peak,Very Low,Extreme,Barren,Red Laterite,1.15
+Pithoragarh,Uttarakhand,PIT_009,29.4404,80.1927,1534.4,38.2,157.2,South,Hillside,Low,Very High,Forest,Sandy,1.17
+Pithoragarh,Uttarakhand,PIT_010,29.6075,80.2737,1528.9,34.2,122.3,East,Hillside,Low,Very High,Forest,Red Laterite,2.07
+Pithoragarh,Uttarakhand,PIT_011,29.3485,80.4161,1806.7,29.1,312.8,West,Hillside,Low,High,Forest,Alluvial,1.44
+Pithoragarh,Uttarakhand,PIT_012,29.3955,80.2978,2342.6,23.5,358.9,North,Hillside,Very Low,High,Agricultural,Alluvial,4.5
+Pithoragarh,Uttarakhand,PIT_013,29.7663,80.1479,2962.2,32.3,66.8,East,Peak,Very Low,Very High,Forest,Alluvial,3.32
+Pithoragarh,Uttarakhand,PIT_014,29.436,79.9751,2891.4,33.8,282.0,West,Peak,Very Low,Very High,Urban,Sandy,2.89
+Pithoragarh,Uttarakhand,PIT_015,29.7241,79.9672,1791.7,46.5,140.3,South,Hillside,Low,Extreme,Forest,Black Cotton,4.22
+Pithoragarh,Uttarakhand,PIT_016,29.7015,80.2101,1601.2,53.8,83.5,East,Hillside,Low,Extreme,Agricultural,Alluvial,2.02
+Pithoragarh,Uttarakhand,PIT_017,29.5802,80.3858,3963.2,43.3,108.2,East,Peak,Very Low,Extreme,Urban,Alluvial,2.35
+Pithoragarh,Uttarakhand,PIT_018,29.8364,80.2626,2090.1,42.1,170.1,South,Hillside,Very Low,Extreme,Forest,Black Cotton,1.08
+Pithoragarh,Uttarakhand,PIT_019,29.8605,80.0513,2169.0,19.3,40.2,North,Hillside,Very Low,Moderate,Urban,Sandy,1.4
+Pithoragarh,Uttarakhand,PIT_020,29.634,80.4838,3730.4,31.7,12.0,North,Peak,Very Low,Very High,Water Body,Alluvial,2.12
+Pithoragarh,Uttarakhand,PIT_021,29.6838,80.1342,3379.9,0.0,357.4,North,Peak,Very Low,Low,Forest,Sandy,4.32
+Pithoragarh,Uttarakhand,PIT_022,29.6596,80.192,1935.7,0.0,235.9,West,Hillside,Low,Low,Forest,Rocky,1.74
+Pithoragarh,Uttarakhand,PIT_023,29.5327,80.042,3089.9,54.5,211.6,South,Peak,Very Low,Extreme,Barren,Black Cotton,0.61
+Pithoragarh,Uttarakhand,PIT_024,29.408,80.2591,2735.7,32.8,199.9,South,Hillside,Very Low,Very High,Urban,Black Cotton,1.51
+Pithoragarh,Uttarakhand,PIT_025,29.3389,79.9777,2753.8,30.0,178.4,South,Hillside,Very Low,Very High,Urban,Sandy,2.88
+Pithoragarh,Uttarakhand,PIT_026,29.3418,80.0968,2315.7,46.6,358.6,North,Hillside,Very Low,Extreme,Agricultural,Alluvial,2.92
+Pithoragarh,Uttarakhand,PIT_027,29.3862,80.3052,2604.5,26.6,70.8,East,Hillside,Very Low,High,Forest,Black Cotton,3.16
+Pithoragarh,Uttarakhand,PIT_028,29.7452,80.4519,1949.6,42.2,284.5,West,Hillside,Low,Extreme,Forest,Red Laterite,4.24
+Pithoragarh,Uttarakhand,PIT_029,29.7035,79.9422,2417.8,40.0,217.5,South,Hillside,Very Low,Very High,Urban,Black Cotton,3.52
+Pithoragarh,Uttarakhand,PIT_030,29.5296,80.4568,1064.5,4.8,27.3,North,Valley,Low,Low,Barren,Red Laterite,2.21
+Rudraprayag,Uttarakhand,RUD_001,30.087,78.8715,1897.4,63.8,195.3,South,Hillside,Low,Extreme,Agricultural,Alluvial,0.89
+Rudraprayag,Uttarakhand,RUD_002,30.1893,78.6968,1156.8,61.7,270.0,West,Valley,Low,Extreme,Agricultural,Sandy,1.79
+Rudraprayag,Uttarakhand,RUD_003,29.9869,78.8465,2339.9,26.3,345.3,North,Hillside,Very Low,High,Forest,Alluvial,1.75
+Rudraprayag,Uttarakhand,RUD_004,30.1641,79.226,2656.0,57.1,231.2,West,Peak,Very Low,Extreme,Agricultural,Red Laterite,1.79
+Rudraprayag,Uttarakhand,RUD_005,30.4066,78.904,921.6,42.1,279.0,West,Valley,Low,Extreme,Agricultural,Rocky,2.61
+Rudraprayag,Uttarakhand,RUD_006,30.3516,79.2167,2929.7,64.4,324.4,North,Peak,Very Low,Extreme,Forest,Black Cotton,4.2
+Rudraprayag,Uttarakhand,RUD_007,30.0919,78.7594,2207.3,57.9,39.2,North,Hillside,Very Low,Extreme,Forest,Black Cotton,1.95
+Rudraprayag,Uttarakhand,RUD_008,30.503,78.6955,1435.8,63.0,124.5,East,Hillside,Low,Extreme,Forest,Red Laterite,2.74
+Rudraprayag,Uttarakhand,RUD_009,30.0346,78.8225,3254.1,73.6,288.0,West,Peak,Very Low,Extreme,Urban,Alluvial,2.0
+Rudraprayag,Uttarakhand,RUD_010,30.0485,79.1405,2129.2,57.3,107.9,East,Hillside,Very Low,Extreme,Forest,Rocky,0.76
+Rudraprayag,Uttarakhand,RUD_011,30.4908,78.7438,1577.3,65.2,40.8,North,Hillside,Low,Extreme,Urban,Red Laterite,0.54
+Rudraprayag,Uttarakhand,RUD_012,30.5206,78.9928,1874.3,69.4,259.5,West,Hillside,Low,Extreme,Agricultural,Black Cotton,0.59
+Rudraprayag,Uttarakhand,RUD_013,30.3065,78.93,1132.5,65.1,291.0,West,Valley,Low,Extreme,Agricultural,Black Cotton,3.9
+Rudraprayag,Uttarakhand,RUD_014,30.5,79.004,3246.4,28.7,316.3,North,Peak,Very Low,High,Barren,Alluvial,4.41
+Rudraprayag,Uttarakhand,RUD_015,30.5159,78.9925,1792.2,16.8,267.1,West,Hillside,Low,Moderate,Agricultural,Alluvial,2.57
+Rudraprayag,Uttarakhand,RUD_016,30.3354,79.0744,3040.6,9.2,250.0,West,Peak,Very Low,Low,Urban,Black Cotton,2.54
+Rudraprayag,Uttarakhand,RUD_017,30.0935,79.0881,2713.3,35.1,0.1,North,Peak,Very Low,Very High,Agricultural,Black Cotton,0.98
+Rudraprayag,Uttarakhand,RUD_018,30.2925,78.7373,2355.3,50.3,308.3,West,Hillside,Very Low,Extreme,Forest,Black Cotton,1.53
+Rudraprayag,Uttarakhand,RUD_019,30.2518,79.0948,1870.2,30.0,6.8,North,Hillside,Low,Very High,Agricultural,Red Laterite,2.03
+Rudraprayag,Uttarakhand,RUD_020,30.5574,79.2195,1839.4,20.2,167.9,South,Hillside,Low,High,Forest,Red Laterite,1.59
+Rudraprayag,Uttarakhand,RUD_021,30.2642,79.0633,2867.3,37.9,68.8,East,Peak,Very Low,Very High,Urban,Black Cotton,1.36
+Rudraprayag,Uttarakhand,RUD_022,30.5309,79.1722,1934.2,26.5,113.1,East,Hillside,Low,High,Barren,Rocky,3.3
+Rudraprayag,Uttarakhand,RUD_023,30.378,79.2377,2746.1,37.4,97.9,East,Peak,Very Low,Very High,Forest,Alluvial,0.94
+Rudraprayag,Uttarakhand,RUD_024,30.2159,79.2457,3000.9,44.1,336.0,North,Peak,Very Low,Extreme,Agricultural,Red Laterite,3.09
+Rudraprayag,Uttarakhand,RUD_025,30.3636,79.2555,2560.6,37.9,53.6,East,Hillside,Very Low,Very High,Barren,Black Cotton,4.29
+Rudraprayag,Uttarakhand,RUD_026,30.072,78.9936,3312.2,28.9,119.1,East,Peak,Very Low,High,Forest,Alluvial,0.98
+Rudraprayag,Uttarakhand,RUD_027,30.2594,78.8031,1223.7,39.3,154.4,South,Valley,Low,Very High,Urban,Alluvial,0.83
+Rudraprayag,Uttarakhand,RUD_028,30.5552,78.6884,2313.0,27.5,248.0,West,Hillside,Very Low,High,Urban,Black Cotton,1.57
+Rudraprayag,Uttarakhand,RUD_029,30.5761,78.9602,2294.8,27.9,137.0,South,Hillside,Very Low,High,Forest,Rocky,1.55
+Rudraprayag,Uttarakhand,RUD_030,30.2182,79.1626,2426.6,18.5,205.9,South,Hillside,Very Low,Moderate,Agricultural,Alluvial,2.06
+Tehri Garhwal,Uttarakhand,TEH_001,30.6061,78.3996,1960.3,32.1,63.4,East,Hillside,Low,Very High,Urban,Red Laterite,4.37
+Tehri Garhwal,Uttarakhand,TEH_002,30.495,78.354,1843.1,28.0,351.1,North,Hillside,Low,High,Water Body,Sandy,2.69
+Tehri Garhwal,Uttarakhand,TEH_003,30.0964,78.2821,2763.6,26.2,287.3,West,Peak,Very Low,High,Agricultural,Sandy,2.98
+Tehri Garhwal,Uttarakhand,TEH_004,30.4316,78.3781,2116.9,52.9,160.7,South,Hillside,Very Low,Extreme,Forest,Black Cotton,0.92
+Tehri Garhwal,Uttarakhand,TEH_005,30.4006,78.449,1523.2,36.3,318.5,North,Hillside,Low,Very High,Agricultural,Alluvial,1.6
+Tehri Garhwal,Uttarakhand,TEH_006,30.5595,78.6319,1642.2,11.4,352.6,North,Hillside,Low,Moderate,Water Body,Red Laterite,2.99
+Tehri Garhwal,Uttarakhand,TEH_007,30.4373,78.4125,2533.2,8.0,335.6,North,Peak,Very Low,Low,Forest,Red Laterite,1.78
+Tehri Garhwal,Uttarakhand,TEH_008,30.0919,78.2289,1895.6,54.3,312.7,West,Hillside,Low,Extreme,Forest,Red Laterite,3.73
+Tehri Garhwal,Uttarakhand,TEH_009,30.4845,78.5775,548.4,32.0,241.7,West,Valley,Moderate,Very High,Forest,Alluvial,2.89
+Tehri Garhwal,Uttarakhand,TEH_010,30.521,78.2417,3064.6,9.8,345.3,North,Peak,Very Low,Low,Barren,Alluvial,1.7
+Tehri Garhwal,Uttarakhand,TEH_011,30.3549,78.7082,1611.5,59.8,122.9,East,Hillside,Low,Extreme,Urban,Rocky,3.88
+Tehri Garhwal,Uttarakhand,TEH_012,30.2692,78.6349,1747.7,39.9,164.8,South,Hillside,Low,Very High,Agricultural,Alluvial,0.64
+Tehri Garhwal,Uttarakhand,TEH_013,30.5968,78.163,1267.1,14.8,99.0,East,Hillside,Low,Moderate,Agricultural,Alluvial,1.37
+Tehri Garhwal,Uttarakhand,TEH_014,30.0803,78.3529,1754.1,49.4,208.5,South,Hillside,Low,Extreme,Agricultural,Alluvial,4.37
+Tehri Garhwal,Uttarakhand,TEH_015,30.2632,78.2791,1330.7,48.1,299.3,West,Hillside,Low,Extreme,Urban,Alluvial,0.67
+Tehri Garhwal,Uttarakhand,TEH_016,30.1617,78.6794,2648.3,27.4,206.7,South,Peak,Very Low,High,Forest,Alluvial,3.83
+Tehri Garhwal,Uttarakhand,TEH_017,30.4501,78.1559,2604.2,24.2,269.3,West,Peak,Very Low,High,Agricultural,Rocky,4.46
+Tehri Garhwal,Uttarakhand,TEH_018,30.482,78.6011,2130.3,41.0,237.0,West,Hillside,Very Low,Extreme,Forest,Alluvial,4.08
+Tehri Garhwal,Uttarakhand,TEH_019,30.3805,78.1726,2445.2,37.5,348.5,North,Peak,Very Low,Very High,Agricultural,Red Laterite,0.56
+Tehri Garhwal,Uttarakhand,TEH_020,30.3346,78.3686,2078.4,28.9,318.4,North,Hillside,Very Low,High,Agricultural,Alluvial,1.39
+Tehri Garhwal,Uttarakhand,TEH_021,30.2463,78.2477,1312.0,47.2,21.1,North,Hillside,Low,Extreme,Forest,Black Cotton,1.82
+Tehri Garhwal,Uttarakhand,TEH_022,30.3188,78.2688,2015.8,38.3,278.4,West,Hillside,Very Low,Very High,Agricultural,Alluvial,2.83
+Tehri Garhwal,Uttarakhand,TEH_023,30.6057,78.5116,1925.6,62.0,315.8,North,Hillside,Low,Extreme,Agricultural,Red Laterite,2.91
+Tehri Garhwal,Uttarakhand,TEH_024,30.6386,78.5297,1956.4,18.4,169.8,South,Hillside,Low,Moderate,Agricultural,Red Laterite,3.17
+Tehri Garhwal,Uttarakhand,TEH_025,30.5627,78.3799,2516.9,53.3,262.4,West,Peak,Very Low,Extreme,Barren,Sandy,1.97
+Tehri Garhwal,Uttarakhand,TEH_026,30.2467,78.4823,2470.4,15.6,342.2,North,Peak,Very Low,Moderate,Urban,Sandy,0.78
+Tehri Garhwal,Uttarakhand,TEH_027,30.1321,78.6555,616.9,19.4,183.8,South,Valley,Moderate,Moderate,Forest,Sandy,1.82
+Tehri Garhwal,Uttarakhand,TEH_028,30.2466,78.2115,1070.3,45.5,52.7,East,Valley,Low,Extreme,Forest,Red Laterite,4.24
+Tehri Garhwal,Uttarakhand,TEH_029,30.3115,78.2348,1315.8,25.9,299.8,West,Hillside,Low,High,Urban,Alluvial,2.06
+Tehri Garhwal,Uttarakhand,TEH_030,30.1546,78.6487,1737.5,16.0,182.7,South,Hillside,Low,Moderate,Urban,Rocky,1.42
+Udham Singh Nagar,Uttarakhand,UDH_001,29.0932,79.5787,279.1,7.5,302.0,West,Hillside,High,Low,Agricultural,Alluvial,1.66
+Udham Singh Nagar,Uttarakhand,UDH_002,28.8464,79.5021,289.6,8.0,305.5,West,Hillside,High,Low,Forest,Alluvial,3.32
+Udham Singh Nagar,Uttarakhand,UDH_003,29.2503,79.6381,282.1,7.3,359.7,North,Hillside,High,Low,Forest,Alluvial,4.14
+Udham Singh Nagar,Uttarakhand,UDH_004,28.76,79.6861,235.3,1.7,123.1,East,Hillside,High,Low,Agricultural,Black Cotton,4.08
+Udham Singh Nagar,Uttarakhand,UDH_005,29.0932,79.6399,263.9,6.8,207.4,South,Hillside,High,Low,Forest,Black Cotton,3.32
+Udham Singh Nagar,Uttarakhand,UDH_006,28.9301,79.7612,49.9,5.8,195.0,South,Valley,Very High,Low,Barren,Sandy,1.95
+Udham Singh Nagar,Uttarakhand,UDH_007,29.1824,79.2467,232.1,3.0,287.9,West,Hillside,High,Low,Urban,Alluvial,4.42
+Udham Singh Nagar,Uttarakhand,UDH_008,29.0336,79.2639,160.5,4.4,300.8,West,Hillside,High,Low,Forest,Alluvial,4.5
+Udham Singh Nagar,Uttarakhand,UDH_009,28.807,79.2856,145.0,2.6,80.8,East,Valley,High,Low,Barren,Red Laterite,2.28
+Udham Singh Nagar,Uttarakhand,UDH_010,28.7981,79.384,254.3,2.6,180.8,South,Hillside,High,Low,Forest,Red Laterite,2.67
+Udham Singh Nagar,Uttarakhand,UDH_011,28.6679,79.6316,276.5,8.6,305.7,West,Hillside,High,Low,Urban,Red Laterite,2.29
+Udham Singh Nagar,Uttarakhand,UDH_012,29.1749,79.4196,160.7,3.1,329.3,North,Hillside,High,Low,Forest,Black Cotton,2.88
+Udham Singh Nagar,Uttarakhand,UDH_013,28.8698,79.4161,299.5,5.4,100.4,East,Peak,High,Low,Forest,Alluvial,3.56
+Udham Singh Nagar,Uttarakhand,UDH_014,29.1706,79.2658,319.9,2.9,169.5,South,Peak,High,Low,Urban,Alluvial,1.07
+Udham Singh Nagar,Uttarakhand,UDH_015,29.2289,79.7495,132.0,2.8,356.6,North,Valley,High,Low,Urban,Black Cotton,2.08
+Udham Singh Nagar,Uttarakhand,UDH_016,28.9174,79.4576,262.6,4.2,342.5,North,Hillside,High,Low,Agricultural,Black Cotton,2.65
+Udham Singh Nagar,Uttarakhand,UDH_017,28.9258,79.3929,405.3,4.8,244.6,West,Peak,Moderate,Low,Agricultural,Red Laterite,4.34
+Udham Singh Nagar,Uttarakhand,UDH_018,29.1218,79.372,172.8,4.2,213.1,South,Hillside,High,Low,Urban,Alluvial,1.37
+Udham Singh Nagar,Uttarakhand,UDH_019,28.6691,79.4234,378.9,4.6,290.0,West,Peak,High,Low,Forest,Rocky,0.91
+Udham Singh Nagar,Uttarakhand,UDH_020,29.177,79.5455,246.5,5.0,81.6,East,Hillside,High,Low,Forest,Alluvial,2.5
+Udham Singh Nagar,Uttarakhand,UDH_021,29.2481,79.2856,170.7,3.0,53.1,East,Hillside,High,Low,Agricultural,Rocky,2.6
+Udham Singh Nagar,Uttarakhand,UDH_022,29.1444,79.7117,156.5,3.0,0.9,North,Hillside,High,Low,Forest,Alluvial,1.11
+Udham Singh Nagar,Uttarakhand,UDH_023,28.9786,79.6694,178.4,4.1,141.3,South,Hillside,High,Low,Forest,Black Cotton,0.89
+Udham Singh Nagar,Uttarakhand,UDH_024,28.7874,79.7079,390.7,5.5,321.4,North,Peak,High,Low,Urban,Rocky,0.68
+Udham Singh Nagar,Uttarakhand,UDH_025,28.8938,79.4798,288.7,4.2,131.6,East,Hillside,High,Low,Barren,Black Cotton,0.68
+Udham Singh Nagar,Uttarakhand,UDH_026,28.7378,79.5454,172.8,5.8,227.6,West,Hillside,High,Low,Agricultural,Alluvial,1.46
+Udham Singh Nagar,Uttarakhand,UDH_027,28.8424,79.6753,324.9,6.4,239.2,West,Peak,High,Low,Forest,Alluvial,3.96
+Udham Singh Nagar,Uttarakhand,UDH_028,29.0256,79.6286,249.5,3.4,53.8,East,Hillside,High,Low,Urban,Black Cotton,2.83
+Udham Singh Nagar,Uttarakhand,UDH_029,29.043,79.7686,174.5,2.2,223.4,South,Hillside,High,Low,Forest,Black Cotton,1.53
+Udham Singh Nagar,Uttarakhand,UDH_030,29.0558,79.5531,276.0,2.2,209.3,South,Hillside,High,Low,Forest,Alluvial,1.47
+Uttarkashi,Uttarakhand,UTT_001,30.7525,78.3166,3965.0,21.4,157.5,South,Peak,Very Low,High,Forest,Red Laterite,2.88
+Uttarkashi,Uttarakhand,UTT_002,30.7455,78.5241,3388.7,22.5,216.2,South,Peak,Very Low,High,Agricultural,Rocky,2.12
+Uttarkashi,Uttarakhand,UTT_003,30.7805,78.3904,2870.4,62.8,58.8,East,Hillside,Very Low,Extreme,Agricultural,Red Laterite,1.29
+Uttarkashi,Uttarakhand,UTT_004,30.7749,78.1575,2266.4,28.6,264.1,West,Hillside,Very Low,High,Barren,Black Cotton,1.64
+Uttarkashi,Uttarakhand,UTT_005,30.853,78.3611,2780.2,59.5,340.4,North,Hillside,Very Low,Extreme,Urban,Alluvial,4.42
+Uttarkashi,Uttarakhand,UTT_006,30.724,78.666,2602.9,11.0,347.8,North,Hillside,Very Low,Moderate,Forest,Alluvial,1.72
+Uttarkashi,Uttarakhand,UTT_007,31.0261,78.6033,2743.4,36.9,22.7,North,Hillside,Very Low,Very High,Agricultural,Alluvial,1.73
+Uttarkashi,Uttarakhand,UTT_008,30.9199,78.5559,2502.8,37.7,249.2,West,Hillside,Very Low,Very High,Agricultural,Black Cotton,3.27
+Uttarkashi,Uttarakhand,UTT_009,30.7845,78.4348,2529.5,41.1,135.8,South,Hillside,Very Low,Extreme,Agricultural,Sandy,3.21
+Uttarkashi,Uttarakhand,UTT_010,30.7806,78.5932,1661.4,55.0,289.7,West,Hillside,Low,Extreme,Barren,Black Cotton,0.85
+Uttarkashi,Uttarakhand,UTT_011,30.9026,78.5101,2291.2,46.0,12.0,North,Hillside,Very Low,Extreme,Forest,Black Cotton,4.1
+Uttarkashi,Uttarakhand,UTT_012,30.6423,78.3485,3177.8,38.3,27.8,North,Peak,Very Low,Very High,Barren,Black Cotton,4.12
+Uttarkashi,Uttarakhand,UTT_013,30.5256,78.332,2437.8,22.1,7.4,North,Hillside,Very Low,High,Forest,Alluvial,4.45
+Uttarkashi,Uttarakhand,UTT_014,30.5208,78.7013,2484.5,50.6,98.5,East,Hillside,Very Low,Extreme,Forest,Black Cotton,4.25
+Uttarkashi,Uttarakhand,UTT_015,30.7253,78.3769,1754.9,18.8,288.7,West,Hillside,Low,Moderate,Barren,Black Cotton,4.45
+Uttarkashi,Uttarakhand,UTT_016,30.7289,78.1398,3970.2,52.5,257.1,West,Peak,Very Low,Extreme,Agricultural,Sandy,1.38
+Uttarkashi,Uttarakhand,UTT_017,30.5203,78.6874,3977.4,59.7,261.2,West,Peak,Very Low,Extreme,Agricultural,Alluvial,0.71
+Uttarkashi,Uttarakhand,UTT_018,30.7422,78.6534,2664.4,51.3,355.8,North,Hillside,Very Low,Extreme,Forest,Red Laterite,0.52
+Uttarkashi,Uttarakhand,UTT_019,30.6693,78.5838,2872.1,7.9,79.0,East,Hillside,Very Low,Low,Water Body,Black Cotton,1.11
+Uttarkashi,Uttarakhand,UTT_020,30.8235,78.6063,1575.6,48.5,47.2,East,Hillside,Low,Extreme,Agricultural,Sandy,4.38
+Uttarkashi,Uttarakhand,UTT_021,30.6521,78.6653,2659.8,4.1,48.5,East,Hillside,Very Low,Low,Forest,Alluvial,1.34
+Uttarkashi,Uttarakhand,UTT_022,30.7166,78.6741,2615.7,18.1,119.8,East,Hillside,Very Low,Moderate,Forest,Red Laterite,3.3
+Uttarkashi,Uttarakhand,UTT_023,30.6321,78.4986,2049.7,0.6,40.9,North,Hillside,Very Low,Low,Agricultural,Black Cotton,3.25
+Uttarkashi,Uttarakhand,UTT_024,30.9716,78.3233,3649.3,48.5,236.6,West,Peak,Very Low,Extreme,Agricultural,Red Laterite,0.61
+Uttarkashi,Uttarakhand,UTT_025,30.5146,78.7018,2693.1,42.4,221.2,South,Hillside,Very Low,Extreme,Agricultural,Alluvial,2.93
+Uttarkashi,Uttarakhand,UTT_026,31.0228,78.1978,1966.3,44.3,221.7,South,Hillside,Low,Extreme,Agricultural,Sandy,3.01
+Uttarkashi,Uttarakhand,UTT_027,30.6094,78.6614,2118.8,34.9,0.4,North,Hillside,Very Low,Very High,Urban,Black Cotton,1.15
+Uttarkashi,Uttarakhand,UTT_028,30.5034,78.6491,2532.8,40.6,132.6,East,Hillside,Very Low,Extreme,Forest,Alluvial,2.38
+Uttarkashi,Uttarakhand,UTT_029,31.0032,78.2051,3822.3,53.3,347.2,North,Peak,Very Low,Extreme,Forest,Black Cotton,0.5
+Uttarkashi,Uttarakhand,UTT_030,30.476,78.1692,1691.1,27.5,245.1,West,Hillside,Low,High,Agricultural,Alluvial,4.44

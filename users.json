@@ -1,0 +1,20 @@
+[
+  {
+    "username": "admin",
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "name": "Administrator",
+    "created": "2026-05-10"
+  },
+  {
+    "username": "officer",
+    "password": "118b8d35a17bcf2c7d2d790509e12308dc6332c5d234f0098d2d6be6700bebb1",
+    "name": "Relief Officer",
+    "created": "2026-05-10"
+  },
+  {
+    "username": "yashitagupta10",
+    "password": "d39bda2bb8268719d4bbd925b4940fd8209cb4688723bfdd88f64bbfa863e721",
+    "name": "Yashita Gupta",
+    "created": "2026-05-10"
+  }
+]

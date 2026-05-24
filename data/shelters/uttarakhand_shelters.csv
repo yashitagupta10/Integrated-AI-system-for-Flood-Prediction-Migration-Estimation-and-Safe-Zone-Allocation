@@ -1,0 +1,82 @@
+shelter_id,name,district,state,shelter_type,capacity_persons,current_occupancy,latitude,longitude,elevation_m,has_electricity,has_water_supply,has_medical_facility,has_food_storage,helicopter_access_only,road_access,nearest_hospital_km,nearest_police_station_km,contact_number,district_nodal_officer,last_used_year,structural_condition
+SH_0001,Almora Dharamshala 1,Almora,Uttarakhand,Dharamshala,500,0,29.7275,79.7903,1541,True,True,False,True,False,True,7.3,4.7,01046-523547,Officer_302,2019,Good
+SH_0002,Almora Army Camp 2,Almora,Uttarakhand,Army Camp,300,0,29.6075,79.755,1537,True,True,True,True,False,True,35.0,2.7,01787-257155,Officer_615,2024,Good
+SH_0003,Almora Army Camp 3,Almora,Uttarakhand,Army Camp,400,0,29.5401,79.6551,1603,True,True,True,False,False,True,41.9,14.4,04860-831194,Officer_202,2024,Good
+SH_0004,Almora ITBP Camp 4,Almora,Uttarakhand,ITBP Camp,1500,0,29.4998,79.5217,1562,True,True,False,False,False,True,6.2,8.4,06586-946551,Officer_927,2024,Good
+SH_0005,Bageshwar Government School 1,Bageshwar,Uttarakhand,Government School,600,0,29.9826,79.901,1067,True,True,True,True,False,True,9.3,11.8,06759-589349,Officer_455,2024,Fair
+SH_0006,Bageshwar Government School 2,Bageshwar,Uttarakhand,Government School,600,0,29.7908,79.8286,973,True,True,False,False,False,True,25.8,13.3,07129-728477,Officer_333,2023,Good
+SH_0007,Bageshwar Dharamshala 3,Bageshwar,Uttarakhand,Dharamshala,800,0,29.9439,79.8724,1083,False,True,False,True,False,True,43.1,7.0,07115-975209,Officer_923,2021,Good
+SH_0008,Bageshwar Government School 4,Bageshwar,Uttarakhand,Government School,300,0,29.9655,79.8007,999,True,True,False,True,True,False,10.7,3.5,04757-660109,Officer_694,2022,Needs Repair
+SH_0009,Chamoli Community Hall 1,Chamoli,Uttarakhand,Community Hall,600,0,30.3188,79.1833,2734,True,True,True,True,False,True,24.7,9.2,04067-206801,Officer_598,2019,Fair
+SH_0010,Chamoli Government School 2,Chamoli,Uttarakhand,Government School,600,0,30.5105,79.4161,2838,True,True,True,True,False,True,29.1,20.5,07097-443715,Officer_883,2024,Fair
+SH_0011,Chamoli Army Camp 3,Chamoli,Uttarakhand,Army Camp,200,0,30.4587,79.3346,2825,True,True,True,True,False,True,36.3,20.7,01096-534179,Officer_234,2021,Needs Repair
+SH_0012,Chamoli Community Hall 4,Chamoli,Uttarakhand,Community Hall,800,0,30.458,79.3384,2723,True,True,False,False,False,True,15.9,27.7,04144-670909,Officer_711,2019,Good
+SH_0013,Chamoli Dharamshala 5,Chamoli,Uttarakhand,Dharamshala,300,0,30.45,79.363,2723,True,True,True,True,False,True,12.4,27.9,01178-297167,Officer_807,2022,Good
+SH_0014,Chamoli ITBP Camp 6,Chamoli,Uttarakhand,ITBP Camp,300,0,30.301,79.2478,2742,True,True,False,False,False,True,5.3,26.4,01153-152590,Officer_457,2021,Good
+SH_0015,Chamoli Helipad Camp 7,Chamoli,Uttarakhand,Helipad Camp,400,0,30.3367,79.3963,2883,True,True,False,False,True,False,33.7,7.2,04624-181264,Officer_794,2021,Fair
+SH_0016,Champawat ITBP Camp 1,Champawat,Uttarakhand,ITBP Camp,600,0,29.3703,80.0015,1535,True,True,True,True,True,False,8.6,5.4,07201-521510,Officer_842,2024,Good
+SH_0017,Champawat District HQ 2,Champawat,Uttarakhand,District HQ,600,0,29.3148,80.2363,1580,True,True,False,False,True,False,9.7,21.8,07556-647332,Officer_749,2019,Fair
+SH_0018,Champawat Army Camp 3,Champawat,Uttarakhand,Army Camp,300,0,29.3321,80.0362,1673,True,False,True,True,True,False,12.6,21.2,07587-741404,Officer_195,2022,Good
+SH_0019,Champawat ITBP Camp 4,Champawat,Uttarakhand,ITBP Camp,500,0,29.4389,79.9697,1578,True,False,False,True,True,False,33.3,14.5,03466-604669,Officer_106,2022,Good
+SH_0020,Champawat ITBP Camp 5,Champawat,Uttarakhand,ITBP Camp,150,0,29.1894,79.9944,1699,True,True,False,True,False,True,13.9,11.0,03430-529277,Officer_730,2020,Good
+SH_0021,Champawat Army Camp 6,Champawat,Uttarakhand,Army Camp,300,0,29.1968,80.0155,1530,True,True,True,True,False,True,9.6,28.3,04891-554842,Officer_996,2023,Fair
+SH_0022,Champawat ITBP Camp 7,Champawat,Uttarakhand,ITBP Camp,800,0,29.2712,80.231,1684,True,True,True,True,True,False,39.9,12.1,04697-755584,Officer_786,2019,Good
+SH_0023,Champawat District HQ 8,Champawat,Uttarakhand,District HQ,300,0,29.3668,80.0168,1650,False,True,False,True,True,False,29.7,15.4,07576-605800,Officer_441,2024,Good
+SH_0024,Dehradun Government School 1,Dehradun,Uttarakhand,Government School,400,0,30.2733,78.0407,911,True,True,True,True,False,True,35.7,22.3,08034-647309,Officer_119,2023,Good
+SH_0025,Dehradun Helipad Camp 2,Dehradun,Uttarakhand,Helipad Camp,1000,0,30.4558,77.9086,963,False,True,False,True,True,False,18.8,1.7,08165-388806,Officer_940,2024,Good
+SH_0026,Dehradun Helipad Camp 3,Dehradun,Uttarakhand,Helipad Camp,300,0,30.4241,77.8936,984,False,True,True,True,True,False,44.8,22.2,09698-481114,Officer_461,2019,Good
+SH_0027,Dehradun Government School 4,Dehradun,Uttarakhand,Government School,1000,0,30.2271,77.9862,883,True,True,False,True,False,True,35.3,17.4,06640-499115,Officer_119,2023,Good
+SH_0028,Dehradun Government School 5,Dehradun,Uttarakhand,Government School,600,0,30.2526,78.1814,825,False,True,False,False,False,True,7.0,27.0,02585-941946,Officer_679,2021,Good
+SH_0029,Dehradun District HQ 6,Dehradun,Uttarakhand,District HQ,1500,0,30.2931,78.0961,874,True,True,True,True,False,True,29.4,3.2,07228-205544,Officer_355,2024,Good
+SH_0030,Dehradun Helipad Camp 7,Dehradun,Uttarakhand,Helipad Camp,800,0,30.3064,77.9401,960,True,True,True,True,True,False,23.4,20.2,01138-816030,Officer_779,2023,Needs Repair
+SH_0031,Dehradun Government School 8,Dehradun,Uttarakhand,Government School,300,0,30.41,77.9088,975,True,True,False,True,False,True,22.1,20.8,06576-542409,Officer_310,2024,Good
+SH_0032,Haridwar Dharamshala 1,Haridwar,Uttarakhand,Dharamshala,200,0,29.9109,78.1092,225,True,False,True,True,False,True,44.3,21.2,01309-805811,Officer_159,2021,Needs Repair
+SH_0033,Haridwar Dharamshala 2,Haridwar,Uttarakhand,Dharamshala,800,0,29.9595,78.2648,215,True,True,False,False,False,True,3.8,12.7,07825-912643,Officer_377,2020,Good
+SH_0034,Haridwar Government School 3,Haridwar,Uttarakhand,Government School,400,0,29.8107,78.072,234,True,True,True,True,False,True,20.6,21.7,07962-282278,Officer_961,2024,Good
+SH_0035,Haridwar Army Camp 4,Haridwar,Uttarakhand,Army Camp,300,0,29.9269,78.2546,242,True,True,True,True,False,True,27.5,6.9,08570-705599,Officer_973,2024,Good
+SH_0036,Haridwar Helipad Camp 5,Haridwar,Uttarakhand,Helipad Camp,400,0,30.0264,78.17,338,True,True,True,True,True,False,6.6,11.0,07580-699071,Officer_499,2023,Fair
+SH_0037,Nainital Dharamshala 1,Nainital,Uttarakhand,Dharamshala,400,0,29.2578,79.574,1989,True,True,False,True,False,True,45.0,8.8,06821-142201,Officer_792,2024,Good
+SH_0038,Nainital District HQ 2,Nainital,Uttarakhand,District HQ,1500,0,29.3054,79.4827,2142,False,True,True,True,False,True,40.9,5.0,01327-459030,Officer_694,2020,Fair
+SH_0039,Nainital Army Camp 3,Nainital,Uttarakhand,Army Camp,800,0,29.2803,79.3267,2072,True,True,False,True,False,True,28.3,16.2,01539-935207,Officer_387,2022,Needs Repair
+SH_0040,Nainital Army Camp 4,Nainital,Uttarakhand,Army Camp,500,0,29.5029,79.5634,2013,True,True,True,True,False,True,9.1,3.2,09832-321152,Officer_144,2023,Good
+SH_0041,Nainital Dharamshala 5,Nainital,Uttarakhand,Dharamshala,600,0,29.3151,79.3481,2168,True,False,True,False,False,True,33.9,27.1,06943-291617,Officer_921,2023,Fair
+SH_0042,Nainital ITBP Camp 6,Nainital,Uttarakhand,ITBP Camp,600,0,29.4474,79.3658,2176,True,True,True,True,False,True,18.0,20.1,03423-740112,Officer_856,2022,Needs Repair
+SH_0043,Nainital Government School 7,Nainital,Uttarakhand,Government School,300,0,29.4213,79.481,2150,True,False,True,False,True,False,4.1,2.0,07621-183506,Officer_139,2022,Good
+SH_0044,Pauri Garhwal Government School 1,Pauri Garhwal,Uttarakhand,Government School,600,0,29.6985,78.8412,1814,True,True,False,True,False,True,17.0,16.1,03215-906144,Officer_569,2022,Needs Repair
+SH_0045,Pauri Garhwal District HQ 2,Pauri Garhwal,Uttarakhand,District HQ,500,0,29.7213,78.6379,1789,True,False,True,False,False,True,31.5,9.8,09575-815318,Officer_300,2019,Good
+SH_0046,Pauri Garhwal Helipad Camp 3,Pauri Garhwal,Uttarakhand,Helipad Camp,600,0,29.7297,78.683,1876,True,True,False,False,True,False,44.4,15.5,04894-241253,Officer_428,2022,Fair
+SH_0047,Pauri Garhwal Helipad Camp 4,Pauri Garhwal,Uttarakhand,Helipad Camp,600,0,29.7589,78.7369,1753,True,False,True,True,True,False,37.3,19.1,01419-154222,Officer_768,2021,Good
+SH_0048,Pauri Garhwal Community Hall 5,Pauri Garhwal,Uttarakhand,Community Hall,150,0,29.7927,78.9045,1871,True,True,False,True,False,True,18.3,2.2,07223-117725,Officer_150,2023,Fair
+SH_0049,Pauri Garhwal Army Camp 6,Pauri Garhwal,Uttarakhand,Army Camp,2000,0,29.9398,78.8049,1811,True,True,False,True,False,True,9.8,23.0,07812-996106,Officer_286,2020,Good
+SH_0050,Pauri Garhwal Army Camp 7,Pauri Garhwal,Uttarakhand,Army Camp,400,0,29.7621,78.8161,1913,True,False,True,True,False,True,16.1,5.5,05029-840057,Officer_284,2023,Fair
+SH_0051,Pauri Garhwal Army Camp 8,Pauri Garhwal,Uttarakhand,Army Camp,600,0,29.8522,78.9341,1836,True,True,False,False,False,True,31.9,22.4,04718-123309,Officer_121,2019,Good
+SH_0052,Pithoragarh District HQ 1,Pithoragarh,Uttarakhand,District HQ,500,0,29.4719,80.1332,2487,True,True,True,False,False,True,18.3,29.9,07776-318289,Officer_944,2024,Good
+SH_0053,Pithoragarh ITBP Camp 2,Pithoragarh,Uttarakhand,ITBP Camp,400,0,29.466,80.2512,2384,True,False,True,True,True,False,23.5,12.0,02082-243097,Officer_667,2019,Good
+SH_0054,Pithoragarh District HQ 3,Pithoragarh,Uttarakhand,District HQ,500,0,29.6793,80.3512,2429,True,True,False,False,True,False,37.8,27.9,03438-662502,Officer_525,2021,Good
+SH_0055,Pithoragarh ITBP Camp 4,Pithoragarh,Uttarakhand,ITBP Camp,300,0,29.6421,80.1788,2475,True,True,True,False,False,True,41.5,19.1,05157-500200,Officer_571,2021,Good
+SH_0056,Pithoragarh Helipad Camp 5,Pithoragarh,Uttarakhand,Helipad Camp,600,0,29.6924,80.1515,2319,True,True,False,True,True,False,39.5,14.9,07186-215730,Officer_689,2022,Fair
+SH_0057,Rudraprayag Dharamshala 1,Rudraprayag,Uttarakhand,Dharamshala,200,0,30.2385,78.8765,2275,True,True,False,False,False,True,17.6,3.3,04023-399956,Officer_190,2022,Good
+SH_0058,Rudraprayag Dharamshala 2,Rudraprayag,Uttarakhand,Dharamshala,600,0,30.3209,79.0186,2183,True,True,True,False,True,False,29.6,12.3,04996-308167,Officer_778,2024,Good
+SH_0059,Rudraprayag Community Hall 3,Rudraprayag,Uttarakhand,Community Hall,800,0,30.2794,79.1308,2206,True,True,False,True,True,False,36.9,8.6,06240-607634,Officer_950,2024,Good
+SH_0060,Rudraprayag District HQ 4,Rudraprayag,Uttarakhand,District HQ,600,0,30.4278,79.0014,2265,True,True,True,True,False,True,25.1,4.7,03997-860798,Officer_951,2021,Fair
+SH_0061,Rudraprayag District HQ 5,Rudraprayag,Uttarakhand,District HQ,200,0,30.2513,79.0243,2109,False,True,True,False,False,True,7.9,12.4,05308-472742,Officer_318,2021,Fair
+SH_0062,Tehri Garhwal ITBP Camp 1,Tehri Garhwal,Uttarakhand,ITBP Camp,300,0,30.2733,78.4177,1935,True,True,True,True,False,True,6.3,7.7,07916-559003,Officer_812,2019,Fair
+SH_0063,Tehri Garhwal District HQ 2,Tehri Garhwal,Uttarakhand,District HQ,1500,0,30.2625,78.5429,2014,True,True,True,True,True,False,44.0,25.1,03398-407848,Officer_651,2022,Fair
+SH_0064,Tehri Garhwal Government School 3,Tehri Garhwal,Uttarakhand,Government School,400,0,30.2327,78.4659,1921,True,True,False,True,False,True,19.4,28.8,01996-861301,Officer_108,2020,Good
+SH_0065,Tehri Garhwal ITBP Camp 4,Tehri Garhwal,Uttarakhand,ITBP Camp,1000,0,30.363,78.5816,2071,True,True,True,True,True,False,44.0,18.6,03608-974744,Officer_976,2023,Fair
+SH_0066,Tehri Garhwal Community Hall 5,Tehri Garhwal,Uttarakhand,Community Hall,200,0,30.4669,78.2989,1921,False,True,False,False,False,True,39.6,6.5,09308-804397,Officer_681,2021,Fair
+SH_0067,Tehri Garhwal Army Camp 6,Tehri Garhwal,Uttarakhand,Army Camp,400,0,30.4423,78.3658,1930,False,True,False,False,True,False,24.4,17.6,09356-708654,Officer_152,2021,Good
+SH_0068,Udham Singh Nagar Dharamshala 1,Udham Singh Nagar,Uttarakhand,Dharamshala,500,0,28.877,79.5662,342,False,True,True,True,False,True,30.3,5.6,01582-896615,Officer_421,2023,Needs Repair
+SH_0069,Udham Singh Nagar ITBP Camp 2,Udham Singh Nagar,Uttarakhand,ITBP Camp,600,0,29.102,79.5103,238,True,True,False,True,False,True,25.7,10.6,06818-824290,Officer_688,2024,Needs Repair
+SH_0070,Udham Singh Nagar Government School 3,Udham Singh Nagar,Uttarakhand,Government School,400,0,28.8801,79.6111,333,False,True,False,False,False,True,44.2,9.7,04943-231317,Officer_893,2022,Good
+SH_0071,Udham Singh Nagar Community Hall 4,Udham Singh Nagar,Uttarakhand,Community Hall,500,0,28.9882,79.4731,148,True,True,True,True,False,True,16.6,14.8,06764-898816,Officer_931,2022,Good
+SH_0072,Udham Singh Nagar District HQ 5,Udham Singh Nagar,Uttarakhand,District HQ,400,0,29.087,79.6158,242,True,False,False,True,False,True,19.0,28.2,03139-378429,Officer_113,2024,Good
+SH_0073,Udham Singh Nagar District HQ 6,Udham Singh Nagar,Uttarakhand,District HQ,500,0,29.0614,79.5972,199,True,True,True,True,False,True,12.5,7.8,04191-604412,Officer_540,2020,Fair
+SH_0074,Udham Singh Nagar Dharamshala 7,Udham Singh Nagar,Uttarakhand,Dharamshala,800,0,28.8172,79.4058,316,False,False,True,False,False,True,24.1,7.4,05423-694464,Officer_372,2021,Good
+SH_0075,Udham Singh Nagar District HQ 8,Udham Singh Nagar,Uttarakhand,District HQ,600,0,28.8386,79.4763,169,True,True,True,True,False,True,29.8,10.8,04140-119110,Officer_576,2024,Needs Repair
+SH_0076,Uttarkashi Government School 1,Uttarkashi,Uttarakhand,Government School,1000,0,30.6868,78.5304,2680,True,True,True,True,True,False,27.6,7.9,03710-452100,Officer_914,2024,Good
+SH_0077,Uttarkashi District HQ 2,Uttarkashi,Uttarakhand,District HQ,200,0,30.7785,78.3692,2508,False,False,False,False,False,True,26.3,29.5,06429-132282,Officer_396,2024,Good
+SH_0078,Uttarkashi Community Hall 3,Uttarkashi,Uttarakhand,Community Hall,2000,0,30.7859,78.4236,2648,True,False,False,True,False,True,8.5,22.5,08579-683919,Officer_340,2024,Good
+SH_0079,Uttarkashi Army Camp 4,Uttarkashi,Uttarakhand,Army Camp,400,0,30.7471,78.3695,2679,True,True,True,True,False,True,17.6,27.8,08431-773918,Officer_131,2020,Good
+SH_0080,Uttarkashi Helipad Camp 5,Uttarkashi,Uttarakhand,Helipad Camp,400,0,30.6963,78.3481,2632,True,True,True,False,True,False,40.4,15.6,03129-308308,Officer_455,2023,Good
+SH_0081,Uttarkashi District HQ 6,Uttarkashi,Uttarakhand,District HQ,300,0,30.8339,78.3426,2602,True,True,False,True,False,True,13.1,8.7,04708-970670,Officer_201,2024,Good

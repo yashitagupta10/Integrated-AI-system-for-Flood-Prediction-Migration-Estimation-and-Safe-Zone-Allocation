@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FloodSense — Disaster Intelligence System</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+:root {
+  --bg:       #050a0f;
+  --surface:  #0a1520;
+  --surface2: #0f1e2e;
+  --border:   #1a3040;
+  --accent:   #00d4ff;
+  --accent2:  #0088aa;
+  --red:      #ff3b3b;
+  --orange:   #ff8c00;
+  --yellow:   #ffd700;
+  --green:    #00e676;
+  --text:     #e0f0ff;
+  --muted:    #4a7090;
+  --font:     'Outfit', sans-serif;
+  --mono:     'Space Mono', monospace;
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--font);
+  min-height:100vh;overflow-x:hidden;cursor:default}
+
+/* ANIMATED BACKGROUND */
+body::before{content:'';position:fixed;inset:0;
+  background:
+    radial-gradient(ellipse 60% 40% at 20% 20%, rgba(0,180,255,.06) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 50% at 80% 80%, rgba(0,80,120,.08) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 60% at 50% 50%, rgba(0,50,80,.04) 0%, transparent 70%);
+  pointer-events:none;z-index:0}
+
+/* GRID OVERLAY */
+body::after{content:'';position:fixed;inset:0;
+  background-image:
+    linear-gradient(rgba(0,180,255,.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,180,255,.03) 1px, transparent 1px);
+  background-size:40px 40px;pointer-events:none;z-index:0}
+
+.wrap{position:relative;z-index:1}
+
+/* ═══════════════ HEADER ═══════════════ */
+header{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:18px 32px;
+  border-bottom:1px solid var(--border);
+  background:rgba(5,10,15,.8);
+  backdrop-filter:blur(20px);
+  position:sticky;top:0;z-index:100;
+}
+.logo{display:flex;align-items:center;gap:12px}
+.logo-icon{
+  width:42px;height:42px;border-radius:10px;
+  background:linear-gradient(135deg,#003d5c,#00d4ff22);
+  border:1px solid var(--accent);
+  display:flex;align-items:center;justify-content:center;
+  font-size:20px;
+  box-shadow:0 0 20px rgba(0,212,255,.2);
+  animation:pulse-logo 3s ease-in-out infinite;
+}
+@keyframes pulse-logo{0%,100%{box-shadow:0 0 20px rgba(0,212,255,.2)}
+  50%{box-shadow:0 0 35px rgba(0,212,255,.4)}}
+.logo-text h1{font-size:18px;font-weight:800;color:var(--accent);
+  letter-spacing:2px;text-transform:uppercase;font-family:var(--mono)}
+.logo-text p{font-size:10px;color:var(--muted);letter-spacing:1px;text-transform:uppercase}
+
+.header-status{display:flex;align-items:center;gap:20px}
+.status-pill{display:flex;align-items:center;gap:6px;
+  padding:5px 12px;border-radius:20px;font-size:11px;font-weight:600;
+  background:rgba(0,230,118,.08);border:1px solid rgba(0,230,118,.3);color:var(--green);
+  font-family:var(--mono)}
+.status-dot{width:6px;height:6px;border-radius:50%;background:var(--green);
+  animation:blink 1.5s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+.data-pill{font-size:11px;color:var(--muted);font-family:var(--mono);
+  padding:5px 12px;border:1px solid var(--border);border-radius:20px}
+
+/* ═══════════════ REGION TABS ═══════════════ */
+.region-bar{display:flex;gap:0;padding:0 32px;
+  border-bottom:1px solid var(--border);background:rgba(5,10,15,.6)}
+.rtab{padding:14px 28px;font-size:13px;font-weight:600;cursor:pointer;
+  border:none;background:transparent;color:var(--muted);
+  border-bottom:2px solid transparent;transition:all .25s;letter-spacing:.5px;
+  display:flex;align-items:center;gap:8px;font-family:var(--font)}
+.rtab:hover{color:var(--text)}
+.rtab.active{color:var(--accent);border-bottom-color:var(--accent)}
+.rtab .rtab-count{font-size:10px;background:rgba(0,212,255,.1);
+  border:1px solid rgba(0,212,255,.2);border-radius:10px;
+  padding:1px 7px;font-family:var(--mono)}
+
+/* ═══════════════ MAIN GRID ═══════════════ */
+.main{display:grid;grid-template-columns:340px 1fr;gap:0;
+  min-height:calc(100vh - 110px)}
+
+/* ═══════════════ LEFT SIDEBAR ═══════════════ */
+.sidebar{border-right:1px solid var(--border);padding:24px 20px;
+  display:flex;flex-direction:column;gap:18px;overflow-y:auto;
+  background:rgba(10,21,32,.5)}
+
+.section-label{font-size:10px;font-weight:700;color:var(--muted);
+  text-transform:uppercase;letter-spacing:2px;font-family:var(--mono);
+  margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.section-label::after{content:'';flex:1;height:1px;background:var(--border)}
+
+/* DISTRICT SELECTOR */
+.district-select-wrap{position:relative}
+.district-select-wrap select{
+  width:100%;padding:11px 14px;
+  background:var(--surface2);border:1px solid var(--border);
+  border-radius:8px;color:var(--text);font-size:13px;
+  font-family:var(--font);outline:none;cursor:pointer;
+  transition:border .2s;appearance:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%234a7090' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 12px center;padding-right:32px}
+.district-select-wrap select:focus{border-color:var(--accent)}
+
+/* DISTRICT INFO CARDS */
+.dist-info-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.dinfo{background:var(--surface2);border:1px solid var(--border);
+  border-radius:8px;padding:10px 12px;transition:border .2s}
+.dinfo.highlight{border-color:rgba(0,212,255,.3);background:rgba(0,212,255,.04)}
+.dinfo .dk{font-size:10px;color:var(--muted);font-weight:600;
+  text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
+.dinfo .dv{font-size:15px;font-weight:700;color:var(--accent);font-family:var(--mono)}
+.dinfo .dv.warn{color:var(--orange)}
+.dinfo .dv.ok{color:var(--green)}
+.dinfo .dv.sm{font-size:12px}
+
+/* INPUTS */
+.inp-group{display:flex;flex-direction:column;gap:6px}
+.inp-group label{font-size:11px;font-weight:600;color:var(--muted);
+  text-transform:uppercase;letter-spacing:.5px;display:flex;
+  align-items:center;justify-content:space-between}
+.inp-group label span{color:var(--accent);font-family:var(--mono)}
+.inp-wrap{position:relative}
+.inp-wrap input{
+  width:100%;padding:11px 14px;
+  background:var(--surface2);border:1px solid var(--border);
+  border-radius:8px;color:var(--text);font-size:14px;
+  font-family:var(--mono);outline:none;transition:all .2s}
+.inp-wrap input:focus{border-color:var(--accent);
+  box-shadow:0 0 0 3px rgba(0,212,255,.08)}
+.inp-wrap .unit{position:absolute;right:12px;top:50%;transform:translateY(-50%);
+  font-size:11px;color:var(--muted);font-family:var(--mono)}
+
+/* RANGE SLIDER */
+.range-wrap{padding:4px 0}
+input[type=range]{width:100%;-webkit-appearance:none;height:4px;
+  border-radius:2px;background:var(--border);outline:none;cursor:pointer}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;
+  width:16px;height:16px;border-radius:50%;background:var(--accent);
+  box-shadow:0 0 8px rgba(0,212,255,.5);cursor:pointer;transition:transform .15s}
+input[type=range]::-webkit-slider-thumb:hover{transform:scale(1.2)}
+.range-labels{display:flex;justify-content:space-between;
+  font-size:10px;color:var(--muted);font-family:var(--mono);margin-top:4px}
+
+/* SLOPE SECTION */
+#slope-section{display:none}
+
+/* PREDICT BUTTON */
+.predict-btn{
+  width:100%;padding:14px;border:none;border-radius:10px;
+  font-size:14px;font-weight:700;cursor:pointer;
+  font-family:var(--font);letter-spacing:.5px;
+  position:relative;overflow:hidden;transition:all .2s;
+  background:linear-gradient(135deg,#004d6e,#007a9e);
+  color:var(--accent);border:1px solid rgba(0,212,255,.3);
+}
+.predict-btn::before{content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,rgba(0,212,255,.15),transparent);
+  opacity:0;transition:opacity .2s}
+.predict-btn:hover::before{opacity:1}
+.predict-btn:hover{box-shadow:0 0 30px rgba(0,212,255,.2);transform:translateY(-1px)}
+.predict-btn:active{transform:translateY(0)}
+.predict-btn:disabled{opacity:.4;cursor:not-allowed;transform:none}
+.predict-btn .btn-inner{display:flex;align-items:center;justify-content:center;gap:8px}
+.predict-btn .spinner{display:none;width:16px;height:16px;border:2px solid rgba(0,212,255,.3);
+  border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* QUICK SCENARIOS */
+.scenario-btns{display:flex;gap:6px;flex-wrap:wrap}
+.scen-btn{padding:5px 10px;border-radius:6px;border:1px solid var(--border);
+  background:var(--surface2);color:var(--muted);font-size:11px;
+  cursor:pointer;transition:all .2s;font-family:var(--mono)}
+.scen-btn:hover{border-color:var(--accent);color:var(--accent)}
+
+/* ═══════════════ RIGHT PANEL ═══════════════ */
+.right-panel{display:flex;flex-direction:column}
+
+/* MAP */
+.map-wrap{position:relative;height:320px;flex-shrink:0}
+#map{height:100%;width:100%}
+.map-overlay{position:absolute;top:12px;left:12px;z-index:999;
+  display:flex;flex-direction:column;gap:6px}
+.map-badge{background:rgba(5,10,15,.85);backdrop-filter:blur(10px);
+  border:1px solid var(--border);border-radius:8px;padding:6px 10px;
+  font-size:11px;font-family:var(--mono);color:var(--text)}
+.map-badge span{color:var(--accent)}
+
+/* ═══════════════ RESULTS ═══════════════ */
+.results-area{padding:20px;display:flex;flex-direction:column;gap:16px;
+  background:rgba(5,10,15,.3)}
+
+/* EMPTY STATE */
+.empty-state{display:flex;flex-direction:column;align-items:center;
+  justify-content:center;padding:50px;color:var(--muted);text-align:center;gap:12px}
+.empty-icon{font-size:48px;opacity:.3;animation:float 4s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.empty-state h3{font-size:16px;font-weight:600;color:var(--muted)}
+.empty-state p{font-size:13px;opacity:.7}
+
+/* ALERT BANNER */
+.alert-banner{border-radius:12px;padding:16px 20px;
+  display:flex;align-items:center;gap:16px;
+  animation:slide-in .4s ease;border:1px solid}
+@keyframes slide-in{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}
+.alert-banner.RED   {background:rgba(255,59,59,.08);border-color:rgba(255,59,59,.3)}
+.alert-banner.ORANGE{background:rgba(255,140,0,.08);border-color:rgba(255,140,0,.3)}
+.alert-banner.YELLOW{background:rgba(255,215,0,.08);border-color:rgba(255,215,0,.3)}
+.alert-banner.GREEN {background:rgba(0,230,118,.08);border-color:rgba(0,230,118,.3)}
+.alert-icon{font-size:32px;flex-shrink:0}
+.alert-title{font-size:18px;font-weight:800;font-family:var(--mono);letter-spacing:1px}
+.alert-sub{font-size:13px;color:var(--muted);margin-top:2px}
+.alert-banner.RED    .alert-title{color:var(--red)}
+.alert-banner.ORANGE .alert-title{color:var(--orange)}
+.alert-banner.YELLOW .alert-title{color:var(--yellow)}
+.alert-banner.GREEN  .alert-title{color:var(--green)}
+
+/* METRICS ROW */
+.metrics-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.metric-card{background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:16px;position:relative;overflow:hidden;
+  animation:fade-up .4s ease backwards}
+@keyframes fade-up{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}
+.metric-card::before{content:'';position:absolute;top:0;left:0;right:0;
+  height:2px;background:var(--accent)}
+.metric-card.danger::before{background:var(--red)}
+.metric-card.warn::before{background:var(--orange)}
+.metric-card.ok::before{background:var(--green)}
+.mc-label{font-size:10px;color:var(--muted);font-weight:600;
+  text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;font-family:var(--mono)}
+.mc-value{font-size:24px;font-weight:800;font-family:var(--mono);color:var(--text)}
+.mc-value.accent{color:var(--accent)}
+.mc-value.danger{color:var(--red)}
+.mc-value.warn{color:var(--orange)}
+.mc-value.ok{color:var(--green)}
+.mc-sub{font-size:11px;color:var(--muted);margin-top:4px}
+
+/* DETAILS GRID */
+.details-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
+.detail-card{background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:18px;animation:fade-up .5s ease backwards}
+.detail-card h3{font-size:12px;font-weight:700;color:var(--muted);
+  text-transform:uppercase;letter-spacing:1px;margin-bottom:14px;
+  font-family:var(--mono);display:flex;align-items:center;gap:7px}
+.detail-card h3 .dicon{font-size:16px}
+
+/* DATA ROWS */
+.drow{display:flex;justify-content:space-between;align-items:center;
+  padding:7px 0;border-bottom:1px solid rgba(26,48,64,.5);font-size:12px}
+.drow:last-child{border:none}
+.dk{color:var(--muted)}
+.dv{font-weight:600;font-family:var(--mono);color:var(--text)}
+.dv.red{color:var(--red)}
+.dv.orange{color:var(--orange)}
+.dv.green{color:var(--green)}
+.dv.accent{color:var(--accent)}
+
+/* SHELTER BARS */
+.shelter-item{margin-bottom:12px}
+.sh-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:5px}
+.sh-name{font-size:11px;color:var(--text);font-weight:500}
+.sh-pct{font-size:11px;font-family:var(--mono);color:var(--muted)}
+.sh-bar-bg{height:6px;background:rgba(26,48,64,.8);border-radius:3px;overflow:hidden}
+.sh-bar{height:100%;border-radius:3px;transition:width 1s cubic-bezier(.4,0,.2,1)}
+.sh-meta{display:flex;justify-content:space-between;font-size:10px;
+  color:var(--muted);margin-top:3px;font-family:var(--mono)}
+.shelter-scroll{max-height:200px;overflow-y:auto;padding-right:4px}
+.shelter-scroll::-webkit-scrollbar{width:3px}
+.shelter-scroll::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+
+/* VULNERABLE PILLS */
+.vpills{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.vpill{background:rgba(0,212,255,.06);border:1px solid rgba(0,212,255,.15);
+  border-radius:20px;padding:3px 9px;font-size:10px;color:var(--accent);
+  font-family:var(--mono)}
+
+/* HISTORICAL EVENT */
+.hist-event{background:rgba(255,140,0,.05);border:1px solid rgba(255,140,0,.2);
+  border-radius:8px;padding:12px;margin-top:10px}
+.hist-title{font-size:11px;color:var(--orange);font-weight:700;
+  font-family:var(--mono);margin-bottom:8px;display:flex;align-items:center;gap:6px}
+
+/* HELI NOTICE */
+.heli-notice{background:rgba(0,212,255,.06);border:1px solid rgba(0,212,255,.2);
+  border-radius:8px;padding:10px 12px;font-size:12px;color:var(--accent);
+  display:flex;align-items:center;gap:8px;margin:8px 0;font-family:var(--mono)}
+
+/* WARNING BOX */
+.warn-box{background:rgba(255,59,59,.06);border:1px solid rgba(255,59,59,.25);
+  border-radius:8px;padding:10px 12px;font-size:12px;color:var(--red);
+  display:flex;align-items:center;gap:8px;margin:6px 0}
+
+/* PROGRESS RING */
+.progress-ring-wrap{display:flex;align-items:center;gap:12px;margin-top:8px}
+.ring-label{font-size:11px;color:var(--muted)}
+
+/* RIVER STATUS */
+.river-ok{color:var(--green)}
+.river-warn{color:var(--orange)}
+.river-danger{color:var(--red)}
+
+/* ARIMA TAG */
+.arima-tag{display:inline-flex;align-items:center;gap:5px;
+  background:rgba(0,230,118,.06);border:1px solid rgba(0,230,118,.2);
+  border-radius:4px;padding:2px 8px;font-size:10px;color:var(--green);
+  font-family:var(--mono);margin-top:6px}
+
+/* LOADING OVERLAY */
+.loading-overlay{display:none;position:fixed;inset:0;z-index:999;
+  background:rgba(5,10,15,.7);backdrop-filter:blur(4px);
+  align-items:center;justify-content:center;flex-direction:column;gap:16px}
+.loading-overlay.show{display:flex}
+.loading-text{font-size:14px;color:var(--accent);font-family:var(--mono);
+  animation:pulse 1.5s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.load-dots{display:flex;gap:6px}
+.load-dot{width:8px;height:8px;border-radius:50%;background:var(--accent);
+  animation:bounce .8s ease-in-out infinite}
+.load-dot:nth-child(2){animation-delay:.15s}
+.load-dot:nth-child(3){animation-delay:.3s}
+@keyframes bounce{0%,100%{transform:translateY(0);opacity:.4}
+  50%{transform:translateY(-8px);opacity:1}}
+
+/* TOOLTIPS */
+[data-tip]{position:relative;cursor:help}
+[data-tip]:hover::after{content:attr(data-tip);position:absolute;
+  bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);
+  background:var(--surface2);border:1px solid var(--border);
+  border-radius:6px;padding:5px 10px;font-size:11px;color:var(--text);
+  white-space:nowrap;pointer-events:none;z-index:999;font-family:var(--font)}
+
+/* ANIMATIONS */
+.metric-card:nth-child(1){animation-delay:.05s}
+.metric-card:nth-child(2){animation-delay:.1s}
+.metric-card:nth-child(3){animation-delay:.15s}
+.metric-card:nth-child(4){animation-delay:.2s}
+.detail-card:nth-child(1){animation-delay:.25s}
+.detail-card:nth-child(2){animation-delay:.3s}
+.detail-card:nth-child(3){animation-delay:.35s}
+
+/* COUNTER ANIMATION */
+@keyframes count-up{from{opacity:0}to{opacity:1}}
+.count-anim{animation:count-up .5s ease}
+
+/* SCROLLBAR */
+::-webkit-scrollbar{width:4px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<!-- LOADING OVERLAY -->
+<div class="loading-overlay" id="loading-overlay">
+  <div class="load-dots">
+    <div class="load-dot"></div>
+    <div class="load-dot"></div>
+    <div class="load-dot"></div>
+  </div>
+  <div class="loading-text">RUNNING AI ANALYSIS...</div>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">
+    <div class="logo-icon">🌊</div>
+    <div class="logo-text">
+      <h1>FloodSense</h1>
+      <p>Disaster Intelligence System</p>
+    </div>
+  </div>
+  <div class="header-status">
+    <div class="data-pill" id="data-pill">449,083 rows loaded</div>
+    <div class="status-pill"><div class="status-dot"></div>SYSTEM ONLINE</div>
+    <div style="display:flex;align-items:center;gap:10px;padding-left:10px;border-left:1px solid #1a3040">
+      <div style="font-size:12px;color:#7dd3fc;font-family:Space Mono,monospace">👤 {{ user_name }}</div>
+      <a href="/logout" style="padding:5px 12px;border-radius:6px;background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.3);color:#fca5a5;font-size:11px;font-weight:700;text-decoration:none;font-family:Space Mono,monospace;letter-spacing:.5px">LOGOUT</a>
+    </div>
+  </div>
+</header>
+
+<!-- REGION TABS -->
+<div class="region-bar">
+  <button class="rtab active" onclick="setRegion('Maharashtra',this)">
+    🌧 Maharashtra <span class="rtab-count" id="mh-count">36</span>
+  </button>
+  <button class="rtab" onclick="setRegion('Uttarakhand',this)">
+    🏔 Uttarakhand <span class="rtab-count" id="uk-count">13</span>
+  </button>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+
+    <!-- DISTRICT -->
+    <div>
+      <div class="section-label">District Selection</div>
+      <div class="district-select-wrap">
+        <select id="dist-sel" onchange="onDistrictChange()">
+          <option value="">— Select District —</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- DISTRICT INFO -->
+    <div class="dist-info-grid" id="dist-info" style="display:none">
+      <div class="dinfo highlight">
+        <div class="dk">Population</div>
+        <div class="dv sm" id="i-pop">—</div>
+      </div>
+      <div class="dinfo">
+        <div class="dk">Elevation</div>
+        <div class="dv" id="i-elev">—</div>
+      </div>
+      <div class="dinfo">
+        <div class="dk">River</div>
+        <div class="dv sm accent" id="i-river">—</div>
+      </div>
+      <div class="dinfo">
+        <div class="dk">Flood Prone</div>
+        <div class="dv" id="i-prone">—</div>
+      </div>
+    </div>
+
+    <!-- RAINFALL INPUT -->
+    <div>
+      <div class="section-label">Parameters</div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+
+        <div class="inp-group">
+          <label>Rainfall <span id="rain-val">—</span></label>
+          <div class="range-wrap">
+            <input type="range" id="rainfall-range" min="0" max="500" value="0"
+              oninput="syncRain(this.value)">
+            <div class="range-labels"><span>0 mm</span><span>250</span><span>500 mm</span></div>
+          </div>
+          <div class="inp-wrap" style="margin-top:6px">
+            <input type="number" id="rainfall" placeholder="Or type value..." min="0" max="1000"
+              oninput="syncRainInput(this.value)">
+            <span class="unit">mm</span>
+          </div>
+        </div>
+
+        <div class="inp-group">
+          <label>Affected Area <span id="area-val">—</span></label>
+          <div class="inp-wrap">
+            <input type="number" id="area" placeholder="e.g. 25" min="1"
+              oninput="document.getElementById('area-val').textContent=this.value?this.value+'km²':'—'">
+            <span class="unit">km²</span>
+          </div>
+        </div>
+
+        <div class="inp-group" id="slope-section" style="display:none">
+          <label>Slope Angle <span id="slope-val">—</span></label>
+          <div class="range-wrap">
+            <input type="range" id="slope-range" min="0" max="60" value="15"
+              oninput="syncSlope(this.value)">
+            <div class="range-labels"><span>0°</span><span>30°</span><span>60°</span></div>
+          </div>
+          <div class="inp-wrap" style="margin-top:6px">
+            <input type="number" id="slope" placeholder="Degrees..." min="0" max="90"
+              oninput="syncSlopeInput(this.value)">
+            <span class="unit">deg</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- QUICK SCENARIOS -->
+    <div>
+      <div class="section-label">Quick Scenarios</div>
+      <div class="scenario-btns">
+        <button class="scen-btn" onclick="loadScenario('low')">🟢 Low Risk</button>
+        <button class="scen-btn" onclick="loadScenario('moderate')">🟡 Moderate</button>
+        <button class="scen-btn" onclick="loadScenario('high')">🔴 High Risk</button>
+        <button class="scen-btn" onclick="loadScenario('extreme')">💀 Extreme</button>
+      </div>
+    </div>
+
+    <!-- PREDICT -->
+    <button class="predict-btn" id="pbtn" onclick="predict()">
+      <div class="btn-inner">
+        <div class="spinner" id="btn-spinner"></div>
+        <span id="btn-text">⚡ ANALYZE & PREDICT</span>
+      </div>
+    </button>
+
+    <!-- DATASET INFO -->
+    <div style="background:var(--surface2);border:1px solid var(--border);
+      border-radius:8px;padding:12px;font-size:11px;color:var(--muted)">
+      <div style="color:var(--accent);font-weight:700;font-family:var(--mono);
+        margin-bottom:8px;font-size:10px;letter-spacing:1px">📊 ACTIVE DATASETS</div>
+      <div style="display:flex;flex-direction:column;gap:4px">
+        <div>📁 Rainfall — 447,125 daily records</div>
+        <div>📁 Census — 49 districts</div>
+        <div>📁 Elevation — 1,470 grid points</div>
+        <div>📁 Shelters — 299 relief camps</div>
+        <div>📁 Flood History — 70 events (2000–2024)</div>
+        <div>📁 Migration — Real displacement rates</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- RIGHT PANEL -->
+  <div class="right-panel">
+
+    <!-- MAP -->
+    <div class="map-wrap">
+      <div id="map"></div>
+      <div class="map-overlay">
+        <div class="map-badge">🗺 <span id="map-region-label">Maharashtra</span></div>
+        <div class="map-badge" id="map-district-badge" style="display:none">
+          📍 <span id="map-dist-name">—</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- RESULTS -->
+    <div class="results-area" id="results-area">
+      <div class="empty-state">
+        <div class="empty-icon">🌊</div>
+        <h3>No Analysis Yet</h3>
+        <p>Select a district, enter rainfall amount<br>and click Analyze & Predict</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<script>
+// ══════════════════════════════════════════════════════════
+// STATE
+// ══════════════════════════════════════════════════════════
+let region = 'Maharashtra';
+let districts = [];
+let map = null;
+let mapLayers = [];
+let lastResult = null;
+
+// ══════════════════════════════════════════════════════════
+// MAP
+// ══════════════════════════════════════════════════════════
+function initMap(center, zoom) {
+  if (map) map.remove();
+  map = L.map('map', {zoomControl:true, attributionControl:false});
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    maxZoom:19
+  }).addTo(map);
+  map.setView(center, zoom);
+}
+initMap([18.5, 76.0], 6);
+
+function clearMap() {
+  mapLayers.forEach(l => { try{map.removeLayer(l)}catch(e){} });
+  mapLayers = [];
+}
+function addToMap(layer) { layer.addTo(map); mapLayers.push(layer); }
+
+// ══════════════════════════════════════════════════════════
+// SYNC SLIDERS
+// ══════════════════════════════════════════════════════════
+function syncRain(v) {
+  document.getElementById('rainfall').value = v;
+  document.getElementById('rain-val').textContent = v + ' mm';
+}
+function syncRainInput(v) {
+  document.getElementById('rainfall-range').value = Math.min(v, 500);
+  document.getElementById('rain-val').textContent = v ? v + ' mm' : '—';
+}
+function syncSlope(v) {
+  document.getElementById('slope').value = v;
+  document.getElementById('slope-val').textContent = v + '°';
+}
+function syncSlopeInput(v) {
+  document.getElementById('slope-range').value = Math.min(v, 60);
+  document.getElementById('slope-val').textContent = v ? v + '°' : '—';
+}
+
+// ══════════════════════════════════════════════════════════
+// QUICK SCENARIOS
+// ══════════════════════════════════════════════════════════
+const SCENARIOS = {
+  low:      { rain: 40,  area: 10, slope: 8  },
+  moderate: { rain: 120, area: 25, slope: 20 },
+  high:     { rain: 220, area: 50, slope: 32 },
+  extreme:  { rain: 380, area: 80, slope: 45 }
+};
+function loadScenario(type) {
+  const s = SCENARIOS[type];
+  document.getElementById('rainfall').value = s.rain;
+  document.getElementById('rainfall-range').value = Math.min(s.rain, 500);
+  document.getElementById('rain-val').textContent = s.rain + ' mm';
+  document.getElementById('area').value = s.area;
+  document.getElementById('area-val').textContent = s.area + 'km²';
+  if (region === 'Uttarakhand') {
+    document.getElementById('slope').value = s.slope;
+    document.getElementById('slope-range').value = Math.min(s.slope, 60);
+    document.getElementById('slope-val').textContent = s.slope + '°';
+  }
+}
+
+// ══════════════════════════════════════════════════════════
+// REGION SWITCH
+// ══════════════════════════════════════════════════════════
+function setRegion(r, btn) {
+  region = r;
+  document.querySelectorAll('.rtab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('slope-section').style.display =
+    r === 'Uttarakhand' ? 'flex' : 'none';
+  document.getElementById('map-region-label').textContent = r;
+  loadDistricts(r);
+  resetResults();
+}
+
+// ══════════════════════════════════════════════════════════
+// LOAD DISTRICTS
+// ══════════════════════════════════════════════════════════
+function loadDistricts(r) {
+  fetch(`/get_districts/${r}`)
+    .then(res => res.json())
+    .then(data => {
+      districts = data.districts;
+      const sel = document.getElementById('dist-sel');
+      sel.innerHTML = '<option value="">— Select District —</option>';
+      data.districts.forEach(d => {
+        const pop = (d.population/1e5).toFixed(1);
+        sel.innerHTML += `<option value="${d.name}">${d.name} · ${pop}L pop</option>`;
+      });
+      initMap(data.center, data.zoom);
+      // Plot markers
+      data.districts.forEach(d => {
+        if (!d.lat || !d.lon) return;
+        const color = d.flood_prone ? '#ff3b3b' : '#00d4ff';
+        const m = L.circleMarker([d.lat, d.lon], {
+          radius: 5, color, fillColor: color,
+          fillOpacity: 0.5, weight: 1.5
+        }).bindPopup(`<div style="font-family:monospace;font-size:12px;color:#e0f0ff;background:#0a1520;padding:8px;border-radius:6px">
+          <b style="color:#00d4ff">${d.name}</b><br>
+          Pop: ${d.population.toLocaleString()}<br>
+          Elev: ${d.elevation}m | Slope: ${d.slope}°<br>
+          River: ${d.river || 'N/A'}<br>
+          ${d.flood_prone ? '⚠️ Flood Prone' : '✅ Lower Risk'}
+        </div>`);
+        addToMap(m);
+      });
+    });
+}
+
+// ══════════════════════════════════════════════════════════
+// DISTRICT CHANGE
+// ══════════════════════════════════════════════════════════
+function onDistrictChange() {
+  const name = document.getElementById('dist-sel').value;
+  const d = districts.find(x => x.name === name);
+  const infoGrid = document.getElementById('dist-info');
+
+  if (!d) {
+    infoGrid.style.display = 'none';
+    document.getElementById('map-district-badge').style.display = 'none';
+    return;
+  }
+
+  infoGrid.style.display = 'grid';
+  document.getElementById('i-pop').textContent   = d.population.toLocaleString();
+  document.getElementById('i-elev').textContent  = d.elevation + 'm';
+  document.getElementById('i-river').textContent = d.river || 'N/A';
+  const prone = d.flood_prone;
+  const proneEl = document.getElementById('i-prone');
+  proneEl.textContent = prone ? '⚠️ Yes' : '✅ No';
+  proneEl.className   = 'dv ' + (prone ? 'warn' : 'ok');
+
+  if (region === 'Uttarakhand' && d.slope) {
+    syncSlope(d.slope);
+    document.getElementById('slope-range').value = Math.min(d.slope, 60);
+  }
+
+  document.getElementById('map-district-badge').style.display = 'block';
+  document.getElementById('map-dist-name').textContent = name;
+
+  if (d.lat && d.lon) {
+    map.setView([d.lat, d.lon], 10);
+    const marker = L.circleMarker([d.lat, d.lon], {
+      radius:12, color:'#00d4ff', fillColor:'#00d4ff',
+      fillOpacity:.2, weight:2
+    });
+    addToMap(marker);
+  }
+}
+
+// ══════════════════════════════════════════════════════════
+// PREDICT
+// ══════════════════════════════════════════════════════════
+function predict() {
+  const dist = document.getElementById('dist-sel').value;
+  const rain = document.getElementById('rainfall').value;
+  if (!dist) { showToast('Please select a district!'); return; }
+  if (!rain)  { showToast('Please enter rainfall amount!'); return; }
+
+  // Show loading
+  document.getElementById('loading-overlay').classList.add('show');
+  document.getElementById('pbtn').disabled = true;
+  document.getElementById('btn-spinner').style.display = 'block';
+  document.getElementById('btn-text').textContent = 'ANALYZING...';
+
+  fetch('/predict', {
+    method: 'POST',
+    headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({
+      region, district: dist, rainfall: rain,
+      area:  document.getElementById('area').value  || 20,
+      slope: document.getElementById('slope').value || 15
+    })
+  })
+  .then(r => r.json())
+  .then(data => {
+    document.getElementById('loading-overlay').classList.remove('show');
+    document.getElementById('pbtn').disabled = false;
+    document.getElementById('btn-spinner').style.display = 'none';
+    document.getElementById('btn-text').textContent = '⚡ ANALYZE & PREDICT';
+
+    if (data.status === 'error') {
+      document.getElementById('results-area').innerHTML =
+        `<div class="empty-state"><div class="empty-icon">❌</div>
+         <h3>Error</h3><p>${data.message}</p></div>`;
+      return;
+    }
+    lastResult = data;
+    renderResults(data);
+  })
+  .catch(() => {
+    document.getElementById('loading-overlay').classList.remove('show');
+    document.getElementById('pbtn').disabled = false;
+    document.getElementById('btn-spinner').style.display = 'none';
+    document.getElementById('btn-text').textContent = '⚡ ANALYZE & PREDICT';
+    document.getElementById('results-area').innerHTML =
+      `<div class="empty-state"><div class="empty-icon">❌</div>
+       <h3>Connection Failed</h3><p>Is app.py running?</p></div>`;
+  });
+}
+
+// ══════════════════════════════════════════════════════════
+// RENDER RESULTS
+// ══════════════════════════════════════════════════════════
+function renderResults(data) {
+  const f = data.flood;
+  const m = data.migration;
+  const s = data.shelter;
+  const inp = data.inputs;
+  const w = data.worst_event;
+  const rv = data.river_status;
+
+  const alertColors = {RED:'#ff3b3b',ORANGE:'#ff8c00',YELLOW:'#ffd700',GREEN:'#00e676'};
+  const alertIcons  = {RED:'🚨',ORANGE:'⚠️',YELLOW:'⚡',GREEN:'✅'};
+  const ac = alertColors[f.alert] || '#00d4ff';
+
+  // Update map with risk circle
+  clearMap();
+  loadDistricts(region); // reload base markers
+  setTimeout(() => {
+    if (data.coordinates) {
+      const [lat,lon] = data.coordinates;
+      map.setView([lat,lon], 10);
+      addToMap(L.circle([lat,lon], {
+        radius: 20000, color: ac, fillColor: ac,
+        fillOpacity: .08, weight: 2, dashArray:'6,4'
+      }));
+      addToMap(L.circleMarker([lat,lon], {
+        radius:10, color:ac, fillColor:ac, fillOpacity:.6, weight:2
+      }).bindPopup(`<div style="font-family:monospace;font-size:12px;color:#e0f0ff;background:#0a1520;padding:8px;border-radius:6px">
+        <b style="color:${ac}">${data.district} — ${f.alert}</b><br>
+        Severity: ${f.flood_severity}<br>
+        Rainfall: ${inp.rainfall_mm}mm<br>
+        Migrants: ${m.estimated_migrants.toLocaleString()}
+      </div>`).openPopup());
+      // Shelter pins
+      (s.allocations||[]).forEach(a => {
+        if (!a.lat || !a.lon) return;
+        addToMap(L.circleMarker([a.lat,a.lon], {
+          radius:6, color:'#00e676', fillColor:'#00e676', fillOpacity:.5, weight:1.5
+        }).bindPopup(`<div style="font-family:monospace;font-size:11px;color:#e0f0ff;background:#0a1520;padding:8px;border-radius:6px">
+          🏠 ${a.name}<br>${a.assigned.toLocaleString()} people<br>${a.access}
+        </div>`));
+      });
+    }
+  }, 500);
+
+  // Extra rows
+  let floodExtra = '';
+  if (data.region === 'Uttarakhand') {
+    floodExtra = `
+      <div class="drow"><span class="dk">Slope</span><span class="dv accent">${inp.slope_deg}°</span></div>
+      <div class="drow"><span class="dk">Landslide Risk</span><span class="dv red">${f.landslide_probability}</span></div>
+      <div class="drow"><span class="dk">GLOF Risk</span><span class="dv ${f.glof_risk==='High'?'red':f.glof_risk==='Moderate'?'orange':'green'}">${f.glof_risk}</span></div>
+      <div class="drow"><span class="dk">Combined Score</span><span class="dv accent">${f.risk_score}/10</span></div>`;
+  } else {
+    floodExtra = `
+      <div class="drow"><span class="dk">Risk Score</span><span class="dv accent">${f.risk_score}</span></div>
+      <div class="drow"><span class="dk">Elev. Multiplier</span><span class="dv">${f.elevation_multiplier}×</span></div>`;
+  }
+
+  // Shelter bars
+  let shBars = '';
+  (s.allocations||[]).slice(0,8).forEach(a => {
+    const bc = a.occupancy_pct>80?'#ff3b3b':a.occupancy_pct>50?'#ff8c00':'#00e676';
+    shBars += `<div class="shelter-item">
+      <div class="sh-header">
+        <span class="sh-name">${a.name}</span>
+        <span class="sh-pct">${a.occupancy_pct}%</span>
+      </div>
+      <div class="sh-bar-bg">
+        <div class="sh-bar" style="width:${a.occupancy_pct}%;background:${bc}"></div>
+      </div>
+      <div class="sh-meta">
+        <span>${a.assigned.toLocaleString()} assigned${a.access==='Helicopter Only'?' 🚁':''}</span>
+        <span>Cap: ${a.capacity.toLocaleString()}</span>
+      </div>
+    </div>`;
+  });
+
+  // Vulnerable groups
+  const vpills = [
+    ['👩 Women',    m.women_displaced],
+    ['👶 Children', m.children_displaced],
+    ['👴 Elderly',  m.elderly_displaced],
+    ['♿ Disabled', m.disabled_displaced],
+  ].map(([l,n]) => `<span class="vpill">${l} ${n.toLocaleString()}</span>`).join('');
+
+  // Historical event
+  let histHTML = '';
+  if (w) {
+    histHTML = `<div class="hist-event">
+      <div class="hist-title">⚠️ WORST RECORDED EVENT — ${w.year}</div>
+      <div class="drow"><span class="dk">Event</span><span class="dv" style="font-size:11px">${w.event}</span></div>
+      <div class="drow"><span class="dk">Deaths</span><span class="dv red">${w.deaths.toLocaleString()}</span></div>
+      <div class="drow"><span class="dk">Displaced</span><span class="dv orange">${w.displaced.toLocaleString()}</span></div>
+      <div class="drow"><span class="dk">Peak Rain</span><span class="dv">${w.rainfall}mm</span></div>
+    </div>`;
+  }
+
+  // River status
+  let riverHTML = '';
+  if (rv) {
+    const cls = rv.status==='Above Danger'?'river-danger':rv.status==='Above Warning'?'river-warn':'river-ok';
+    riverHTML = `<div class="drow"><span class="dk">River</span><span class="dv accent">${rv.river}</span></div>
+    <div class="drow"><span class="dk">Level</span><span class="dv">${rv.level_m.toFixed(2)}m</span></div>
+    <div class="drow"><span class="dk">Status</span><span class="dv ${cls}">${rv.status}</span></div>`;
+  }
+
+  // ARIMA tag
+  const arimaTag = f.arima_used
+    ? `<div class="arima-tag">✓ ARIMA model applied</div>`
+    : `<div class="arima-tag" style="color:var(--muted);border-color:var(--border)">◦ Rule-based scoring</div>`;
+
+  const migRateClass = m.adjusted_rate > 50 ? 'danger' : m.adjusted_rate > 25 ? 'warn' : 'ok';
+  const shelterClass = s.unallocated > 0 ? 'danger' : 'ok';
+
+  document.getElementById('results-area').innerHTML = `
+
+    <!-- ALERT BANNER -->
+    <div class="alert-banner ${f.alert}">
+      <div class="alert-icon">${alertIcons[f.alert]}</div>
+      <div>
+        <div class="alert-title">${f.alert} ALERT — ${f.flood_severity.toUpperCase()} FLOOD RISK</div>
+        <div class="alert-sub">${data.district}, ${data.region} · ${f.disaster_type} · ${inp.rainfall_mm}mm rainfall</div>
+        ${arimaTag}
+      </div>
+    </div>
+
+    <!-- METRICS ROW -->
+    <div class="metrics-row">
+      <div class="metric-card ${f.flood_severity==='High'?'danger':f.flood_severity==='Moderate'?'warn':'ok'}">
+        <div class="mc-label">Flood Severity</div>
+        <div class="mc-value ${f.flood_severity==='High'?'danger':f.flood_severity==='Moderate'?'warn':'ok'}">${f.flood_severity}</div>
+        <div class="mc-sub">${inp.elevation_m}m elevation</div>
+      </div>
+      <div class="metric-card ${migRateClass}">
+        <div class="mc-label">Migration Rate</div>
+        <div class="mc-value ${migRateClass}">${m.adjusted_rate}%</div>
+        <div class="mc-sub">Base: ${m.base_migration_rate}% (CSV)</div>
+      </div>
+      <div class="metric-card danger">
+        <div class="mc-label">Displaced People</div>
+        <div class="mc-value danger count-anim">${m.estimated_migrants.toLocaleString()}</div>
+        <div class="mc-sub">of ${inp.population.toLocaleString()} total</div>
+      </div>
+      <div class="metric-card ${shelterClass}">
+        <div class="mc-label">Sheltered</div>
+        <div class="mc-value ${shelterClass}">${s.total_sheltered.toLocaleString()}</div>
+        <div class="mc-sub">${s.shelters_used} shelters used</div>
+      </div>
+    </div>
+
+    <!-- DETAILS GRID -->
+    <div class="details-grid">
+
+      <!-- FLOOD CARD -->
+      <div class="detail-card">
+        <h3><span class="dicon">🌊</span> Flood Analysis</h3>
+        <div class="drow"><span class="dk">District</span><span class="dv accent">${data.district}</span></div>
+        <div class="drow"><span class="dk">Region</span><span class="dv">${data.region}</span></div>
+        <div class="drow"><span class="dk">Disaster Type</span><span class="dv" style="font-size:11px">${f.disaster_type}</span></div>
+        <div class="drow"><span class="dk">Rainfall</span><span class="dv">${inp.rainfall_mm} mm</span></div>
+        <div class="drow"><span class="dk">Elevation (CSV)</span><span class="dv">${inp.elevation_m} m</span></div>
+        ${floodExtra}
+        ${riverHTML}
+        ${histHTML}
+      </div>
+
+      <!-- MIGRATION CARD -->
+      <div class="detail-card">
+        <h3><span class="dicon">🚶</span> Migration Forecast</h3>
+        <div class="drow"><span class="dk">Total Population</span><span class="dv">${inp.population.toLocaleString()}</span></div>
+        <div class="drow"><span class="dk">CSV Base Rate</span><span class="dv">${m.base_migration_rate}%</span></div>
+        <div class="drow"><span class="dk">Adjusted Rate</span><span class="dv orange">${m.adjusted_rate}%</span></div>
+        <div class="drow"><span class="dk">Migrants</span><span class="dv red">${m.estimated_migrants.toLocaleString()}</span></div>
+        <div class="drow"><span class="dk">Staying</span><span class="dv green">${m.people_staying.toLocaleString()}</span></div>
+        <div class="drow"><span class="dk">Avg Displacement</span><span class="dv">${m.avg_days_displaced} days</span></div>
+        <div class="drow"><span class="dk">Return 7 days</span><span class="dv">${m.return_7days_pct}%</span></div>
+        <div class="drow"><span class="dk">Return 30 days</span><span class="dv">${m.return_30days_pct}%</span></div>
+        <div style="margin-top:10px;font-size:10px;color:var(--muted);font-family:var(--mono)">VULNERABLE GROUPS</div>
+        <div class="vpills">${vpills}</div>
+        <div style="margin-top:8px;font-size:10px;color:var(--muted)">Source: ${m.data_source}</div>
+      </div>
+
+      <!-- SHELTER CARD -->
+      <div class="detail-card">
+        <h3><span class="dicon">🏠</span> Shelter Allocation</h3>
+        <div class="drow"><span class="dk">To Shelter</span><span class="dv">${m.estimated_migrants.toLocaleString()}</span></div>
+        <div class="drow"><span class="dk">Sheltered</span><span class="dv green">${s.total_sheltered.toLocaleString()}</span></div>
+        <div class="drow"><span class="dk">Total Capacity</span><span class="dv">${s.total_capacity.toLocaleString()}</span></div>
+        <div class="drow"><span class="dk">Shelters Used</span><span class="dv">${s.shelters_used}</span></div>
+        ${s.unallocated > 0 ? `<div class="warn-box">⚠️ ${s.unallocated.toLocaleString()} unallocated!</div>` : ''}
+        ${s.heli_needed ? `<div class="heli-notice">🚁 HELICOPTER EVACUATION REQUIRED</div>` : ''}
+        <div style="font-size:10px;color:var(--muted);font-family:var(--mono);margin:10px 0 6px">SHELTER BREAKDOWN</div>
+        <div class="shelter-scroll">${shBars}</div>
+      </div>
+
+    </div>
+  `;
+}
+
+// ══════════════════════════════════════════════════════════
+// HELPERS
+// ══════════════════════════════════════════════════════════
+function resetResults() {
+  document.getElementById('results-area').innerHTML = `
+    <div class="empty-state">
+      <div class="empty-icon">🌊</div>
+      <h3>No Analysis Yet</h3>
+      <p>Select a district, enter rainfall amount<br>and click Analyze & Predict</p>
+    </div>`;
+  document.getElementById('dist-info').style.display = 'none';
+  document.getElementById('dist-sel').value = '';
+  document.getElementById('rainfall').value = '';
+  document.getElementById('rainfall-range').value = 0;
+  document.getElementById('rain-val').textContent = '—';
+  document.getElementById('area').value = '';
+  document.getElementById('map-district-badge').style.display = 'none';
+}
+
+function showToast(msg) {
+  const t = document.createElement('div');
+  t.style.cssText = `position:fixed;bottom:24px;left:50%;transform:translateX(-50%);
+    background:#0f1e2e;border:1px solid #1a3040;border-radius:8px;
+    padding:10px 20px;font-size:13px;color:#e0f0ff;z-index:9999;
+    font-family:'Space Mono',monospace;animation:fade-up .3s ease`;
+  t.textContent = msg;
+  document.body.appendChild(t);
+  setTimeout(() => t.remove(), 2500);
+}
+
+// ══════════════════════════════════════════════════════════
+// INIT
+// ══════════════════════════════════════════════════════════
+loadDistricts('Maharashtra');
+</script>
+</body>
+</html>

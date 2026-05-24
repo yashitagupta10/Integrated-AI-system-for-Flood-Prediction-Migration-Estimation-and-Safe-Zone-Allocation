@@ -1,0 +1,71 @@
+event_id,year,state,district,event_name,event_type,start_month,duration_days,peak_rainfall_mm,total_rainfall_mm,people_displaced,people_evacuated,deaths,injured,missing,houses_damaged,houses_destroyed,crop_area_damaged_ha,roads_damaged_km,bridges_damaged,economic_loss_crore,severity,relief_camps_opened,ndrf_teams_deployed,army_deployed,air_rescue_operations
+MH_2000_MUMB,2000,Maharashtra,Mumbai Suburban,Monsoon Flooding,Flood,8,13,120,527,8000,6875,4,18,5,1805,275,66535,344,19,2791.7,Moderate,13,15,False,True
+MH_2001_KOLH,2001,Maharashtra,Kolhapur,Krishna River Flood,Riverine Flood,6,3,180,804,25000,16317,12,42,19,6202,753,18589,96,10,2240.0,High,106,19,True,True
+MH_2002_SANG,2002,Maharashtra,Sangli,Krishna-Warna Flood,Flood,7,13,160,394,18000,15983,8,59,5,3268,647,3077,313,2,858.0,Moderate,24,14,True,False
+MH_2003_RAIG,2003,Maharashtra,Raigad,Coastal Flooding,Flood,8,11,140,570,12000,8063,6,25,4,2398,251,21286,482,23,2774.1,Moderate,29,1,True,True
+MH_2004_NASH,2004,Maharashtra,Nashik,Godavari Flood,Flood,6,3,155,335,20000,18563,9,49,14,4734,659,27420,288,6,2592.1,Moderate,53,9,False,True
+MH_2005_MUMB,2005,Maharashtra,Mumbai City,Mumbai Deluge 26/7,Flood,8,9,944,2413,150000,105242,1094,3755,1991,25069,6766,29363,377,0,850.0,High,301,17,True,False
+MH_2005_MUMB,2005,Maharashtra,Mumbai Suburban,Mumbai Deluge,Flood,6,11,850,4079,200000,135512,342,1889,658,39128,4693,72426,198,20,4348.2,High,604,2,False,False
+MH_2005_THAN,2005,Maharashtra,Thane,Thane Flooding,Flood,8,3,320,1560,45000,33463,28,166,14,7738,1845,6565,455,22,2387.7,High,70,13,True,False
+MH_2006_PUNE,2006,Maharashtra,Pune,Panshet Dam Release,Flood,7,12,200,881,30000,18091,22,69,22,7007,1236,52144,199,11,429.6,High,96,17,True,True
+MH_2007_KOLH,2007,Maharashtra,Kolhapur,Krishna Flood,Flood,9,14,220,646,40000,34766,18,139,21,8533,1652,33688,20,17,3780.0,High,72,13,False,True
+MH_2008_SANG,2008,Maharashtra,Sangli,Pre-Monsoon Flood,Flood,6,3,175,788,15000,9303,7,24,3,2900,624,15822,186,19,1028.1,Moderate,23,13,False,False
+MH_2009_RATN,2009,Maharashtra,Ratnagiri,Drought then Flash Flood,Flash Flood,6,8,195,773,10000,8350,5,25,4,2017,353,2908,110,21,2484.6,Moderate,26,19,False,True
+MH_2010_GADC,2010,Maharashtra,Gadchiroli,Godavari Flooding,Flood,9,5,165,659,22000,20608,11,55,17,4692,697,21853,437,11,277.1,Moderate,39,15,True,True
+MH_2011_WARD,2011,Maharashtra,Wardha,Wardha River Flood,Riverine Flood,8,6,180,590,18000,15480,9,60,16,4092,491,27212,307,22,4665.0,Moderate,28,2,True,False
+MH_2012_NASH,2012,Maharashtra,Nashik,Godavari Moderate Flood,Flood,7,10,145,667,9000,8215,4,15,7,1927,294,60702,162,16,4191.6,Low,19,13,False,False
+MH_2013_NAGP,2013,Maharashtra,Nagpur,Nag River Urban Flood,Riverine Flood,8,5,160,497,25000,18104,14,47,8,4890,1050,17704,289,14,2029.6,Moderate,113,16,False,False
+MH_2014_PALG,2014,Maharashtra,Palghar,Vaitarna River Flood,Riverine Flood,6,13,185,678,16000,12495,8,47,9,2756,743,29931,209,8,552.1,Moderate,27,4,False,False
+MH_2015_KOLH,2015,Maharashtra,Kolhapur,Krishna Flood,Flood,6,5,240,1175,55000,40019,24,92,21,10325,1550,24248,113,6,1212.2,High,119,14,False,True
+MH_2016_SANG,2016,Maharashtra,Sangli,Drought-Break Flood,Flood,8,6,168,787,12000,7643,6,38,4,2071,290,27040,434,0,2957.4,Moderate,27,18,False,False
+MH_2017_RAIG,2017,Maharashtra,Raigad,Coastal Flash Flood,Flash Flood,8,4,210,627,20000,15742,15,75,26,3658,746,48162,110,21,4556.6,High,28,13,True,True
+MH_2018_NASH,2018,Maharashtra,Nashik,Godavari High Flood,Flood,8,2,185,803,18000,14673,9,34,4,3001,390,54670,265,17,942.0,Moderate,24,10,True,False
+MH_2019_SANG,2019,Maharashtra,Sangli,Sangli-Kolhapur Mega Flood,Flood,9,2,380,1357,400000,335965,48,301,95,75743,19247,43552,329,7,2830.4,High,1133,3,False,False
+MH_2019_KOLH,2019,Maharashtra,Kolhapur,Sangli-Kolhapur Mega Flood,Flood,6,4,350,860,250000,156962,35,269,58,41829,5244,10372,70,19,3938.1,High,519,7,False,False
+MH_2019_SATA,2019,Maharashtra,Satara,Krishna Basin Flood,Flood,7,4,260,1048,80000,71253,20,111,35,14684,1612,17717,280,6,1802.1,High,119,1,False,True
+MH_2020_MUMB,2020,Maharashtra,Mumbai City,Cyclone Nisarga Flood,Flood,7,3,280,701,35000,27734,16,48,18,7684,1241,40336,336,5,2629.6,High,125,15,False,True
+MH_2020_RAIG,2020,Maharashtra,Raigad,Cyclone Nisarga,Flood,7,9,265,1231,28000,17724,12,93,21,5930,983,44416,307,22,4445.5,High,87,18,False,False
+MH_2021_RAIG,2021,Maharashtra,Raigad,Konkan Landslide Flood,Flood,7,3,380,929,85000,70722,129,891,161,16549,2442,31497,424,17,2542.4,High,211,18,False,False
+MH_2021_RATN,2021,Maharashtra,Ratnagiri,Konkan Floods,Flood,8,8,340,1331,65000,58164,87,457,63,12769,1677,12509,350,6,3540.4,High,95,7,False,False
+MH_2021_SIND,2021,Maharashtra,Sindhudurg,Konkan Flooding,Flood,9,10,310,683,42000,27443,45,326,36,9723,1275,48107,320,3,4116.8,High,64,4,False,True
+MH_2021_KOLH,2021,Maharashtra,Kolhapur,Krishna Repeat Flood,Flood,8,5,295,855,90000,70995,31,190,39,22236,1963,10093,318,5,2394.4,High,114,12,True,True
+MH_2022_PUNE,2022,Maharashtra,Pune,Urban Flash Flood,Flash Flood,9,14,160,482,12000,8436,12,39,15,2113,414,28894,201,16,746.3,Moderate,30,2,True,True
+MH_2022_NAGP,2022,Maharashtra,Nagpur,Nag River Overflow,Riverine Flood,9,14,145,599,9500,6291,6,19,4,2072,195,67169,40,4,3332.0,Moderate,14,15,False,False
+MH_2023_NASH,2023,Maharashtra,Nashik,Godavari High Flood,Flood,9,9,175,459,14000,12607,8,51,12,3311,672,46739,480,22,4799.7,Moderate,24,14,True,False
+MH_2023_SANG,2023,Maharashtra,Sangli,Krishna Season Flood,Flood,8,7,195,449,22000,18538,10,42,7,5425,457,29586,96,17,1264.5,Moderate,60,16,False,False
+MH_2024_PALG,2024,Maharashtra,Palghar,Vaitarna Overflow,Flood,9,8,185,579,11000,7176,5,20,3,2400,328,27229,395,1,2758.3,Moderate,45,8,False,False
+MH_2024_THAN,2024,Maharashtra,Thane,Urban Waterlogging,Urban Flood,9,11,170,662,8000,6217,3,9,1,1574,172,60888,18,10,463.5,Low,16,2,False,False
+UK_2000_HARI,2000,Uttarakhand,Haridwar,Ganga Season Flood,River Flood,9,4,150,341,12000,9244,8,20,23,2773,648,11111,520,11,3809.0,Moderate,70,13,False,True
+UK_2001_CHAM,2001,Uttarakhand,Chamoli,Alaknanda Flash Flood,Flash Flood,6,6,180,369,8000,4232,15,57,59,2256,596,3774,685,50,1282.4,High,37,18,False,True
+UK_2002_RUDR,2002,Uttarakhand,Rudraprayag,Mandakini Flood,River Flood,6,3,160,423,6000,3082,10,49,19,1499,493,6133,604,30,3133.9,Moderate,45,24,False,True
+UK_2003_UTTA,2003,Uttarakhand,Uttarkashi,Bhagirathi Flood,River Flood,8,9,170,444,7500,6457,12,43,47,2205,397,8546,366,42,1259.5,Moderate,69,16,True,True
+UK_2004_PITH,2004,Uttarakhand,Pithoragarh,Kali River Flood,River Flood,7,3,155,494,5500,3990,9,51,13,1765,279,6652,51,39,6400.5,Moderate,28,11,False,False
+UK_2005_NAIN,2005,Uttarakhand,Nainital,Gaula Flash Flood,Flash Flood,8,7,190,485,9000,4750,14,65,36,2529,684,1238,24,16,3588.4,High,26,5,True,True
+UK_2006_TEHR,2006,Uttarakhand,Tehri Garhwal,Bhagirathi Flood,River Flood,8,8,175,468,8500,6881,11,60,15,1856,537,10367,438,47,5209.7,Moderate,36,18,True,True
+UK_2007_DEHR,2007,Uttarakhand,Dehradun,Urban Flash Flood,Flash Flood,7,4,185,479,15000,9744,16,32,22,4384,1345,10236,538,25,5823.7,High,134,20,True,False
+UK_2008_HARI,2008,Uttarakhand,Haridwar,Ganga High Flood,River Flood,8,8,165,366,20000,15541,13,45,39,6215,1232,4268,670,11,2671.4,High,82,12,False,False
+UK_2009_CHAM,2009,Uttarakhand,Chamoli,Alaknanda Moderate,River Flood,8,8,145,570,5000,2656,7,28,19,1388,394,2916,731,3,1128.5,Moderate,23,3,True,False
+UK_2010_RUDR,2010,Uttarakhand,Rudraprayag,Mandakini Cloudburst,Flash Flood,6,1,200,448,10000,8147,18,106,47,2110,801,13737,608,24,2790.3,High,51,21,False,False
+UK_2011_UTTA,2011,Uttarakhand,Uttarkashi,Assi Ganga Flood,River Flood,9,4,195,652,9500,8494,14,72,29,2656,720,14871,628,42,1363.7,High,29,14,True,False
+UK_2012_PITH,2012,Uttarakhand,Pithoragarh,Border River Flood,River Flood,9,2,168,419,6500,3255,9,51,29,1754,482,13349,515,5,4807.7,Moderate,17,20,False,False
+UK_2013_RUDR,2013,Uttarakhand,Rudraprayag,KEDARNATH MEGA FLOOD,Landslide+Flood,6,4,340,555,100000,62663,5748,16887,7101,25214,5753,2296,718,13,4829.1,High,298,8,True,True
+UK_2013_CHAM,2013,Uttarakhand,Chamoli,Kedarnath Disaster,Landslide+Flood,6,4,290,865,80000,64374,890,2986,1978,21852,5695,14420,119,6,1128.1,High,221,5,True,True
+UK_2013_UTTA,2013,Uttarakhand,Uttarkashi,Kedarnath Aftermath,Landslide+Flood,9,1,260,1011,40000,21793,320,1865,921,8090,2277,4297,610,22,3064.5,High,186,12,True,True
+UK_2013_TEHR,2013,Uttarakhand,Tehri Garhwal,June 2013 Floods,Landslide+Flood,6,7,240,882,35000,19322,180,468,349,9313,2483,10539,254,21,4940.0,High,143,22,True,True
+UK_2013_DEHR,2013,Uttarakhand,Dehradun,2013 State Floods,Landslide+Flood,8,7,200,474,25000,13767,95,539,342,5313,1526,4769,261,17,3321.9,High,102,17,True,True
+UK_2014_NAIN,2014,Uttarakhand,Nainital,Post-Disaster Flood,River Flood,9,1,155,341,8000,7053,6,16,13,2610,548,7908,409,30,6333.2,Moderate,45,17,True,False
+UK_2015_HARI,2015,Uttarakhand,Haridwar,Ganga Flood,River Flood,9,6,175,543,18000,10288,12,54,42,5386,1148,6755,581,55,5122.2,Moderate,60,11,False,False
+UK_2016_CHAM,2016,Uttarakhand,Chamoli,Alaknanda Cloudburst,Flash Flood,6,3,210,671,12000,7587,22,77,62,3004,1229,9133,127,2,447.4,High,42,10,True,False
+UK_2017_RUDR,2017,Uttarakhand,Rudraprayag,Mandakini Flash Flood,Flash Flood,9,3,225,695,14000,10308,28,142,105,2804,859,700,376,4,1187.2,High,134,20,True,False
+UK_2018_UTTA,2018,Uttarakhand,Uttarkashi,Bhagirathi Flood,River Flood,8,3,190,598,10000,7758,15,86,20,2799,812,6937,332,3,405.1,High,25,9,False,True
+UK_2019_PITH,2019,Uttarakhand,Pithoragarh,Cloudburst Series,Flash Flood,6,6,205,629,8500,6718,19,100,66,2758,510,527,175,55,2227.4,High,26,18,False,False
+UK_2020_CHAM,2020,Uttarakhand,Chamoli,Pre-GLOF Floods,GLOF,8,7,180,381,7000,3614,11,35,29,1904,453,9139,95,52,1073.2,Moderate,32,7,True,True
+UK_2021_CHAM,2021,Uttarakhand,Chamoli,CHAMOLI GLOF EVENT,GLOF,9,3,80,137,4500,4002,204,673,309,1070,276,5765,579,42,5563.0,High,30,16,True,True
+UK_2021_RUDR,2021,Uttarakhand,Rudraprayag,Post-GLOF Floods,GLOF,8,5,165,472,9000,6934,18,67,54,1865,453,12181,402,7,2571.8,High,25,13,True,True
+UK_2022_UTTA,2022,Uttarakhand,Uttarkashi,Uttarkashi Cloudburst,Flash Flood,6,1,190,704,15000,13156,24,129,83,4490,754,954,85,32,4384.7,High,93,2,False,True
+UK_2022_NAIN,2022,Uttarakhand,Nainital,Kumaon Cloudburst,Flash Flood,6,6,175,629,11000,5969,17,35,29,2570,822,1348,656,16,775.6,High,43,19,True,False
+UK_2023_TEHR,2023,Uttarakhand,Tehri Garhwal,Tehri Season Flood,River Flood,7,8,165,501,9000,7754,14,37,24,2040,553,14582,666,20,7992.9,Moderate,25,11,True,True
+UK_2023_PITH,2023,Uttarakhand,Pithoragarh,Pithoragarh Cloudburst,Flash Flood,8,3,180,317,7500,6367,18,80,60,2447,468,4268,162,29,3850.5,Moderate,41,4,False,True
+UK_2023_CHAM,2023,Uttarakhand,Chamoli,Alaknanda High Flood,River Flood,6,3,195,754,12000,6403,21,56,32,2495,836,14412,463,6,5361.8,High,67,17,True,True
+UK_2024_RUDR,2024,Uttarakhand,Rudraprayag,Mandakini Flash,Flash Flood,7,8,185,300,6500,4586,9,40,15,1808,495,1782,743,10,5913.2,Moderate,39,18,False,False
+UK_2024_HARI,2024,Uttarakhand,Haridwar,Ganga Flooding,River Flood,7,2,160,496,14000,10578,7,33,9,3223,1503,9341,763,5,7860.3,Moderate,37,13,True,True

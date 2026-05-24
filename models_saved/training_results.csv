@@ -1,0 +1,11 @@
+district,region,ARIMA_RMSE,ARIMA_MAE,ARIMA_Acc,Hybrid_RMSE,Hybrid_MAE,Hybrid_Acc,Improvement_pct
+Sangli,Maharashtra,91.76,43.48,61.6,91.76,43.48,61.6,0.0
+Kolhapur,Maharashtra,144.24,53.72,62.7,144.24,53.72,62.7,0.0
+Pune,Maharashtra,91.57,39.02,61.6,91.57,39.02,61.6,0.0
+Nashik,Maharashtra,47.38,27.97,64.1,47.38,27.97,64.1,0.0
+Nagpur,Maharashtra,109.44,47.53,62.5,109.44,47.53,62.5,0.0
+Chamoli,Uttarakhand,102.93,40.56,63.0,102.93,40.56,63.0,0.0
+Rudraprayag,Uttarakhand,74.6,34.44,63.0,74.6,34.44,63.0,0.0
+Dehradun,Uttarakhand,100.61,43.54,60.8,100.61,43.54,60.8,0.0
+Haridwar,Uttarakhand,59.34,34.01,61.9,59.34,34.01,61.9,0.0
+Uttarkashi,Uttarakhand,70.16,32.24,63.0,70.16,32.24,63.0,0.0

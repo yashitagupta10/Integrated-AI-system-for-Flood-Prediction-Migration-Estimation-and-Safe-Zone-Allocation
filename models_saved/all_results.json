@@ -1,0 +1,116 @@
+{
+  "Maharashtra": [
+    {
+      "district": "Sangli",
+      "region": "Maharashtra",
+      "ARIMA_RMSE": 91.76,
+      "ARIMA_MAE": 43.48,
+      "ARIMA_Acc": 61.6,
+      "Hybrid_RMSE": 91.76,
+      "Hybrid_MAE": 43.48,
+      "Hybrid_Acc": 61.6,
+      "Improvement_pct": 0.0
+    },
+    {
+      "district": "Kolhapur",
+      "region": "Maharashtra",
+      "ARIMA_RMSE": 144.24,
+      "ARIMA_MAE": 53.72,
+      "ARIMA_Acc": 62.7,
+      "Hybrid_RMSE": 144.24,
+      "Hybrid_MAE": 53.72,
+      "Hybrid_Acc": 62.7,
+      "Improvement_pct": 0.0
+    },
+    {
+      "district": "Pune",
+      "region": "Maharashtra",
+      "ARIMA_RMSE": 91.57,
+      "ARIMA_MAE": 39.02,
+      "ARIMA_Acc": 61.6,
+      "Hybrid_RMSE": 91.57,
+      "Hybrid_MAE": 39.02,
+      "Hybrid_Acc": 61.6,
+      "Improvement_pct": 0.0
+    },
+    {
+      "district": "Nashik",
+      "region": "Maharashtra",
+      "ARIMA_RMSE": 47.38,
+      "ARIMA_MAE": 27.97,
+      "ARIMA_Acc": 64.1,
+      "Hybrid_RMSE": 47.38,
+      "Hybrid_MAE": 27.97,
+      "Hybrid_Acc": 64.1,
+      "Improvement_pct": 0.0
+    },
+    {
+      "district": "Nagpur",
+      "region": "Maharashtra",
+      "ARIMA_RMSE": 109.44,
+      "ARIMA_MAE": 47.53,
+      "ARIMA_Acc": 62.5,
+      "Hybrid_RMSE": 109.44,
+      "Hybrid_MAE": 47.53,
+      "Hybrid_Acc": 62.5,
+      "Improvement_pct": 0.0
+    }
+  ],
+  "Uttarakhand": [
+    {
+      "district": "Chamoli",
+      "region": "Uttarakhand",
+      "ARIMA_RMSE": 102.93,
+      "ARIMA_MAE": 40.56,
+      "ARIMA_Acc": 63.0,
+      "Hybrid_RMSE": 102.93,
+      "Hybrid_MAE": 40.56,
+      "Hybrid_Acc": 63.0,
+      "Improvement_pct": 0.0
+    },
+    {
+      "district": "Rudraprayag",
+      "region": "Uttarakhand",
+      "ARIMA_RMSE": 74.6,
+      "ARIMA_MAE": 34.44,
+      "ARIMA_Acc": 63.0,
+      "Hybrid_RMSE": 74.6,
+      "Hybrid_MAE": 34.44,
+      "Hybrid_Acc": 63.0,
+      "Improvement_pct": 0.0
+    },
+    {
+      "district": "Dehradun",
+      "region": "Uttarakhand",
+      "ARIMA_RMSE": 100.61,
+      "ARIMA_MAE": 43.54,
+      "ARIMA_Acc": 60.8,
+      "Hybrid_RMSE": 100.61,
+      "Hybrid_MAE": 43.54,
+      "Hybrid_Acc": 60.8,
+      "Improvement_pct": 0.0
+    },
+    {
+      "district": "Haridwar",
+      "region": "Uttarakhand",
+      "ARIMA_RMSE": 59.34,
+      "ARIMA_MAE": 34.01,
+      "ARIMA_Acc": 61.9,
+      "Hybrid_RMSE": 59.34,
+      "Hybrid_MAE": 34.01,
+      "Hybrid_Acc": 61.9,
+      "Improvement_pct": 0.0
+    },
+    {
+      "district": "Uttarkashi",
+      "region": "Uttarakhand",
+      "ARIMA_RMSE": 70.16,
+      "ARIMA_MAE": 32.24,
+      "ARIMA_Acc": 63.0,
+      "Hybrid_RMSE": 70.16,
+      "Hybrid_MAE": 32.24,
+      "Hybrid_Acc": 63.0,
+      "Improvement_pct": 0.0
+    }
+  ]
+}

@@ -1,0 +1,1081 @@
+district,state,point_id,latitude,longitude,elevation_m,slope_degrees,aspect_degrees,slope_direction,terrain_type,flood_risk_elevation,landslide_risk,land_cover,soil_type,drainage_density
+Ahmednagar,Maharashtra,AHM_001,19.3347,74.7001,703.5,5.2,152.3,South,Hillside,Moderate,Low,Urban,Alluvial,1.98
+Ahmednagar,Maharashtra,AHM_002,19.3283,75.0228,345.0,9.6,284.2,West,Valley,High,Low,Forest,Red Laterite,3.84
+Ahmednagar,Maharashtra,AHM_003,19.1583,74.7109,406.8,7.1,103.8,East,Hillside,Moderate,Low,Agricultural,Rocky,4.46
+Ahmednagar,Maharashtra,AHM_004,19.2486,74.5892,332.6,11.5,109.8,East,Valley,High,Moderate,Barren,Black Cotton,3.92
+Ahmednagar,Maharashtra,AHM_005,19.0484,74.8348,564.0,4.9,147.2,South,Hillside,Moderate,Low,Forest,Rocky,0.6
+Ahmednagar,Maharashtra,AHM_006,19.1144,74.8833,802.1,1.1,94.0,East,Peak,Moderate,Low,Barren,Sandy,0.51
+Ahmednagar,Maharashtra,AHM_007,19.2679,74.8923,640.3,5.4,266.9,West,Hillside,Moderate,Low,Agricultural,Rocky,1.18
+Ahmednagar,Maharashtra,AHM_008,19.0712,74.5149,820.1,4.8,152.2,South,Peak,Moderate,Low,Forest,Black Cotton,0.66
+Ahmednagar,Maharashtra,AHM_009,18.8115,74.6532,536.0,3.6,177.6,South,Hillside,Moderate,Low,Forest,Alluvial,2.21
+Ahmednagar,Maharashtra,AHM_010,19.0315,75.0073,789.0,10.9,343.1,North,Peak,Moderate,Moderate,Forest,Alluvial,0.79
+Ahmednagar,Maharashtra,AHM_011,19.2426,74.6665,330.8,3.4,54.5,East,Valley,High,Low,Agricultural,Black Cotton,4.25
+Ahmednagar,Maharashtra,AHM_012,19.2045,74.613,650.2,2.6,103.6,East,Hillside,Moderate,Low,Forest,Red Laterite,1.91
+Ahmednagar,Maharashtra,AHM_013,19.0053,74.4698,746.0,2.4,248.6,West,Hillside,Moderate,Low,Forest,Alluvial,4.28
+Ahmednagar,Maharashtra,AHM_014,19.2221,74.9958,975.5,8.8,93.6,East,Peak,Low,Low,Agricultural,Alluvial,1.52
+Ahmednagar,Maharashtra,AHM_015,19.3755,74.7017,890.6,9.6,314.4,West,Peak,Moderate,Low,Forest,Alluvial,3.56
+Ahmednagar,Maharashtra,AHM_016,19.1413,74.8408,810.6,4.2,139.5,South,Peak,Moderate,Low,Agricultural,Black Cotton,4.42
+Ahmednagar,Maharashtra,AHM_017,19.0161,74.4619,517.8,9.7,33.3,North,Hillside,Moderate,Low,Forest,Black Cotton,0.69
+Ahmednagar,Maharashtra,AHM_018,18.8244,74.5132,1010.9,8.7,320.8,North,Peak,Low,Low,Barren,Sandy,4.19
+Ahmednagar,Maharashtra,AHM_019,18.8421,74.5772,740.1,3.3,127.2,East,Hillside,Moderate,Low,Forest,Black Cotton,1.21
+Ahmednagar,Maharashtra,AHM_020,18.9663,74.5346,855.6,5.1,322.9,North,Peak,Moderate,Low,Forest,Red Laterite,1.71
+Ahmednagar,Maharashtra,AHM_021,19.0896,74.8628,949.4,8.3,169.0,South,Peak,Low,Low,Forest,Red Laterite,0.92
+Ahmednagar,Maharashtra,AHM_022,19.1198,74.5408,618.3,13.2,29.2,North,Hillside,Moderate,Moderate,Agricultural,Black Cotton,2.47
+Ahmednagar,Maharashtra,AHM_023,19.1956,74.6109,260.2,5.4,234.6,West,Valley,High,Low,Urban,Alluvial,2.86
+Ahmednagar,Maharashtra,AHM_024,19.0906,74.5041,574.1,8.3,275.7,West,Hillside,Moderate,Low,Barren,Alluvial,3.93
+Ahmednagar,Maharashtra,AHM_025,19.2246,74.4794,492.6,5.9,280.2,West,Hillside,Moderate,Low,Urban,Sandy,3.38
+Ahmednagar,Maharashtra,AHM_026,18.9567,75.0222,474.1,7.8,113.9,East,Hillside,Moderate,Low,Barren,Alluvial,2.41
+Ahmednagar,Maharashtra,AHM_027,18.9079,74.8678,558.1,7.0,119.2,East,Hillside,Moderate,Low,Forest,Red Laterite,4.19
+Ahmednagar,Maharashtra,AHM_028,18.9161,74.9839,779.7,12.5,22.8,North,Hillside,Moderate,Moderate,Agricultural,Sandy,4.31
+Ahmednagar,Maharashtra,AHM_029,18.8137,74.5302,520.7,8.0,317.0,North,Hillside,Moderate,Low,Forest,Sandy,3.94
+Ahmednagar,Maharashtra,AHM_030,19.0456,74.7972,459.2,12.2,179.5,South,Hillside,Moderate,Moderate,Agricultural,Sandy,1.42
+Akola,Maharashtra,AKO_001,20.8778,77.2399,283.6,6.1,268.5,West,Hillside,High,Low,Agricultural,Black Cotton,3.55
+Akola,Maharashtra,AKO_002,20.4181,76.7806,231.3,7.0,172.7,South,Hillside,High,Low,Forest,Black Cotton,3.24
+Akola,Maharashtra,AKO_003,20.6201,76.7469,529.2,6.9,139.4,South,Peak,Moderate,Low,Forest,Sandy,3.31
+Akola,Maharashtra,AKO_004,20.6005,77.1206,268.5,3.9,86.3,East,Hillside,High,Low,Water Body,Sandy,0.97
+Akola,Maharashtra,AKO_005,20.4362,77.1812,331.4,3.7,220.2,South,Hillside,High,Low,Agricultural,Alluvial,1.17
+Akola,Maharashtra,AKO_006,20.5161,77.2554,285.7,6.4,355.3,North,Hillside,High,Low,Forest,Alluvial,3.44
+Akola,Maharashtra,AKO_007,20.5812,77.2256,517.0,4.0,190.3,South,Peak,Moderate,Low,Barren,Alluvial,1.5
+Akola,Maharashtra,AKO_008,20.8591,77.2993,290.3,5.1,335.2,North,Hillside,High,Low,Agricultural,Alluvial,0.69
+Akola,Maharashtra,AKO_009,20.7059,76.7865,377.3,5.6,210.6,South,Peak,High,Low,Agricultural,Rocky,2.62
+Akola,Maharashtra,AKO_010,20.9923,76.8453,210.0,3.7,350.6,North,Hillside,High,Low,Agricultural,Rocky,3.65
+Akola,Maharashtra,AKO_011,20.5718,76.7627,326.6,2.5,309.1,West,Hillside,High,Low,Forest,Rocky,4.5
+Akola,Maharashtra,AKO_012,20.6576,77.2131,314.5,5.8,178.9,South,Hillside,High,Low,Forest,Alluvial,0.85
+Akola,Maharashtra,AKO_013,20.7966,76.7224,301.4,7.0,200.0,South,Hillside,High,Low,Urban,Alluvial,4.08
+Akola,Maharashtra,AKO_014,20.8634,76.7843,320.1,4.6,53.7,East,Hillside,High,Low,Agricultural,Red Laterite,0.76
+Akola,Maharashtra,AKO_015,20.4642,76.9778,384.0,7.3,59.7,East,Peak,High,Low,Barren,Alluvial,4.4
+Akola,Maharashtra,AKO_016,20.7805,76.9673,239.5,2.7,304.4,West,Hillside,High,Low,Agricultural,Alluvial,2.23
+Akola,Maharashtra,AKO_017,20.8425,76.8337,378.4,3.7,342.7,North,Peak,High,Low,Agricultural,Black Cotton,4.0
+Akola,Maharashtra,AKO_018,20.8063,76.7904,435.9,5.8,177.6,South,Peak,Moderate,Low,Barren,Alluvial,1.59
+Akola,Maharashtra,AKO_019,20.912,76.9346,291.7,6.2,274.2,West,Hillside,High,Low,Agricultural,Black Cotton,3.85
+Akola,Maharashtra,AKO_020,20.4777,76.8098,350.5,5.4,191.6,South,Hillside,High,Low,Agricultural,Alluvial,3.47
+Akola,Maharashtra,AKO_021,20.9534,76.8507,451.5,3.8,166.2,South,Peak,Moderate,Low,Forest,Sandy,1.38
+Akola,Maharashtra,AKO_022,20.6627,77.0433,264.3,2.8,186.8,South,Hillside,High,Low,Urban,Sandy,2.43
+Akola,Maharashtra,AKO_023,20.5387,77.0874,376.0,2.6,188.0,South,Peak,High,Low,Agricultural,Sandy,1.63
+Akola,Maharashtra,AKO_024,20.7096,76.9765,262.7,6.1,246.6,West,Hillside,High,Low,Agricultural,Rocky,0.97
+Akola,Maharashtra,AKO_025,20.5885,76.9671,423.1,6.5,150.9,South,Peak,Moderate,Low,Forest,Alluvial,1.64
+Akola,Maharashtra,AKO_026,20.8169,76.7348,307.5,5.9,345.6,North,Hillside,High,Low,Urban,Alluvial,1.86
+Akola,Maharashtra,AKO_027,20.9836,76.7674,313.7,6.6,328.7,North,Hillside,High,Low,Forest,Alluvial,3.96
+Akola,Maharashtra,AKO_028,20.4907,76.7692,238.4,5.6,22.8,North,Hillside,High,Low,Forest,Alluvial,1.46
+Akola,Maharashtra,AKO_029,20.4423,77.18,275.9,6.4,300.1,West,Hillside,High,Low,Forest,Red Laterite,2.06
+Akola,Maharashtra,AKO_030,20.8324,76.9426,292.1,4.2,231.0,West,Hillside,High,Low,Agricultural,Red Laterite,3.18
+Amravati,Maharashtra,AMR_001,21.0042,77.8605,514.1,6.3,298.5,West,Peak,Moderate,Low,Agricultural,Alluvial,4.43
+Amravati,Maharashtra,AMR_002,20.669,77.7221,366.1,5.5,267.1,West,Hillside,High,Low,Forest,Sandy,3.37
+Amravati,Maharashtra,AMR_003,20.8012,77.9759,385.9,6.1,2.1,North,Hillside,High,Low,Barren,Red Laterite,3.73
+Amravati,Maharashtra,AMR_004,20.7305,77.9015,422.1,5.8,85.8,East,Peak,Moderate,Low,Agricultural,Black Cotton,1.52
+Amravati,Maharashtra,AMR_005,20.7882,77.9942,317.9,6.5,150.1,South,Hillside,High,Low,Urban,Rocky,1.71
+Amravati,Maharashtra,AMR_006,20.7262,77.933,304.0,8.4,166.8,South,Hillside,High,Low,Water Body,Rocky,0.79
+Amravati,Maharashtra,AMR_007,21.2191,77.7858,465.9,7.2,203.2,South,Peak,Moderate,Low,Agricultural,Red Laterite,2.89
+Amravati,Maharashtra,AMR_008,20.8079,77.605,327.7,14.7,135.1,South,Hillside,High,Moderate,Water Body,Red Laterite,2.15
+Amravati,Maharashtra,AMR_009,21.0248,78.0003,295.4,6.2,327.3,North,Hillside,High,Low,Forest,Red Laterite,4.27
+Amravati,Maharashtra,AMR_010,21.011,77.8206,364.2,6.5,353.1,North,Hillside,High,Low,Forest,Sandy,0.99
+Amravati,Maharashtra,AMR_011,20.9501,77.843,325.6,8.4,88.4,East,Hillside,High,Low,Agricultural,Sandy,3.1
+Amravati,Maharashtra,AMR_012,20.9289,78.0312,473.7,3.1,197.8,South,Peak,Moderate,Low,Forest,Alluvial,2.84
+Amravati,Maharashtra,AMR_013,21.069,77.6449,339.1,6.8,245.5,West,Hillside,High,Low,Forest,Alluvial,2.11
+Amravati,Maharashtra,AMR_014,21.0695,77.9854,256.1,1.1,134.0,East,Hillside,High,Low,Agricultural,Black Cotton,2.21
+Amravati,Maharashtra,AMR_015,20.8543,77.9877,327.5,2.6,174.9,South,Hillside,High,Low,Agricultural,Alluvial,1.49
+Amravati,Maharashtra,AMR_016,21.0137,77.6359,293.3,1.8,211.5,South,Hillside,High,Low,Agricultural,Red Laterite,2.03
+Amravati,Maharashtra,AMR_017,20.8751,77.5827,600.7,5.8,201.6,South,Peak,Moderate,Low,Forest,Rocky,0.51
+Amravati,Maharashtra,AMR_018,21.2216,78.0385,123.6,3.9,231.5,West,Valley,High,Low,Urban,Rocky,3.97
+Amravati,Maharashtra,AMR_019,20.6688,77.6303,312.8,1.5,10.8,North,Hillside,High,Low,Forest,Sandy,2.23
+Amravati,Maharashtra,AMR_020,20.7281,77.5154,273.3,7.1,95.8,East,Hillside,High,Low,Forest,Sandy,3.17
+Amravati,Maharashtra,AMR_021,20.9797,77.521,289.6,5.9,83.9,East,Hillside,High,Low,Urban,Black Cotton,3.08
+Amravati,Maharashtra,AMR_022,20.8051,77.5147,243.8,6.7,7.1,North,Hillside,High,Low,Barren,Black Cotton,2.74
+Amravati,Maharashtra,AMR_023,20.6897,77.9014,210.6,6.7,244.6,West,Hillside,High,Low,Forest,Red Laterite,2.8
+Amravati,Maharashtra,AMR_024,20.8304,77.642,264.4,5.3,46.5,East,Hillside,High,Low,Forest,Alluvial,3.61
+Amravati,Maharashtra,AMR_025,21.1667,77.8708,248.5,2.4,185.8,South,Hillside,High,Low,Agricultural,Black Cotton,4.4
+Amravati,Maharashtra,AMR_026,20.6946,77.7841,305.1,8.8,252.2,West,Hillside,High,Low,Agricultural,Rocky,1.16
+Amravati,Maharashtra,AMR_027,20.8036,77.5818,237.4,6.1,269.6,West,Hillside,High,Low,Agricultural,Alluvial,2.75
+Amravati,Maharashtra,AMR_028,20.6883,77.6675,343.9,9.3,203.5,South,Hillside,High,Low,Agricultural,Sandy,1.42
+Amravati,Maharashtra,AMR_029,21.1048,77.5804,216.9,8.7,223.5,South,Hillside,High,Low,Water Body,Black Cotton,4.39
+Amravati,Maharashtra,AMR_030,20.9148,77.5288,337.4,6.5,100.3,East,Hillside,High,Low,Agricultural,Black Cotton,2.23
+Aurangabad,Maharashtra,AUR_001,19.8788,75.1149,621.2,4.0,175.2,South,Hillside,Moderate,Low,Water Body,Black Cotton,2.29
+Aurangabad,Maharashtra,AUR_002,20.0736,75.1407,576.5,4.4,238.2,West,Hillside,Moderate,Low,Barren,Alluvial,1.63
+Aurangabad,Maharashtra,AUR_003,19.625,75.4752,432.5,8.1,209.7,South,Hillside,Moderate,Low,Agricultural,Alluvial,2.74
+Aurangabad,Maharashtra,AUR_004,19.6851,75.1226,767.3,4.5,110.7,East,Peak,Moderate,Low,Agricultural,Rocky,0.57
+Aurangabad,Maharashtra,AUR_005,19.6634,75.1258,595.4,9.7,181.0,South,Hillside,Moderate,Low,Urban,Black Cotton,2.58
+Aurangabad,Maharashtra,AUR_006,19.7648,75.0931,842.5,8.4,315.7,North,Peak,Moderate,Low,Barren,Red Laterite,4.32
+Aurangabad,Maharashtra,AUR_007,19.8472,75.0562,498.1,8.5,339.9,North,Hillside,Moderate,Low,Barren,Sandy,2.17
+Aurangabad,Maharashtra,AUR_008,19.9643,75.3294,307.8,5.8,163.0,South,Valley,High,Low,Urban,Rocky,4.08
+Aurangabad,Maharashtra,AUR_009,19.5856,75.1551,667.6,0.0,304.4,West,Hillside,Moderate,Low,Forest,Alluvial,3.67
+Aurangabad,Maharashtra,AUR_010,19.8414,75.2859,820.8,8.3,177.2,South,Peak,Moderate,Low,Forest,Black Cotton,0.65
+Aurangabad,Maharashtra,AUR_011,19.9194,75.5056,619.2,6.2,187.0,South,Hillside,Moderate,Low,Water Body,Black Cotton,2.36
+Aurangabad,Maharashtra,AUR_012,20.1711,75.4484,1014.0,5.1,161.6,South,Peak,Low,Low,Agricultural,Alluvial,0.62
+Aurangabad,Maharashtra,AUR_013,19.5791,75.5325,463.6,2.1,204.0,South,Hillside,Moderate,Low,Agricultural,Red Laterite,1.03
+Aurangabad,Maharashtra,AUR_014,19.6348,75.1926,572.8,4.0,129.6,East,Hillside,Moderate,Low,Forest,Black Cotton,3.57
+Aurangabad,Maharashtra,AUR_015,19.7089,75.5861,853.3,9.0,32.3,North,Peak,Moderate,Low,Barren,Black Cotton,2.57
+Aurangabad,Maharashtra,AUR_016,19.8625,75.2255,845.3,7.7,54.8,East,Peak,Moderate,Low,Urban,Alluvial,2.73
+Aurangabad,Maharashtra,AUR_017,19.9207,75.1297,745.7,4.8,216.7,South,Peak,Moderate,Low,Agricultural,Alluvial,4.11
+Aurangabad,Maharashtra,AUR_018,20.0515,75.1921,912.3,4.5,18.2,North,Peak,Low,Low,Water Body,Alluvial,1.07
+Aurangabad,Maharashtra,AUR_019,19.5965,75.3494,491.0,6.8,203.3,South,Hillside,Moderate,Low,Urban,Rocky,1.43
+Aurangabad,Maharashtra,AUR_020,19.7976,75.1726,545.4,3.5,151.3,South,Hillside,Moderate,Low,Agricultural,Alluvial,3.81
+Aurangabad,Maharashtra,AUR_021,20.0736,75.4879,665.0,6.4,75.3,East,Hillside,Moderate,Low,Forest,Alluvial,2.99
+Aurangabad,Maharashtra,AUR_022,19.9388,75.2014,631.7,9.4,240.7,West,Hillside,Moderate,Low,Agricultural,Black Cotton,4.06
+Aurangabad,Maharashtra,AUR_023,19.9561,75.2718,886.8,7.5,356.3,North,Peak,Moderate,Low,Barren,Black Cotton,1.71
+Aurangabad,Maharashtra,AUR_024,19.6615,75.5214,656.7,7.2,344.8,North,Hillside,Moderate,Low,Forest,Red Laterite,3.3
+Aurangabad,Maharashtra,AUR_025,19.9301,75.0736,783.1,8.2,201.1,South,Peak,Moderate,Low,Forest,Black Cotton,2.79
+Aurangabad,Maharashtra,AUR_026,20.0614,75.4966,439.0,7.5,354.6,North,Hillside,Moderate,Low,Agricultural,Red Laterite,1.8
+Aurangabad,Maharashtra,AUR_027,20.0023,75.5802,819.6,5.6,105.5,East,Peak,Moderate,Low,Urban,Alluvial,2.0
+Aurangabad,Maharashtra,AUR_028,19.7774,75.4344,695.4,7.6,71.1,East,Hillside,Moderate,Low,Agricultural,Black Cotton,1.41
+Aurangabad,Maharashtra,AUR_029,20.1506,75.1289,399.6,7.1,340.3,North,Hillside,High,Low,Barren,Red Laterite,1.05
+Aurangabad,Maharashtra,AUR_030,19.9938,75.2218,451.4,10.4,20.4,North,Hillside,Moderate,Moderate,Urban,Sandy,1.13
+Beed,Maharashtra,BEE_001,18.8714,75.8279,728.2,4.2,211.7,South,Hillside,Moderate,Low,Agricultural,Rocky,4.41
+Beed,Maharashtra,BEE_002,18.7199,76.0329,568.6,5.6,305.1,West,Hillside,Moderate,Low,Forest,Red Laterite,3.51
+Beed,Maharashtra,BEE_003,18.8026,75.801,498.2,8.2,133.5,East,Hillside,Moderate,Low,Agricultural,Alluvial,3.99
+Beed,Maharashtra,BEE_004,19.1557,75.9615,201.2,7.0,96.4,East,Valley,High,Low,Barren,Alluvial,3.49
+Beed,Maharashtra,BEE_005,19.0795,75.8388,96.9,5.7,16.6,North,Valley,Very High,Low,Water Body,Black Cotton,3.54
+Beed,Maharashtra,BEE_006,18.9487,75.727,685.8,5.6,121.6,East,Hillside,Moderate,Low,Agricultural,Sandy,3.09
+Beed,Maharashtra,BEE_007,18.8686,75.7906,802.4,7.8,359.9,North,Peak,Moderate,Low,Urban,Rocky,2.35
+Beed,Maharashtra,BEE_008,19.2436,76.0274,724.3,5.7,108.9,East,Hillside,Moderate,Low,Forest,Alluvial,0.98
+Beed,Maharashtra,BEE_009,18.8681,75.4826,499.5,9.6,287.5,West,Hillside,Moderate,Low,Forest,Alluvial,4.14
+Beed,Maharashtra,BEE_010,19.0103,75.9349,597.3,9.7,226.2,West,Hillside,Moderate,Low,Forest,Rocky,2.65
+Beed,Maharashtra,BEE_011,19.0013,76.0165,1011.3,3.3,88.9,East,Peak,Low,Low,Forest,Black Cotton,2.06
+Beed,Maharashtra,BEE_012,19.0578,75.8209,469.9,7.0,58.5,East,Hillside,Moderate,Low,Forest,Black Cotton,1.95
+Beed,Maharashtra,BEE_013,19.2756,75.5871,588.3,6.6,334.2,North,Hillside,Moderate,Low,Forest,Sandy,1.12
+Beed,Maharashtra,BEE_014,19.2004,75.6631,864.5,3.0,52.5,East,Peak,Moderate,Low,Agricultural,Black Cotton,1.56
+Beed,Maharashtra,BEE_015,18.7867,75.9247,628.1,4.5,324.5,North,Hillside,Moderate,Low,Urban,Alluvial,3.64
+Beed,Maharashtra,BEE_016,19.2641,75.5546,715.8,7.7,75.9,East,Hillside,Moderate,Low,Water Body,Alluvial,2.76
+Beed,Maharashtra,BEE_017,18.9873,75.8952,543.3,6.1,269.2,West,Hillside,Moderate,Low,Forest,Rocky,0.74
+Beed,Maharashtra,BEE_018,19.192,75.5204,796.8,5.2,140.5,South,Peak,Moderate,Low,Forest,Black Cotton,2.52
+Beed,Maharashtra,BEE_019,19.0264,75.9083,822.2,0.9,129.7,East,Peak,Moderate,Low,Agricultural,Red Laterite,2.94
+Beed,Maharashtra,BEE_020,18.9428,75.914,717.0,5.0,292.9,West,Hillside,Moderate,Low,Forest,Alluvial,2.64
+Beed,Maharashtra,BEE_021,19.0678,75.9938,741.3,8.4,257.5,West,Hillside,Moderate,Low,Urban,Sandy,2.84
+Beed,Maharashtra,BEE_022,18.7182,75.5932,445.3,10.8,240.1,West,Hillside,Moderate,Moderate,Forest,Red Laterite,0.91
+Beed,Maharashtra,BEE_023,18.7663,75.4869,793.7,9.9,281.5,West,Peak,Moderate,Low,Forest,Rocky,3.39
+Beed,Maharashtra,BEE_024,18.8699,75.7054,635.1,7.6,296.9,West,Hillside,Moderate,Low,Forest,Red Laterite,0.95
+Beed,Maharashtra,BEE_025,19.2649,75.8971,524.6,4.6,353.7,North,Hillside,Moderate,Low,Agricultural,Black Cotton,4.33
+Beed,Maharashtra,BEE_026,19.2003,75.4974,359.3,4.8,155.5,South,Valley,High,Low,Agricultural,Red Laterite,2.82
+Beed,Maharashtra,BEE_027,18.7862,75.4706,578.0,7.2,270.0,West,Hillside,Moderate,Low,Agricultural,Sandy,3.67
+Beed,Maharashtra,BEE_028,19.1022,75.7829,611.0,3.4,172.0,South,Hillside,Moderate,Low,Barren,Black Cotton,4.39
+Beed,Maharashtra,BEE_029,19.2623,75.7484,827.6,3.5,270.9,West,Peak,Moderate,Low,Barren,Rocky,4.12
+Beed,Maharashtra,BEE_030,18.7898,75.7618,410.6,7.5,355.7,North,Hillside,Moderate,Low,Barren,Sandy,3.93
+Bhandara,Maharashtra,BHA_001,21.1676,79.4479,484.7,2.1,162.9,South,Peak,Moderate,Low,Forest,Alluvial,3.62
+Bhandara,Maharashtra,BHA_002,21.4538,79.9186,277.0,3.9,60.7,East,Hillside,High,Low,Agricultural,Black Cotton,1.41
+Bhandara,Maharashtra,BHA_003,21.211,79.379,302.7,6.7,205.4,South,Hillside,High,Low,Agricultural,Red Laterite,2.0
+Bhandara,Maharashtra,BHA_004,21.2901,79.8594,345.0,2.8,157.2,South,Peak,High,Low,Forest,Black Cotton,3.17
+Bhandara,Maharashtra,BHA_005,21.3294,79.8227,308.2,4.8,300.9,West,Hillside,High,Low,Forest,Black Cotton,2.13
+Bhandara,Maharashtra,BHA_006,21.1536,79.8458,247.0,3.3,249.6,West,Hillside,High,Low,Urban,Sandy,2.08
+Bhandara,Maharashtra,BHA_007,21.126,79.9189,242.3,2.4,116.9,East,Hillside,High,Low,Agricultural,Black Cotton,1.45
+Bhandara,Maharashtra,BHA_008,21.11,79.5365,227.0,3.9,296.1,West,Hillside,High,Low,Forest,Alluvial,3.32
+Bhandara,Maharashtra,BHA_009,21.1796,79.5991,159.7,4.9,147.3,South,Hillside,High,Low,Agricultural,Alluvial,1.06
+Bhandara,Maharashtra,BHA_010,21.1071,79.3879,261.0,6.4,61.1,East,Hillside,High,Low,Agricultural,Black Cotton,2.27
+Bhandara,Maharashtra,BHA_011,21.3644,79.7165,290.4,4.9,46.0,East,Hillside,High,Low,Agricultural,Black Cotton,0.85
+Bhandara,Maharashtra,BHA_012,21.0754,79.6432,236.1,3.7,20.5,North,Hillside,High,Low,Agricultural,Black Cotton,3.39
+Bhandara,Maharashtra,BHA_013,21.218,79.6838,301.3,5.7,62.4,East,Hillside,High,Low,Forest,Red Laterite,0.98
+Bhandara,Maharashtra,BHA_014,20.8671,79.5949,172.8,9.5,227.9,West,Hillside,High,Low,Agricultural,Alluvial,0.82
+Bhandara,Maharashtra,BHA_015,21.0198,79.5857,211.0,1.5,54.8,East,Hillside,High,Low,Forest,Black Cotton,2.69
+Bhandara,Maharashtra,BHA_016,21.0725,79.552,342.8,6.2,327.2,North,Peak,High,Low,Forest,Red Laterite,3.02
+Bhandara,Maharashtra,BHA_017,21.2389,79.3581,215.0,6.4,188.9,South,Hillside,High,Low,Agricultural,Alluvial,1.35
+Bhandara,Maharashtra,BHA_018,21.2681,79.3833,152.4,3.8,276.4,West,Valley,High,Low,Agricultural,Alluvial,2.3
+Bhandara,Maharashtra,BHA_019,21.4484,79.7939,249.4,4.8,247.9,West,Hillside,High,Low,Urban,Red Laterite,3.67
+Bhandara,Maharashtra,BHA_020,21.164,79.8146,402.6,6.4,159.0,South,Peak,Moderate,Low,Forest,Black Cotton,0.59
+Bhandara,Maharashtra,BHA_021,21.0488,79.8586,263.5,4.6,28.7,North,Hillside,High,Low,Forest,Alluvial,3.7
+Bhandara,Maharashtra,BHA_022,21.1727,79.6646,260.0,3.5,351.1,North,Hillside,High,Low,Agricultural,Rocky,2.58
+Bhandara,Maharashtra,BHA_023,21.0036,79.7077,101.4,8.0,23.8,North,Valley,High,Low,Forest,Black Cotton,1.51
+Bhandara,Maharashtra,BHA_024,21.4345,79.65,172.1,5.2,304.8,West,Hillside,High,Low,Water Body,Rocky,3.28
+Bhandara,Maharashtra,BHA_025,21.1842,79.3994,260.7,7.8,261.7,West,Hillside,High,Low,Agricultural,Rocky,2.09
+Bhandara,Maharashtra,BHA_026,21.0292,79.6727,401.7,2.8,312.5,West,Peak,Moderate,Low,Barren,Sandy,4.09
+Bhandara,Maharashtra,BHA_027,20.9514,79.5887,242.8,3.8,281.0,West,Hillside,High,Low,Barren,Rocky,1.3
+Bhandara,Maharashtra,BHA_028,20.9244,79.5117,386.6,6.6,280.6,West,Peak,High,Low,Forest,Alluvial,1.85
+Bhandara,Maharashtra,BHA_029,20.9859,79.8925,246.0,4.4,19.0,North,Hillside,High,Low,Urban,Black Cotton,3.65
+Bhandara,Maharashtra,BHA_030,21.387,79.5914,236.6,7.6,19.1,North,Hillside,High,Low,Forest,Sandy,1.77
+Buldhana,Maharashtra,BUL_001,20.6245,76.4134,460.6,4.3,243.0,West,Hillside,Moderate,Low,Agricultural,Red Laterite,0.77
+Buldhana,Maharashtra,BUL_002,20.391,75.9362,347.8,4.5,256.2,West,Hillside,High,Low,Agricultural,Black Cotton,1.27
+Buldhana,Maharashtra,BUL_003,20.5626,76.1843,664.7,8.7,189.0,South,Peak,Moderate,Low,Agricultural,Alluvial,4.49
+Buldhana,Maharashtra,BUL_004,20.3266,76.2769,665.8,4.0,307.7,West,Peak,Moderate,Low,Urban,Alluvial,2.23
+Buldhana,Maharashtra,BUL_005,20.5159,76.2287,500.0,4.7,80.5,East,Hillside,Moderate,Low,Agricultural,Rocky,4.42
+Buldhana,Maharashtra,BUL_006,20.6896,75.8878,111.8,6.2,53.5,East,Valley,High,Low,Agricultural,Alluvial,1.11
+Buldhana,Maharashtra,BUL_007,20.3163,76.1632,561.5,9.3,235.4,West,Hillside,Moderate,Low,Urban,Red Laterite,2.74
+Buldhana,Maharashtra,BUL_008,20.6256,76.1892,522.5,2.5,129.1,East,Hillside,Moderate,Low,Agricultural,Black Cotton,4.29
+Buldhana,Maharashtra,BUL_009,20.2671,76.0188,244.1,5.4,341.0,North,Valley,High,Low,Urban,Red Laterite,0.69
+Buldhana,Maharashtra,BUL_010,20.4684,76.3498,517.3,10.2,243.3,West,Hillside,Moderate,Moderate,Forest,Red Laterite,2.22
+Buldhana,Maharashtra,BUL_011,20.6348,75.9016,656.0,5.6,108.6,East,Peak,Moderate,Low,Forest,Alluvial,1.22
+Buldhana,Maharashtra,BUL_012,20.7674,76.4286,457.8,3.1,310.7,West,Hillside,Moderate,Low,Urban,Red Laterite,1.6
+Buldhana,Maharashtra,BUL_013,20.4695,76.1205,442.1,6.6,105.0,East,Hillside,Moderate,Low,Agricultural,Alluvial,3.33
+Buldhana,Maharashtra,BUL_014,20.5579,75.9326,590.5,8.6,163.7,South,Peak,Moderate,Low,Agricultural,Black Cotton,0.73
+Buldhana,Maharashtra,BUL_015,20.5743,76.0454,683.3,6.2,4.3,North,Peak,Moderate,Low,Barren,Red Laterite,2.88
+Buldhana,Maharashtra,BUL_016,20.367,76.3626,407.7,12.8,89.1,East,Hillside,Moderate,Moderate,Agricultural,Rocky,3.65
+Buldhana,Maharashtra,BUL_017,20.28,76.0685,604.7,6.6,326.5,North,Peak,Moderate,Low,Urban,Alluvial,1.43
+Buldhana,Maharashtra,BUL_018,20.5027,76.378,297.4,8.2,113.4,East,Hillside,High,Low,Forest,Black Cotton,3.8
+Buldhana,Maharashtra,BUL_019,20.2955,76.3223,404.1,5.0,256.7,West,Hillside,Moderate,Low,Forest,Red Laterite,4.43
+Buldhana,Maharashtra,BUL_020,20.4037,76.0188,516.0,5.6,128.2,East,Hillside,Moderate,Low,Forest,Alluvial,3.59
+Buldhana,Maharashtra,BUL_021,20.2382,76.126,313.6,11.3,336.0,North,Hillside,High,Moderate,Agricultural,Rocky,3.05
+Buldhana,Maharashtra,BUL_022,20.8213,76.2715,893.5,3.0,232.5,West,Peak,Moderate,Low,Urban,Rocky,4.29
+Buldhana,Maharashtra,BUL_023,20.528,76.0899,509.2,7.8,62.2,East,Hillside,Moderate,Low,Agricultural,Rocky,3.69
+Buldhana,Maharashtra,BUL_024,20.5653,76.1372,712.6,10.3,193.3,South,Peak,Moderate,Moderate,Agricultural,Rocky,0.85
+Buldhana,Maharashtra,BUL_025,20.3598,76.0965,485.3,7.8,102.3,East,Hillside,Moderate,Low,Forest,Black Cotton,4.28
+Buldhana,Maharashtra,BUL_026,20.5945,76.4078,479.6,6.0,37.5,North,Hillside,Moderate,Low,Agricultural,Red Laterite,0.65
+Buldhana,Maharashtra,BUL_027,20.6484,76.1112,397.2,6.7,330.3,North,Hillside,High,Low,Agricultural,Black Cotton,1.57
+Buldhana,Maharashtra,BUL_028,20.6852,76.0256,658.2,7.2,185.9,South,Peak,Moderate,Low,Forest,Red Laterite,1.81
+Buldhana,Maharashtra,BUL_029,20.7905,76.0388,572.8,4.1,30.3,North,Hillside,Moderate,Low,Forest,Alluvial,3.6
+Buldhana,Maharashtra,BUL_030,20.413,76.4823,574.2,7.7,39.9,North,Hillside,Moderate,Low,Agricultural,Sandy,1.34
+Chandrapur,Maharashtra,CHA_001,19.9446,79.0314,160.3,6.1,128.0,East,Hillside,High,Low,Agricultural,Sandy,0.77
+Chandrapur,Maharashtra,CHA_002,19.8797,79.385,223.5,5.1,340.4,North,Hillside,High,Low,Barren,Sandy,3.4
+Chandrapur,Maharashtra,CHA_003,19.9263,79.013,196.2,7.5,139.8,South,Hillside,High,Low,Barren,Red Laterite,0.71
+Chandrapur,Maharashtra,CHA_004,19.7057,79.0147,145.2,9.6,250.0,West,Hillside,High,Low,Forest,Black Cotton,3.49
+Chandrapur,Maharashtra,CHA_005,19.9141,79.0464,169.7,9.8,169.3,South,Hillside,High,Low,Forest,Black Cotton,2.47
+Chandrapur,Maharashtra,CHA_006,19.7197,79.3927,191.6,9.0,242.5,West,Hillside,High,Low,Urban,Black Cotton,2.07
+Chandrapur,Maharashtra,CHA_007,20.0027,79.1041,238.7,4.5,350.2,North,Peak,High,Low,Forest,Alluvial,2.74
+Chandrapur,Maharashtra,CHA_008,20.0604,79.4535,194.3,6.3,178.0,South,Hillside,High,Low,Barren,Red Laterite,0.78
+Chandrapur,Maharashtra,CHA_009,19.9175,79.1464,250.2,5.8,288.2,West,Peak,High,Low,Barren,Alluvial,3.13
+Chandrapur,Maharashtra,CHA_010,19.8894,79.0623,41.1,7.6,275.0,West,Valley,Very High,Low,Agricultural,Alluvial,4.44
+Chandrapur,Maharashtra,CHA_011,19.8184,79.5189,182.3,3.5,21.2,North,Hillside,High,Low,Urban,Alluvial,3.33
+Chandrapur,Maharashtra,CHA_012,20.0695,79.0536,249.5,5.8,24.1,North,Peak,High,Low,Forest,Alluvial,2.28
+Chandrapur,Maharashtra,CHA_013,20.1058,79.5674,210.1,7.8,203.6,South,Hillside,High,Low,Forest,Alluvial,1.14
+Chandrapur,Maharashtra,CHA_014,19.9529,79.5368,76.8,6.9,162.5,South,Valley,Very High,Low,Urban,Black Cotton,2.5
+Chandrapur,Maharashtra,CHA_015,19.719,79.0408,224.0,8.1,236.9,West,Hillside,High,Low,Urban,Rocky,1.6
+Chandrapur,Maharashtra,CHA_016,19.7342,79.01,186.7,8.6,17.6,North,Hillside,High,Low,Urban,Alluvial,0.89
+Chandrapur,Maharashtra,CHA_017,19.9872,79.4123,165.5,2.9,21.6,North,Hillside,High,Low,Agricultural,Alluvial,1.69
+Chandrapur,Maharashtra,CHA_018,19.9589,79.2407,13.5,3.8,85.5,East,Valley,Very High,Low,Forest,Red Laterite,1.19
+Chandrapur,Maharashtra,CHA_019,20.0872,79.1995,170.2,7.5,331.2,North,Hillside,High,Low,Barren,Alluvial,2.06
+Chandrapur,Maharashtra,CHA_020,19.7848,79.3982,236.4,9.1,344.5,North,Peak,High,Low,Forest,Red Laterite,0.83
+Chandrapur,Maharashtra,CHA_021,20.1715,79.4192,85.5,9.3,72.8,East,Valley,Very High,Low,Forest,Alluvial,2.72
+Chandrapur,Maharashtra,CHA_022,19.9064,79.55,146.7,4.1,111.3,East,Hillside,High,Low,Agricultural,Alluvial,2.52
+Chandrapur,Maharashtra,CHA_023,20.1175,79.353,194.0,6.8,227.1,West,Hillside,High,Low,Agricultural,Rocky,2.45
+Chandrapur,Maharashtra,CHA_024,19.7422,79.5085,197.4,7.9,163.3,South,Hillside,High,Low,Forest,Black Cotton,2.11
+Chandrapur,Maharashtra,CHA_025,19.8876,79.3651,159.7,8.9,278.6,West,Hillside,High,Low,Barren,Red Laterite,1.67
+Chandrapur,Maharashtra,CHA_026,20.135,79.1585,256.9,3.0,205.9,South,Peak,High,Low,Urban,Alluvial,4.4
+Chandrapur,Maharashtra,CHA_027,19.9433,79.3338,130.4,8.1,268.2,West,Hillside,High,Low,Agricultural,Alluvial,2.07
+Chandrapur,Maharashtra,CHA_028,19.692,79.1154,184.7,10.8,198.8,South,Hillside,High,Moderate,Forest,Black Cotton,3.28
+Chandrapur,Maharashtra,CHA_029,19.853,79.2345,185.0,3.7,1.1,North,Hillside,High,Low,Barren,Alluvial,1.1
+Chandrapur,Maharashtra,CHA_030,20.0556,79.2432,143.2,6.6,327.1,North,Hillside,High,Low,Agricultural,Alluvial,4.4
+Dhule,Maharashtra,DHU_001,21.1311,74.9127,396.5,9.0,54.8,East,Hillside,High,Low,Barren,Red Laterite,4.48
+Dhule,Maharashtra,DHU_002,20.9564,74.937,283.6,2.7,173.2,South,Hillside,High,Low,Forest,Red Laterite,2.01
+Dhule,Maharashtra,DHU_003,20.734,74.5897,375.4,7.2,84.0,East,Hillside,High,Low,Agricultural,Red Laterite,3.08
+Dhule,Maharashtra,DHU_004,20.8497,74.7819,388.7,3.1,73.5,East,Hillside,High,Low,Forest,Black Cotton,1.68
+Dhule,Maharashtra,DHU_005,21.0493,74.6245,423.2,4.8,195.0,South,Peak,Moderate,Low,Forest,Black Cotton,3.81
+Dhule,Maharashtra,DHU_006,21.1955,75.0342,336.9,8.0,233.2,West,Hillside,High,Low,Agricultural,Alluvial,3.12
+Dhule,Maharashtra,DHU_007,20.7876,74.8457,302.5,10.8,239.0,West,Hillside,High,Moderate,Urban,Rocky,3.07
+Dhule,Maharashtra,DHU_008,20.9312,74.7477,376.8,6.0,199.1,South,Hillside,High,Low,Agricultural,Black Cotton,2.89
+Dhule,Maharashtra,DHU_009,20.9013,74.848,282.9,7.9,234.6,West,Hillside,High,Low,Barren,Red Laterite,1.8
+Dhule,Maharashtra,DHU_010,21.0768,74.4762,389.0,4.2,203.0,South,Hillside,High,Low,Agricultural,Black Cotton,1.82
+Dhule,Maharashtra,DHU_011,20.8312,74.5851,275.0,4.4,54.4,East,Hillside,High,Low,Agricultural,Alluvial,1.5
+Dhule,Maharashtra,DHU_012,20.7658,74.8635,356.6,6.9,290.2,West,Hillside,High,Low,Urban,Black Cotton,3.8
+Dhule,Maharashtra,DHU_013,21.136,74.5577,395.1,6.1,245.0,West,Hillside,High,Low,Agricultural,Alluvial,1.75
+Dhule,Maharashtra,DHU_014,21.0208,74.8146,454.6,12.2,277.9,West,Peak,Moderate,Moderate,Forest,Black Cotton,1.1
+Dhule,Maharashtra,DHU_015,20.9031,74.5751,388.1,9.0,322.2,North,Hillside,High,Low,Barren,Red Laterite,1.72
+Dhule,Maharashtra,DHU_016,20.884,75.0692,289.3,8.2,104.4,East,Hillside,High,Low,Forest,Sandy,3.34
+Dhule,Maharashtra,DHU_017,20.7783,74.9118,541.9,7.8,261.8,West,Peak,Moderate,Low,Forest,Black Cotton,4.18
+Dhule,Maharashtra,DHU_018,20.8178,74.4845,82.1,9.9,228.3,West,Valley,Very High,Low,Forest,Sandy,2.82
+Dhule,Maharashtra,DHU_019,20.8411,74.7975,321.3,3.5,24.2,North,Hillside,High,Low,Agricultural,Red Laterite,2.21
+Dhule,Maharashtra,DHU_020,21.1067,74.6144,190.9,5.2,142.9,South,Valley,High,Low,Forest,Alluvial,1.95
+Dhule,Maharashtra,DHU_021,20.7559,74.8323,410.5,10.3,136.5,South,Hillside,Moderate,Moderate,Urban,Black Cotton,2.4
+Dhule,Maharashtra,DHU_022,20.6356,74.7186,405.9,9.9,144.1,South,Hillside,Moderate,Low,Forest,Sandy,3.69
+Dhule,Maharashtra,DHU_023,20.6542,75.0566,294.9,0.0,214.9,South,Hillside,High,Low,Urban,Black Cotton,2.46
+Dhule,Maharashtra,DHU_024,20.8896,74.5152,419.1,9.8,277.2,West,Hillside,Moderate,Low,Forest,Black Cotton,2.84
+Dhule,Maharashtra,DHU_025,20.8919,74.8072,490.5,8.0,139.5,South,Peak,Moderate,Low,Forest,Red Laterite,0.99
+Dhule,Maharashtra,DHU_026,20.7522,74.5043,241.1,10.1,98.7,East,Hillside,High,Moderate,Agricultural,Black Cotton,2.37
+Dhule,Maharashtra,DHU_027,21.0428,74.5245,477.9,6.8,121.3,East,Peak,Moderate,Low,Barren,Alluvial,0.59
+Dhule,Maharashtra,DHU_028,20.7129,75.0113,531.8,2.5,154.9,South,Peak,Moderate,Low,Agricultural,Red Laterite,1.79
+Dhule,Maharashtra,DHU_029,20.9052,74.683,295.8,8.1,276.5,West,Hillside,High,Low,Barren,Rocky,1.37
+Dhule,Maharashtra,DHU_030,20.9729,74.6354,223.0,5.8,162.3,South,Hillside,High,Low,Urban,Sandy,1.55
+Gadchiroli,Maharashtra,GAD_001,20.4768,80.1991,332.2,2.6,152.9,South,Peak,High,Low,Water Body,Sandy,1.41
+Gadchiroli,Maharashtra,GAD_002,19.881,80.0361,187.1,6.2,5.4,North,Hillside,High,Low,Forest,Red Laterite,4.24
+Gadchiroli,Maharashtra,GAD_003,20.3797,79.9057,250.0,8.3,118.2,East,Hillside,High,Low,Urban,Alluvial,1.21
+Gadchiroli,Maharashtra,GAD_004,20.2309,80.1298,224.7,14.1,301.7,West,Hillside,High,Moderate,Urban,Rocky,2.86
+Gadchiroli,Maharashtra,GAD_005,19.9296,79.795,326.2,4.5,303.6,West,Peak,High,Low,Forest,Sandy,2.44
+Gadchiroli,Maharashtra,GAD_006,19.923,80.0428,254.6,7.9,81.7,East,Hillside,High,Low,Water Body,Black Cotton,1.73
+Gadchiroli,Maharashtra,GAD_007,20.1896,79.8303,253.1,12.7,44.1,North,Hillside,High,Moderate,Forest,Red Laterite,2.66
+Gadchiroli,Maharashtra,GAD_008,20.0726,79.7232,262.0,5.8,140.5,South,Hillside,High,Low,Agricultural,Black Cotton,1.25
+Gadchiroli,Maharashtra,GAD_009,20.3891,80.2081,344.7,3.9,196.8,South,Peak,High,Low,Forest,Red Laterite,2.38
+Gadchiroli,Maharashtra,GAD_010,20.2159,79.9403,209.1,7.9,72.0,East,Hillside,High,Low,Forest,Alluvial,1.0
+Gadchiroli,Maharashtra,GAD_011,20.1055,80.2608,133.1,9.3,10.6,North,Valley,High,Low,Agricultural,Rocky,0.63
+Gadchiroli,Maharashtra,GAD_012,20.2607,80.0494,222.5,6.2,134.5,East,Hillside,High,Low,Agricultural,Alluvial,2.26
+Gadchiroli,Maharashtra,GAD_013,20.1931,79.8495,304.1,13.8,181.9,South,Peak,High,Moderate,Barren,Sandy,4.09
+Gadchiroli,Maharashtra,GAD_014,20.2277,79.7737,375.4,10.3,49.8,East,Peak,High,Moderate,Forest,Alluvial,1.15
+Gadchiroli,Maharashtra,GAD_015,20.1069,79.9084,306.9,15.6,30.7,North,Peak,High,Moderate,Urban,Black Cotton,1.84
+Gadchiroli,Maharashtra,GAD_016,20.4094,80.2127,316.4,8.9,79.0,East,Peak,High,Low,Agricultural,Sandy,1.73
+Gadchiroli,Maharashtra,GAD_017,20.4252,80.2038,252.7,12.2,32.7,North,Hillside,High,Moderate,Forest,Black Cotton,3.29
+Gadchiroli,Maharashtra,GAD_018,20.1673,79.7677,364.0,5.6,321.9,North,Peak,High,Low,Urban,Alluvial,1.44
+Gadchiroli,Maharashtra,GAD_019,20.0144,80.2447,183.4,8.7,190.2,South,Hillside,High,Low,Agricultural,Black Cotton,1.38
+Gadchiroli,Maharashtra,GAD_020,20.0416,80.0017,140.6,13.9,303.0,West,Valley,High,Moderate,Agricultural,Rocky,2.56
+Gadchiroli,Maharashtra,GAD_021,20.2785,80.0727,202.5,5.4,235.9,West,Hillside,High,Low,Urban,Black Cotton,2.93
+Gadchiroli,Maharashtra,GAD_022,20.3255,79.9131,302.9,11.4,153.0,South,Peak,High,Moderate,Forest,Sandy,2.78
+Gadchiroli,Maharashtra,GAD_023,20.244,80.1135,248.5,8.2,280.5,West,Hillside,High,Low,Forest,Rocky,4.28
+Gadchiroli,Maharashtra,GAD_024,20.0242,80.0606,314.2,12.8,212.5,South,Peak,High,Moderate,Agricultural,Rocky,1.4
+Gadchiroli,Maharashtra,GAD_025,20.0813,79.8684,234.1,2.9,90.8,East,Hillside,High,Low,Forest,Rocky,2.27
+Gadchiroli,Maharashtra,GAD_026,20.0269,80.0727,336.3,1.8,359.8,North,Peak,High,Low,Forest,Black Cotton,0.75
+Gadchiroli,Maharashtra,GAD_027,20.2194,79.9281,93.7,4.8,93.3,East,Valley,Very High,Low,Agricultural,Sandy,3.96
+Gadchiroli,Maharashtra,GAD_028,20.4686,79.9607,247.9,7.9,237.3,West,Hillside,High,Low,Forest,Alluvial,4.32
+Gadchiroli,Maharashtra,GAD_029,19.9405,79.9547,287.2,9.4,224.3,South,Hillside,High,Low,Agricultural,Alluvial,4.26
+Gadchiroli,Maharashtra,GAD_030,20.0726,80.1063,175.0,11.4,116.3,East,Hillside,High,Moderate,Forest,Sandy,2.96
+Gondia,Maharashtra,GON_001,21.1829,80.3937,297.2,8.5,28.1,North,Hillside,High,Low,Agricultural,Alluvial,2.12
+Gondia,Maharashtra,GON_002,21.2488,80.436,416.6,3.2,47.6,East,Peak,Moderate,Low,Forest,Alluvial,0.93
+Gondia,Maharashtra,GON_003,21.2992,80.3394,303.2,5.0,96.7,East,Hillside,High,Low,Forest,Red Laterite,2.0
+Gondia,Maharashtra,GON_004,21.3101,80.1112,561.7,6.2,38.7,North,Peak,Moderate,Low,Urban,Black Cotton,0.65
+Gondia,Maharashtra,GON_005,21.3211,80.1222,436.5,5.2,38.0,North,Peak,Moderate,Low,Forest,Alluvial,1.67
+Gondia,Maharashtra,GON_006,21.5076,80.1935,175.2,4.0,304.0,West,Valley,High,Low,Urban,Black Cotton,4.19
+Gondia,Maharashtra,GON_007,21.6855,80.3709,224.5,5.6,41.4,North,Hillside,High,Low,Urban,Alluvial,2.53
+Gondia,Maharashtra,GON_008,21.3817,80.4275,354.5,7.2,90.7,East,Hillside,High,Low,Agricultural,Red Laterite,1.46
+Gondia,Maharashtra,GON_009,21.5816,80.188,322.7,7.8,332.5,North,Hillside,High,Low,Urban,Alluvial,1.98
+Gondia,Maharashtra,GON_010,21.1781,80.2881,228.9,5.8,58.0,East,Hillside,High,Low,Urban,Black Cotton,1.89
+Gondia,Maharashtra,GON_011,21.4395,80.1358,194.3,3.2,54.2,East,Hillside,High,Low,Forest,Alluvial,3.26
+Gondia,Maharashtra,GON_012,21.4745,80.0558,423.2,5.1,267.2,West,Peak,Moderate,Low,Forest,Red Laterite,2.06
+Gondia,Maharashtra,GON_013,21.3766,80.1807,203.2,7.2,25.0,North,Hillside,High,Low,Forest,Alluvial,2.43
+Gondia,Maharashtra,GON_014,21.3348,80.0697,457.4,5.9,325.3,North,Peak,Moderate,Low,Water Body,Alluvial,2.94
+Gondia,Maharashtra,GON_015,21.6367,80.3753,453.9,1.2,39.3,North,Peak,Moderate,Low,Agricultural,Sandy,1.68
+Gondia,Maharashtra,GON_016,21.2609,80.3477,421.1,5.8,133.2,East,Peak,Moderate,Low,Forest,Red Laterite,0.85
+Gondia,Maharashtra,GON_017,21.1855,80.021,315.0,8.4,64.7,East,Hillside,High,Low,Agricultural,Black Cotton,1.44
+Gondia,Maharashtra,GON_018,21.2019,80.0095,471.6,7.1,46.8,East,Peak,Moderate,Low,Agricultural,Rocky,1.03
+Gondia,Maharashtra,GON_019,21.7015,80.0245,375.0,7.3,221.2,South,Hillside,High,Low,Forest,Alluvial,1.07
+Gondia,Maharashtra,GON_020,21.6946,80.2831,365.6,3.2,319.5,North,Hillside,High,Low,Agricultural,Sandy,3.91
+Gondia,Maharashtra,GON_021,21.728,80.268,373.3,8.4,355.8,North,Hillside,High,Low,Barren,Alluvial,1.77
+Gondia,Maharashtra,GON_022,21.4751,80.0189,201.3,9.0,350.2,North,Hillside,High,Low,Agricultural,Sandy,4.34
+Gondia,Maharashtra,GON_023,21.5717,79.9055,344.3,6.3,345.9,North,Hillside,High,Low,Forest,Sandy,3.24
+Gondia,Maharashtra,GON_024,21.2469,80.2712,247.2,6.4,60.9,East,Hillside,High,Low,Water Body,Sandy,4.26
+Gondia,Maharashtra,GON_025,21.7086,79.9208,224.9,6.9,174.6,South,Hillside,High,Low,Forest,Red Laterite,3.84
+Gondia,Maharashtra,GON_026,21.4186,80.3132,445.6,4.6,209.9,South,Peak,Moderate,Low,Agricultural,Red Laterite,2.17
+Gondia,Maharashtra,GON_027,21.2159,80.2588,519.3,5.6,91.4,East,Peak,Moderate,Low,Agricultural,Sandy,4.49
+Gondia,Maharashtra,GON_028,21.3684,80.4768,370.6,10.6,37.3,North,Hillside,High,Moderate,Urban,Alluvial,3.4
+Gondia,Maharashtra,GON_029,21.5352,80.0756,275.4,4.1,14.5,North,Hillside,High,Low,Agricultural,Black Cotton,3.49
+Gondia,Maharashtra,GON_030,21.4205,80.425,281.4,7.2,17.2,North,Hillside,High,Low,Urban,Red Laterite,3.04
+Hingoli,Maharashtra,HIN_001,19.6789,77.2449,405.1,7.7,340.8,North,Hillside,Moderate,Low,Forest,Red Laterite,3.07
+Hingoli,Maharashtra,HIN_002,19.5619,77.3292,659.4,5.6,299.9,West,Peak,Moderate,Low,Barren,Alluvial,2.83
+Hingoli,Maharashtra,HIN_003,19.4532,77.2976,550.6,8.1,338.6,North,Peak,Moderate,Low,Urban,Rocky,4.12
+Hingoli,Maharashtra,HIN_004,19.8706,76.9761,396.3,6.9,22.8,North,Hillside,High,Low,Agricultural,Black Cotton,3.44
+Hingoli,Maharashtra,HIN_005,19.7962,77.0701,210.2,3.7,25.2,North,Valley,High,Low,Forest,Black Cotton,3.15
+Hingoli,Maharashtra,HIN_006,19.5737,76.9932,540.6,5.3,12.4,North,Peak,Moderate,Low,Urban,Black Cotton,1.54
+Hingoli,Maharashtra,HIN_007,19.9377,77.2781,223.2,4.0,328.6,North,Valley,High,Low,Forest,Sandy,4.21
+Hingoli,Maharashtra,HIN_008,19.6664,77.0642,182.2,5.5,307.5,West,Valley,High,Low,Forest,Rocky,4.3
+Hingoli,Maharashtra,HIN_009,19.5202,76.9026,256.5,0.0,255.6,West,Valley,High,Low,Forest,Red Laterite,3.74
+Hingoli,Maharashtra,HIN_010,19.4297,77.3946,512.2,3.9,117.2,East,Hillside,Moderate,Low,Forest,Red Laterite,3.89
+Hingoli,Maharashtra,HIN_011,19.8923,77.4488,841.8,3.5,200.9,South,Peak,Moderate,Low,Forest,Rocky,1.55
+Hingoli,Maharashtra,HIN_012,19.4729,77.0388,349.3,2.1,201.4,South,Hillside,High,Low,Forest,Black Cotton,2.79
+Hingoli,Maharashtra,HIN_013,19.8509,76.9451,267.9,6.0,262.0,West,Hillside,High,Low,Forest,Red Laterite,0.61
+Hingoli,Maharashtra,HIN_014,19.8977,76.8623,232.9,3.2,165.9,South,Valley,High,Low,Forest,Sandy,2.49
+Hingoli,Maharashtra,HIN_015,19.7512,77.1675,380.0,2.2,346.9,North,Hillside,High,Low,Agricultural,Black Cotton,1.87
+Hingoli,Maharashtra,HIN_016,19.8437,77.3366,394.4,1.3,154.8,South,Hillside,High,Low,Urban,Rocky,2.63
+Hingoli,Maharashtra,HIN_017,19.4533,77.0672,500.8,6.1,63.1,East,Hillside,Moderate,Low,Agricultural,Black Cotton,2.05
+Hingoli,Maharashtra,HIN_018,19.6307,77.1123,357.7,7.1,192.8,South,Hillside,High,Low,Agricultural,Red Laterite,4.36
+Hingoli,Maharashtra,HIN_019,19.8964,77.189,371.3,3.8,15.0,North,Hillside,High,Low,Agricultural,Black Cotton,3.06
+Hingoli,Maharashtra,HIN_020,19.8107,76.9868,380.7,7.3,293.4,West,Hillside,High,Low,Agricultural,Alluvial,2.06
+Hingoli,Maharashtra,HIN_021,19.6584,76.9213,242.5,7.3,249.8,West,Valley,High,Low,Agricultural,Black Cotton,4.47
+Hingoli,Maharashtra,HIN_022,19.6882,76.9079,469.9,5.6,158.0,South,Hillside,Moderate,Low,Forest,Alluvial,2.44
+Hingoli,Maharashtra,HIN_023,19.6255,76.8841,433.6,7.0,205.1,South,Hillside,Moderate,Low,Urban,Black Cotton,0.9
+Hingoli,Maharashtra,HIN_024,19.5158,77.2514,194.3,7.8,161.1,South,Valley,High,Low,Forest,Alluvial,1.83
+Hingoli,Maharashtra,HIN_025,19.9689,77.0812,443.8,7.2,281.7,West,Hillside,Moderate,Low,Forest,Black Cotton,4.29
+Hingoli,Maharashtra,HIN_026,19.8931,76.9769,366.4,6.3,270.9,West,Hillside,High,Low,Agricultural,Black Cotton,1.42
+Hingoli,Maharashtra,HIN_027,20.0069,77.1862,445.5,8.2,67.2,East,Hillside,Moderate,Low,Urban,Alluvial,2.16
+Hingoli,Maharashtra,HIN_028,19.7705,77.0385,433.2,1.8,250.2,West,Hillside,Moderate,Low,Agricultural,Red Laterite,4.14
+Hingoli,Maharashtra,HIN_029,19.9713,77.159,468.5,6.2,209.4,South,Hillside,Moderate,Low,Urban,Rocky,3.84
+Hingoli,Maharashtra,HIN_030,19.9907,77.3857,169.6,5.7,110.7,East,Valley,High,Low,Urban,Red Laterite,3.89
+Jalgaon,Maharashtra,JAL_001,20.9948,75.5753,282.3,3.1,240.4,West,Peak,High,Low,Forest,Black Cotton,0.96
+Jalgaon,Maharashtra,JAL_002,21.2818,75.3461,159.1,5.4,91.6,East,Hillside,High,Low,Barren,Alluvial,1.35
+Jalgaon,Maharashtra,JAL_003,21.0061,75.7531,175.1,3.8,326.1,North,Hillside,High,Low,Agricultural,Alluvial,0.7
+Jalgaon,Maharashtra,JAL_004,20.7484,75.4802,221.9,2.7,5.9,North,Hillside,High,Low,Forest,Alluvial,2.87
+Jalgaon,Maharashtra,JAL_005,20.9503,75.8584,90.4,4.4,252.8,West,Valley,Very High,Low,Forest,Sandy,1.03
+Jalgaon,Maharashtra,JAL_006,20.8076,75.3513,157.1,3.7,315.6,North,Hillside,High,Low,Water Body,Rocky,3.12
+Jalgaon,Maharashtra,JAL_007,21.0981,75.4014,242.5,8.3,249.6,West,Hillside,High,Low,Barren,Black Cotton,0.54
+Jalgaon,Maharashtra,JAL_008,20.8984,75.4526,192.3,5.3,273.8,West,Hillside,High,Low,Agricultural,Alluvial,2.2
+Jalgaon,Maharashtra,JAL_009,20.9387,75.4423,207.9,0.0,236.1,West,Hillside,High,Low,Water Body,Alluvial,2.0
+Jalgaon,Maharashtra,JAL_010,20.7661,75.6272,151.1,6.5,350.1,North,Hillside,High,Low,Water Body,Alluvial,3.79
+Jalgaon,Maharashtra,JAL_011,21.2251,75.7089,184.6,7.9,20.7,North,Hillside,High,Low,Forest,Alluvial,3.37
+Jalgaon,Maharashtra,JAL_012,21.0022,75.4563,158.3,2.5,261.0,West,Hillside,High,Low,Forest,Alluvial,2.77
+Jalgaon,Maharashtra,JAL_013,20.7356,75.3898,185.1,6.9,87.6,East,Hillside,High,Low,Forest,Red Laterite,0.92
+Jalgaon,Maharashtra,JAL_014,21.242,75.3006,230.3,6.1,156.2,South,Hillside,High,Low,Barren,Rocky,1.17
+Jalgaon,Maharashtra,JAL_015,21.262,75.6363,259.4,11.3,244.6,West,Peak,High,Moderate,Barren,Sandy,1.07
+Jalgaon,Maharashtra,JAL_016,21.1184,75.4965,282.0,3.8,355.3,North,Peak,High,Low,Forest,Black Cotton,2.73
+Jalgaon,Maharashtra,JAL_017,21.0243,75.3017,202.0,0.4,328.4,North,Hillside,High,Low,Barren,Sandy,4.24
+Jalgaon,Maharashtra,JAL_018,20.8566,75.4741,166.6,8.3,8.0,North,Hillside,High,Low,Agricultural,Sandy,1.25
+Jalgaon,Maharashtra,JAL_019,21.1991,75.5063,247.6,5.9,56.9,East,Hillside,High,Low,Forest,Black Cotton,0.67
+Jalgaon,Maharashtra,JAL_020,20.7681,75.7061,230.8,8.3,281.6,West,Hillside,High,Low,Urban,Red Laterite,2.22
+Jalgaon,Maharashtra,JAL_021,21.0306,75.3797,173.4,4.1,342.9,North,Hillside,High,Low,Agricultural,Alluvial,2.7
+Jalgaon,Maharashtra,JAL_022,21.2791,75.4296,224.0,9.3,342.3,North,Hillside,High,Low,Forest,Sandy,2.21
+Jalgaon,Maharashtra,JAL_023,20.8252,75.4462,221.0,6.8,143.4,South,Hillside,High,Low,Agricultural,Black Cotton,1.86
+Jalgaon,Maharashtra,JAL_024,20.8061,75.6107,300.1,4.4,141.1,South,Peak,High,Low,Urban,Red Laterite,3.88
+Jalgaon,Maharashtra,JAL_025,21.2025,75.7732,151.7,7.3,238.8,West,Hillside,High,Low,Forest,Alluvial,1.19
+Jalgaon,Maharashtra,JAL_026,21.0416,75.4089,167.7,6.2,112.6,East,Hillside,High,Low,Forest,Alluvial,4.02
+Jalgaon,Maharashtra,JAL_027,21.1033,75.7402,184.0,4.6,325.4,North,Hillside,High,Low,Forest,Rocky,3.42
+Jalgaon,Maharashtra,JAL_028,20.7609,75.6299,262.7,7.6,204.4,South,Peak,High,Low,Water Body,Red Laterite,3.28
+Jalgaon,Maharashtra,JAL_029,20.8745,75.5874,223.2,3.0,197.0,South,Hillside,High,Low,Barren,Black Cotton,4.37
+Jalgaon,Maharashtra,JAL_030,21.2746,75.5434,230.9,3.7,125.9,East,Hillside,High,Low,Forest,Black Cotton,1.16
+Jalna,Maharashtra,JAL_001,19.6602,75.8548,653.8,3.3,329.2,North,Peak,Moderate,Low,Barren,Red Laterite,2.06
+Jalna,Maharashtra,JAL_002,19.556,76.098,564.2,9.5,70.3,East,Hillside,Moderate,Low,Forest,Red Laterite,2.79
+Jalna,Maharashtra,JAL_003,20.0074,75.7715,246.4,8.0,197.4,South,Valley,High,Low,Forest,Alluvial,2.66
+Jalna,Maharashtra,JAL_004,20.0033,75.7967,560.8,9.9,29.5,North,Hillside,Moderate,Low,Agricultural,Rocky,2.99
+Jalna,Maharashtra,JAL_005,19.6544,76.1738,558.5,7.2,218.7,South,Hillside,Moderate,Low,Agricultural,Sandy,1.19
+Jalna,Maharashtra,JAL_006,19.9101,75.8898,589.2,7.4,351.2,North,Peak,Moderate,Low,Forest,Alluvial,2.75
+Jalna,Maharashtra,JAL_007,19.8521,75.9832,319.2,8.1,90.0,East,Hillside,High,Low,Agricultural,Black Cotton,1.31
+Jalna,Maharashtra,JAL_008,19.7705,75.6361,272.0,7.8,58.7,East,Valley,High,Low,Agricultural,Sandy,2.12
+Jalna,Maharashtra,JAL_009,19.7884,75.9003,675.8,6.1,11.7,North,Peak,Moderate,Low,Urban,Alluvial,3.89
+Jalna,Maharashtra,JAL_010,20.0641,75.988,363.1,6.6,237.3,West,Hillside,High,Low,Urban,Rocky,3.24
+Jalna,Maharashtra,JAL_011,20.0857,75.6862,739.4,5.6,148.5,South,Peak,Moderate,Low,Agricultural,Black Cotton,0.94
+Jalna,Maharashtra,JAL_012,19.5373,76.065,619.3,5.1,244.9,West,Peak,Moderate,Low,Agricultural,Sandy,2.62
+Jalna,Maharashtra,JAL_013,19.7355,75.6531,552.4,2.6,145.0,South,Hillside,Moderate,Low,Agricultural,Black Cotton,2.87
+Jalna,Maharashtra,JAL_014,19.6234,75.9797,483.1,6.0,186.1,South,Hillside,Moderate,Low,Forest,Sandy,3.75
+Jalna,Maharashtra,JAL_015,19.5982,75.5828,423.0,8.9,342.3,North,Hillside,Moderate,Low,Forest,Sandy,3.44
+Jalna,Maharashtra,JAL_016,19.8599,75.8809,388.9,7.7,153.8,South,Hillside,High,Low,Forest,Alluvial,3.9
+Jalna,Maharashtra,JAL_017,19.777,75.9298,559.1,6.8,269.8,West,Hillside,Moderate,Low,Agricultural,Alluvial,3.84
+Jalna,Maharashtra,JAL_018,20.1247,75.6914,496.2,8.5,78.3,East,Hillside,Moderate,Low,Agricultural,Black Cotton,4.03
+Jalna,Maharashtra,JAL_019,19.6772,75.8747,401.6,3.6,340.4,North,Hillside,Moderate,Low,Barren,Sandy,1.99
+Jalna,Maharashtra,JAL_020,19.6611,75.6528,516.3,7.2,140.1,South,Hillside,Moderate,Low,Agricultural,Black Cotton,4.17
+Jalna,Maharashtra,JAL_021,20.0173,75.9105,622.2,9.0,210.5,South,Peak,Moderate,Low,Barren,Black Cotton,2.35
+Jalna,Maharashtra,JAL_022,19.7627,75.6754,159.8,5.2,344.7,North,Valley,High,Low,Agricultural,Sandy,1.27
+Jalna,Maharashtra,JAL_023,19.8796,75.993,260.3,5.0,332.3,North,Valley,High,Low,Forest,Rocky,4.23
+Jalna,Maharashtra,JAL_024,19.658,75.6313,486.8,1.6,356.2,North,Hillside,Moderate,Low,Agricultural,Alluvial,2.14
+Jalna,Maharashtra,JAL_025,20.1276,75.7784,677.3,9.3,112.5,East,Peak,Moderate,Low,Agricultural,Red Laterite,1.42
+Jalna,Maharashtra,JAL_026,19.6656,76.173,399.2,6.7,293.1,West,Hillside,High,Low,Urban,Rocky,4.42
+Jalna,Maharashtra,JAL_027,19.688,75.5841,619.3,10.0,261.9,West,Peak,Moderate,Moderate,Forest,Red Laterite,4.14
+Jalna,Maharashtra,JAL_028,20.0933,75.6568,390.7,5.4,176.9,South,Hillside,High,Low,Agricultural,Black Cotton,3.23
+Jalna,Maharashtra,JAL_029,19.7179,75.8132,590.5,5.0,81.3,East,Peak,Moderate,Low,Urban,Rocky,3.2
+Jalna,Maharashtra,JAL_030,19.8293,75.6015,405.9,7.1,311.6,West,Hillside,Moderate,Low,Barren,Alluvial,1.33
+Kolhapur,Maharashtra,KOL_001,16.7352,74.4225,977.7,6.6,298.4,West,Hillside,Low,Low,Barren,Alluvial,4.5
+Kolhapur,Maharashtra,KOL_002,16.4669,74.1167,1021.4,8.7,200.7,South,Peak,Low,Low,Agricultural,Alluvial,3.25
+Kolhapur,Maharashtra,KOL_003,16.5728,74.535,808.9,15.9,7.7,North,Hillside,Moderate,Moderate,Barren,Alluvial,3.14
+Kolhapur,Maharashtra,KOL_004,16.7985,74.2576,1016.5,19.8,251.9,West,Peak,Low,Moderate,Forest,Alluvial,2.48
+Kolhapur,Maharashtra,KOL_005,16.8942,74.5153,691.4,13.4,298.7,West,Hillside,Moderate,Moderate,Forest,Red Laterite,1.27
+Kolhapur,Maharashtra,KOL_006,16.8348,74.1744,229.1,16.9,38.7,North,Valley,High,Moderate,Agricultural,Alluvial,2.96
+Kolhapur,Maharashtra,KOL_007,16.7649,74.0026,1040.9,15.2,211.5,South,Peak,Low,Moderate,Forest,Red Laterite,2.78
+Kolhapur,Maharashtra,KOL_008,16.8311,74.5075,834.0,1.7,123.0,East,Hillside,Moderate,Low,Water Body,Black Cotton,1.06
+Kolhapur,Maharashtra,KOL_009,16.6874,74.2885,788.3,21.8,347.5,North,Hillside,Moderate,High,Barren,Red Laterite,1.74
+Kolhapur,Maharashtra,KOL_010,16.4919,74.1699,677.3,16.6,25.5,North,Hillside,Moderate,Moderate,Forest,Alluvial,1.33
+Kolhapur,Maharashtra,KOL_011,16.4092,74.1109,772.1,17.8,219.5,South,Hillside,Moderate,Moderate,Urban,Alluvial,2.27
+Kolhapur,Maharashtra,KOL_012,16.8627,74.0754,811.3,8.4,5.5,North,Hillside,Moderate,Low,Agricultural,Black Cotton,2.75
+Kolhapur,Maharashtra,KOL_013,16.5726,74.3824,914.1,4.2,128.5,East,Hillside,Low,Low,Barren,Alluvial,1.93
+Kolhapur,Maharashtra,KOL_014,16.4601,74.2509,347.4,13.9,182.0,South,Valley,High,Moderate,Urban,Alluvial,1.63
+Kolhapur,Maharashtra,KOL_015,16.5884,74.344,1023.1,6.2,79.5,East,Peak,Low,Low,Urban,Red Laterite,1.47
+Kolhapur,Maharashtra,KOL_016,16.4831,74.5277,1413.9,18.7,67.8,East,Peak,Low,Moderate,Agricultural,Red Laterite,1.68
+Kolhapur,Maharashtra,KOL_017,16.4438,74.281,924.3,15.9,199.6,South,Hillside,Low,Moderate,Agricultural,Alluvial,2.18
+Kolhapur,Maharashtra,KOL_018,16.6224,74.2084,423.3,16.4,112.4,East,Valley,Moderate,Moderate,Agricultural,Black Cotton,1.4
+Kolhapur,Maharashtra,KOL_019,16.9579,74.3569,875.2,1.7,287.7,West,Hillside,Moderate,Low,Barren,Alluvial,1.85
+Kolhapur,Maharashtra,KOL_020,16.4262,74.0633,831.1,9.8,14.1,North,Hillside,Moderate,Low,Forest,Rocky,3.92
+Kolhapur,Maharashtra,KOL_021,16.6727,74.2225,823.7,4.4,168.2,South,Hillside,Moderate,Low,Water Body,Black Cotton,0.87
+Kolhapur,Maharashtra,KOL_022,16.5183,74.012,920.7,13.7,116.2,East,Hillside,Low,Moderate,Forest,Black Cotton,4.39
+Kolhapur,Maharashtra,KOL_023,16.7733,74.226,863.2,13.7,144.4,South,Hillside,Moderate,Moderate,Agricultural,Sandy,1.67
+Kolhapur,Maharashtra,KOL_024,16.4584,74.2095,705.8,11.3,13.7,North,Hillside,Moderate,Moderate,Barren,Black Cotton,3.68
+Kolhapur,Maharashtra,KOL_025,16.8829,74.2591,1086.8,6.8,321.4,North,Peak,Low,Low,Agricultural,Alluvial,4.15
+Kolhapur,Maharashtra,KOL_026,16.6185,74.2761,368.6,12.8,159.4,South,Valley,High,Moderate,Agricultural,Sandy,2.61
+Kolhapur,Maharashtra,KOL_027,16.7846,74.3267,803.1,16.4,314.0,West,Hillside,Moderate,Moderate,Agricultural,Sandy,3.77
+Kolhapur,Maharashtra,KOL_028,16.4537,74.5048,800.6,17.4,98.3,East,Hillside,Moderate,Moderate,Forest,Black Cotton,0.71
+Kolhapur,Maharashtra,KOL_029,16.6108,74.1633,1136.2,8.8,68.5,East,Peak,Low,Low,Water Body,Black Cotton,2.8
+Kolhapur,Maharashtra,KOL_030,16.9961,73.9563,1186.5,12.6,199.2,South,Peak,Low,Moderate,Agricultural,Black Cotton,4.4
+Latur,Maharashtra,LAT_001,18.47,76.8113,664.0,3.0,191.1,South,Hillside,Moderate,Low,Urban,Red Laterite,3.7
+Latur,Maharashtra,LAT_002,18.1615,76.4299,506.7,1.8,264.2,West,Hillside,Moderate,Low,Forest,Red Laterite,4.19
+Latur,Maharashtra,LAT_003,18.3348,76.8091,648.4,7.4,292.9,West,Hillside,Moderate,Low,Urban,Alluvial,3.65
+Latur,Maharashtra,LAT_004,18.2287,76.6691,386.9,6.9,149.4,South,Valley,High,Low,Forest,Rocky,4.06
+Latur,Maharashtra,LAT_005,18.478,76.632,634.6,3.7,86.0,East,Hillside,Moderate,Low,Agricultural,Rocky,3.65
+Latur,Maharashtra,LAT_006,18.1417,76.4037,995.6,3.4,10.4,North,Peak,Low,Low,Forest,Red Laterite,3.46
+Latur,Maharashtra,LAT_007,18.3523,76.406,1054.9,2.2,307.8,West,Peak,Low,Low,Barren,Sandy,2.13
+Latur,Maharashtra,LAT_008,18.6115,76.6915,701.1,9.2,285.1,West,Hillside,Moderate,Low,Urban,Red Laterite,1.77
+Latur,Maharashtra,LAT_009,18.5474,76.3633,512.0,7.8,189.7,South,Hillside,Moderate,Low,Urban,Alluvial,2.21
+Latur,Maharashtra,LAT_010,18.6368,76.8298,581.8,2.3,80.9,East,Hillside,Moderate,Low,Agricultural,Black Cotton,2.31
+Latur,Maharashtra,LAT_011,18.5312,76.5931,717.6,4.7,10.2,North,Hillside,Moderate,Low,Forest,Red Laterite,1.22
+Latur,Maharashtra,LAT_012,18.2596,76.3032,740.4,5.5,256.6,West,Hillside,Moderate,Low,Agricultural,Black Cotton,2.52
+Latur,Maharashtra,LAT_013,18.261,76.7476,392.0,1.4,189.4,South,Hillside,High,Low,Forest,Red Laterite,1.09
+Latur,Maharashtra,LAT_014,18.6812,76.8549,415.1,4.5,223.4,South,Hillside,Moderate,Low,Urban,Rocky,3.08
+Latur,Maharashtra,LAT_015,18.2161,76.4225,481.8,5.6,27.5,North,Hillside,Moderate,Low,Agricultural,Alluvial,2.63
+Latur,Maharashtra,LAT_016,18.2792,76.4886,498.6,4.2,110.9,East,Hillside,Moderate,Low,Urban,Rocky,3.62
+Latur,Maharashtra,LAT_017,18.2113,76.3683,758.0,0.0,339.5,North,Hillside,Moderate,Low,Forest,Alluvial,4.28
+Latur,Maharashtra,LAT_018,18.4889,76.7983,155.0,5.9,5.3,North,Valley,High,Low,Agricultural,Black Cotton,2.45
+Latur,Maharashtra,LAT_019,18.5518,76.5594,860.0,4.0,109.4,East,Peak,Moderate,Low,Forest,Rocky,3.84
+Latur,Maharashtra,LAT_020,18.422,76.336,849.3,4.5,149.1,South,Peak,Moderate,Low,Agricultural,Alluvial,2.27
+Latur,Maharashtra,LAT_021,18.392,76.7191,524.1,5.5,283.5,West,Hillside,Moderate,Low,Urban,Alluvial,3.51
+Latur,Maharashtra,LAT_022,18.6417,76.3388,675.9,1.9,329.6,North,Hillside,Moderate,Low,Urban,Red Laterite,2.57
+Latur,Maharashtra,LAT_023,18.1603,76.841,1038.8,10.1,266.3,West,Peak,Low,Moderate,Agricultural,Black Cotton,3.99
+Latur,Maharashtra,LAT_024,18.6155,76.8088,521.3,6.9,168.7,South,Hillside,Moderate,Low,Urban,Black Cotton,1.47
+Latur,Maharashtra,LAT_025,18.2874,76.3663,622.9,9.8,354.2,North,Hillside,Moderate,Low,Agricultural,Alluvial,0.72
+Latur,Maharashtra,LAT_026,18.3495,76.4821,648.3,7.6,20.8,North,Hillside,Moderate,Low,Forest,Sandy,2.06
+Latur,Maharashtra,LAT_027,18.2856,76.7636,703.2,6.8,274.4,West,Hillside,Moderate,Low,Agricultural,Black Cotton,3.0
+Latur,Maharashtra,LAT_028,18.5898,76.2616,470.4,4.2,61.9,East,Hillside,Moderate,Low,Urban,Red Laterite,4.0
+Latur,Maharashtra,LAT_029,18.5798,76.3393,726.4,8.4,346.9,North,Hillside,Moderate,Low,Barren,Sandy,4.26
+Latur,Maharashtra,LAT_030,18.1267,76.5894,756.4,9.2,105.5,East,Hillside,Moderate,Low,Agricultural,Sandy,3.68
+Mumbai City,Maharashtra,MUM_001,19.0052,72.7391,14.9,0.6,49.7,East,Peak,Very High,Low,Urban,Red Laterite,2.81
+Mumbai City,Maharashtra,MUM_002,18.9743,73.0543,5.5,1.0,314.4,West,Valley,Very High,Low,Barren,Black Cotton,1.16
+Mumbai City,Maharashtra,MUM_003,19.1469,72.8843,8.3,2.5,190.2,South,Hillside,Very High,Low,Forest,Red Laterite,2.75
+Mumbai City,Maharashtra,MUM_004,19.2259,72.8024,16.6,2.0,117.4,East,Peak,Very High,Low,Urban,Alluvial,2.69
+Mumbai City,Maharashtra,MUM_005,18.7886,73.1273,9.0,0.6,275.6,West,Hillside,Very High,Low,Agricultural,Sandy,1.65
+Mumbai City,Maharashtra,MUM_006,19.1453,72.9099,12.3,3.1,238.0,West,Hillside,Very High,Low,Agricultural,Red Laterite,3.94
+Mumbai City,Maharashtra,MUM_007,19.045,72.7643,14.5,2.7,343.7,North,Peak,Very High,Low,Barren,Alluvial,1.21
+Mumbai City,Maharashtra,MUM_008,19.124,72.7711,9.7,1.7,33.9,North,Hillside,Very High,Low,Barren,Rocky,1.42
+Mumbai City,Maharashtra,MUM_009,18.8,72.5439,11.3,1.9,217.1,South,Hillside,Very High,Low,Barren,Red Laterite,1.15
+Mumbai City,Maharashtra,MUM_010,19.0143,73.0853,13.8,2.3,151.3,South,Peak,Very High,Low,Urban,Red Laterite,2.74
+Mumbai City,Maharashtra,MUM_011,18.8408,72.5858,13.0,1.9,205.6,South,Hillside,Very High,Low,Forest,Red Laterite,4.5
+Mumbai City,Maharashtra,MUM_012,18.832,73.0378,8.1,1.9,210.6,South,Hillside,Very High,Low,Forest,Rocky,3.75
+Mumbai City,Maharashtra,MUM_013,19.0834,72.5361,14.9,2.7,191.2,South,Peak,Very High,Low,Agricultural,Sandy,2.46
+Mumbai City,Maharashtra,MUM_014,19.1685,73.1113,16.4,3.0,190.0,South,Peak,Very High,Low,Agricultural,Black Cotton,2.26
+Mumbai City,Maharashtra,MUM_015,19.1019,72.6831,7.2,2.6,188.6,South,Hillside,Very High,Low,Agricultural,Alluvial,1.23
+Mumbai City,Maharashtra,MUM_016,19.0973,72.6944,14.4,1.9,82.4,East,Peak,Very High,Low,Urban,Black Cotton,3.18
+Mumbai City,Maharashtra,MUM_017,19.0943,73.0336,6.6,2.4,306.4,West,Valley,Very High,Low,Forest,Black Cotton,3.78
+Mumbai City,Maharashtra,MUM_018,18.686,73.0864,8.7,2.1,188.9,South,Hillside,Very High,Low,Agricultural,Rocky,3.68
+Mumbai City,Maharashtra,MUM_019,19.0318,73.113,13.6,2.7,11.2,North,Peak,Very High,Low,Agricultural,Sandy,4.32
+Mumbai City,Maharashtra,MUM_020,19.1498,72.7071,9.6,0.5,145.2,South,Hillside,Very High,Low,Forest,Red Laterite,3.48
+Mumbai City,Maharashtra,MUM_021,18.9556,72.8816,12.5,2.2,9.8,North,Hillside,Very High,Low,Forest,Alluvial,2.8
+Mumbai City,Maharashtra,MUM_022,19.0262,72.6467,9.6,2.0,276.7,West,Hillside,Very High,Low,Urban,Black Cotton,1.26
+Mumbai City,Maharashtra,MUM_023,19.0439,72.9411,8.6,3.5,126.7,East,Hillside,Very High,Low,Urban,Red Laterite,3.97
+Mumbai City,Maharashtra,MUM_024,18.9608,72.9655,9.8,0.6,40.8,North,Hillside,Very High,Low,Agricultural,Sandy,2.72
+Mumbai City,Maharashtra,MUM_025,19.2284,72.8105,13.3,1.2,337.7,North,Peak,Very High,Low,Forest,Alluvial,2.45
+Mumbai City,Maharashtra,MUM_026,18.7374,72.8545,15.7,1.6,158.4,South,Peak,Very High,Low,Barren,Alluvial,0.85
+Mumbai City,Maharashtra,MUM_027,18.8756,72.5556,6.1,2.0,155.3,South,Valley,Very High,Low,Forest,Alluvial,4.29
+Mumbai City,Maharashtra,MUM_028,18.8009,73.0537,5.3,1.6,243.8,West,Valley,Very High,Low,Barren,Red Laterite,3.12
+Mumbai City,Maharashtra,MUM_029,19.1281,72.7305,12.5,2.6,340.9,North,Hillside,Very High,Low,Barren,Black Cotton,0.87
+Mumbai City,Maharashtra,MUM_030,18.91,73.0165,13.4,1.3,133.8,East,Peak,Very High,Low,Forest,Sandy,1.34
+Mumbai Suburban,Maharashtra,MUM_001,19.0913,72.9805,12.7,4.5,168.2,South,Hillside,Very High,Low,Agricultural,Rocky,2.53
+Mumbai Suburban,Maharashtra,MUM_002,19.2031,73.1006,13.4,0.4,138.0,South,Hillside,Very High,Low,Agricultural,Alluvial,3.58
+Mumbai Suburban,Maharashtra,MUM_003,19.0193,72.8283,13.5,4.4,134.5,East,Hillside,Very High,Low,Agricultural,Rocky,4.38
+Mumbai Suburban,Maharashtra,MUM_004,19.0295,72.8255,10.7,4.4,21.0,North,Hillside,Very High,Low,Urban,Black Cotton,3.7
+Mumbai Suburban,Maharashtra,MUM_005,19.3698,72.7233,13.9,4.0,327.1,North,Hillside,Very High,Low,Forest,Red Laterite,2.96
+Mumbai Suburban,Maharashtra,MUM_006,19.2153,72.666,10.2,5.0,270.8,West,Hillside,Very High,Low,Barren,Alluvial,2.44
+Mumbai Suburban,Maharashtra,MUM_007,19.3422,72.9953,17.5,4.3,12.1,North,Peak,Very High,Low,Forest,Alluvial,2.41
+Mumbai Suburban,Maharashtra,MUM_008,19.3195,72.9332,11.2,2.7,347.4,North,Hillside,Very High,Low,Forest,Red Laterite,1.24
+Mumbai Suburban,Maharashtra,MUM_009,19.3614,73.1474,19.3,3.9,22.0,North,Peak,Very High,Low,Forest,Alluvial,1.69
+Mumbai Suburban,Maharashtra,MUM_010,19.0023,73.095,17.9,3.7,159.2,South,Peak,Very High,Low,Agricultural,Sandy,0.9
+Mumbai Suburban,Maharashtra,MUM_011,18.9193,72.7618,12.2,4.4,67.1,East,Hillside,Very High,Low,Barren,Alluvial,3.89
+Mumbai Suburban,Maharashtra,MUM_012,19.2075,72.6529,12.2,1.7,340.4,North,Hillside,Very High,Low,Agricultural,Sandy,4.38
+Mumbai Suburban,Maharashtra,MUM_013,19.3634,72.8053,18.4,2.9,60.7,East,Peak,Very High,Low,Barren,Black Cotton,1.99
+Mumbai Suburban,Maharashtra,MUM_014,19.0519,72.604,17.1,3.1,312.1,West,Peak,Very High,Low,Agricultural,Black Cotton,1.36
+Mumbai Suburban,Maharashtra,MUM_015,19.1542,72.9309,18.4,3.1,208.2,South,Peak,Very High,Low,Water Body,Red Laterite,1.47
+Mumbai Suburban,Maharashtra,MUM_016,18.836,72.6105,14.6,1.6,80.8,East,Hillside,Very High,Low,Water Body,Red Laterite,4.04
+Mumbai Suburban,Maharashtra,MUM_017,19.1587,72.6376,17.8,4.4,197.1,South,Peak,Very High,Low,Forest,Red Laterite,1.27
+Mumbai Suburban,Maharashtra,MUM_018,19.1268,73.0203,13.6,3.0,311.9,West,Hillside,Very High,Low,Agricultural,Rocky,1.98
+Mumbai Suburban,Maharashtra,MUM_019,19.2754,72.6681,14.3,4.1,340.3,North,Hillside,Very High,Low,Agricultural,Sandy,0.74
+Mumbai Suburban,Maharashtra,MUM_020,19.1435,72.9424,7.7,3.5,143.7,South,Valley,Very High,Low,Agricultural,Sandy,3.69
+Mumbai Suburban,Maharashtra,MUM_021,18.9222,73.09,12.5,0.9,273.1,West,Hillside,Very High,Low,Urban,Alluvial,3.15
+Mumbai Suburban,Maharashtra,MUM_022,19.3251,72.9721,14.2,3.5,125.9,East,Hillside,Very High,Low,Agricultural,Alluvial,2.87
+Mumbai Suburban,Maharashtra,MUM_023,18.8767,72.7982,12.4,3.9,205.9,South,Hillside,Very High,Low,Forest,Sandy,4.25
+Mumbai Suburban,Maharashtra,MUM_024,18.8536,72.733,6.3,4.0,210.2,South,Valley,Very High,Low,Agricultural,Sandy,1.43
+Mumbai Suburban,Maharashtra,MUM_025,19.1287,72.893,10.4,3.7,337.5,North,Hillside,Very High,Low,Urban,Alluvial,2.87
+Mumbai Suburban,Maharashtra,MUM_026,18.9164,72.8209,13.8,2.5,232.6,West,Hillside,Very High,Low,Agricultural,Alluvial,4.26
+Mumbai Suburban,Maharashtra,MUM_027,19.2202,72.9588,15.9,3.0,351.0,North,Hillside,Very High,Low,Forest,Black Cotton,4.08
+Mumbai Suburban,Maharashtra,MUM_028,19.0752,73.1153,18.4,2.5,203.5,South,Peak,Very High,Low,Forest,Black Cotton,3.79
+Mumbai Suburban,Maharashtra,MUM_029,19.0453,72.7757,19.9,2.0,151.9,South,Peak,Very High,Low,Agricultural,Rocky,0.9
+Mumbai Suburban,Maharashtra,MUM_030,19.0352,73.1743,15.6,1.8,33.0,North,Hillside,Very High,Low,Water Body,Black Cotton,4.1
+Nagpur,Maharashtra,NAG_001,20.9732,79.1068,470.3,2.8,254.8,West,Peak,Moderate,Low,Agricultural,Alluvial,2.86
+Nagpur,Maharashtra,NAG_002,21.052,79.3031,253.3,2.9,25.1,North,Hillside,High,Low,Forest,Alluvial,3.6
+Nagpur,Maharashtra,NAG_003,21.1716,78.8609,177.7,1.7,204.7,South,Valley,High,Low,Agricultural,Alluvial,3.41
+Nagpur,Maharashtra,NAG_004,21.2829,79.0614,453.3,5.1,271.2,West,Peak,Moderate,Low,Water Body,Rocky,2.35
+Nagpur,Maharashtra,NAG_005,21.0928,79.1269,237.9,2.4,210.4,South,Hillside,High,Low,Urban,Red Laterite,0.59
+Nagpur,Maharashtra,NAG_006,21.1612,78.9553,397.0,3.3,270.1,West,Peak,High,Low,Forest,Alluvial,0.64
+Nagpur,Maharashtra,NAG_007,21.3326,79.0587,244.1,3.7,324.2,North,Hillside,High,Low,Agricultural,Sandy,3.41
+Nagpur,Maharashtra,NAG_008,20.8771,79.0891,432.6,3.5,5.1,North,Peak,Moderate,Low,Forest,Red Laterite,0.77
+Nagpur,Maharashtra,NAG_009,20.9926,79.0657,379.8,5.6,212.5,South,Peak,High,Low,Forest,Sandy,3.84
+Nagpur,Maharashtra,NAG_010,21.4031,79.0175,73.2,6.5,259.7,West,Valley,Very High,Low,Forest,Alluvial,2.5
+Nagpur,Maharashtra,NAG_011,21.3701,79.3619,349.3,7.5,157.6,South,Hillside,High,Low,Forest,Rocky,2.22
+Nagpur,Maharashtra,NAG_012,21.3387,79.0697,372.4,7.9,144.8,South,Peak,High,Low,Barren,Red Laterite,1.45
+Nagpur,Maharashtra,NAG_013,21.2644,79.3316,395.4,5.9,211.1,South,Peak,High,Low,Forest,Black Cotton,2.75
+Nagpur,Maharashtra,NAG_014,21.0618,79.1521,391.2,2.5,10.8,North,Peak,High,Low,Agricultural,Red Laterite,1.84
+Nagpur,Maharashtra,NAG_015,21.1258,79.0026,287.0,4.9,16.0,North,Hillside,High,Low,Agricultural,Black Cotton,1.6
+Nagpur,Maharashtra,NAG_016,21.0703,79.3098,240.3,5.7,141.4,South,Hillside,High,Low,Forest,Rocky,3.1
+Nagpur,Maharashtra,NAG_017,21.0844,79.2548,428.3,4.4,101.0,East,Peak,Moderate,Low,Barren,Rocky,4.1
+Nagpur,Maharashtra,NAG_018,21.2545,79.334,547.0,4.6,356.1,North,Peak,Moderate,Low,Forest,Black Cotton,1.96
+Nagpur,Maharashtra,NAG_019,20.9952,78.8632,265.7,5.6,297.9,West,Hillside,High,Low,Forest,Rocky,4.21
+Nagpur,Maharashtra,NAG_020,20.9984,79.1049,113.2,5.6,100.9,East,Valley,High,Low,Agricultural,Red Laterite,0.72
+Nagpur,Maharashtra,NAG_021,21.3338,79.121,234.2,7.9,213.5,South,Hillside,High,Low,Agricultural,Sandy,0.72
+Nagpur,Maharashtra,NAG_022,20.96,79.342,341.0,4.9,90.4,East,Hillside,High,Low,Urban,Sandy,2.93
+Nagpur,Maharashtra,NAG_023,20.984,79.0947,440.4,4.2,72.9,East,Peak,Moderate,Low,Forest,Alluvial,3.28
+Nagpur,Maharashtra,NAG_024,21.1877,79.1822,407.6,8.2,187.7,South,Peak,Moderate,Low,Forest,Rocky,1.73
+Nagpur,Maharashtra,NAG_025,21.3151,78.9993,188.1,3.3,80.3,East,Hillside,High,Low,Barren,Red Laterite,2.9
+Nagpur,Maharashtra,NAG_026,21.0734,79.178,481.8,4.3,133.0,East,Peak,Moderate,Low,Forest,Red Laterite,2.54
+Nagpur,Maharashtra,NAG_027,20.9972,79.285,302.6,2.3,139.5,South,Hillside,High,Low,Agricultural,Black Cotton,4.47
+Nagpur,Maharashtra,NAG_028,21.2759,79.2257,247.6,5.7,0.5,North,Hillside,High,Low,Agricultural,Alluvial,3.78
+Nagpur,Maharashtra,NAG_029,21.3109,79.0328,289.7,5.0,345.3,North,Hillside,High,Low,Forest,Sandy,2.18
+Nagpur,Maharashtra,NAG_030,21.425,79.0669,459.4,2.7,109.8,East,Peak,Moderate,Low,Urban,Sandy,3.63
+Nanded,Maharashtra,NAN_001,18.8539,77.4478,352.1,7.0,69.3,East,Hillside,High,Low,Agricultural,Black Cotton,1.68
+Nanded,Maharashtra,NAN_002,18.8696,77.0618,281.6,7.1,135.3,South,Hillside,High,Low,Forest,Rocky,2.69
+Nanded,Maharashtra,NAN_003,19.0834,77.4637,421.5,5.9,200.1,South,Hillside,Moderate,Low,Agricultural,Rocky,3.53
+Nanded,Maharashtra,NAN_004,19.3017,77.3025,444.7,5.8,315.6,North,Peak,Moderate,Low,Agricultural,Sandy,0.86
+Nanded,Maharashtra,NAN_005,19.0024,77.4796,272.7,5.3,114.5,East,Hillside,High,Low,Forest,Black Cotton,3.43
+Nanded,Maharashtra,NAN_006,18.9845,77.299,421.9,5.4,33.9,North,Hillside,Moderate,Low,Forest,Black Cotton,4.47
+Nanded,Maharashtra,NAN_007,19.1165,77.4324,321.0,2.7,73.9,East,Hillside,High,Low,Water Body,Black Cotton,3.63
+Nanded,Maharashtra,NAN_008,18.892,77.1054,524.6,3.9,142.0,South,Peak,Moderate,Low,Agricultural,Rocky,3.98
+Nanded,Maharashtra,NAN_009,19.1499,77.1569,453.4,8.3,311.0,West,Peak,Moderate,Low,Urban,Black Cotton,3.3
+Nanded,Maharashtra,NAN_010,19.411,77.3287,463.5,5.4,313.5,West,Peak,Moderate,Low,Agricultural,Alluvial,1.87
+Nanded,Maharashtra,NAN_011,18.9675,77.5939,512.0,7.7,301.6,West,Peak,Moderate,Low,Forest,Black Cotton,2.15
+Nanded,Maharashtra,NAN_012,19.07,77.6034,373.1,7.1,28.0,North,Hillside,High,Low,Forest,Black Cotton,1.95
+Nanded,Maharashtra,NAN_013,18.9837,77.3469,569.7,4.2,61.0,East,Peak,Moderate,Low,Forest,Rocky,2.71
+Nanded,Maharashtra,NAN_014,18.9568,77.1236,362.2,3.5,62.4,East,Hillside,High,Low,Water Body,Alluvial,1.19
+Nanded,Maharashtra,NAN_015,18.9809,77.3819,281.0,7.6,259.4,West,Hillside,High,Low,Forest,Rocky,3.49
+Nanded,Maharashtra,NAN_016,19.4074,77.5569,408.5,5.4,80.6,East,Hillside,Moderate,Low,Forest,Black Cotton,3.49
+Nanded,Maharashtra,NAN_017,19.142,77.0979,475.0,10.5,125.0,East,Peak,Moderate,Moderate,Agricultural,Rocky,2.93
+Nanded,Maharashtra,NAN_018,18.9298,77.4951,384.6,5.8,100.8,East,Hillside,High,Low,Agricultural,Black Cotton,1.81
+Nanded,Maharashtra,NAN_019,19.0479,77.2102,325.4,4.8,32.8,North,Hillside,High,Low,Forest,Alluvial,3.58
+Nanded,Maharashtra,NAN_020,18.9226,77.2966,263.7,3.4,76.4,East,Hillside,High,Low,Barren,Red Laterite,1.16
+Nanded,Maharashtra,NAN_021,19.2652,77.5576,373.1,2.9,205.0,South,Hillside,High,Low,Forest,Rocky,3.96
+Nanded,Maharashtra,NAN_022,19.0169,77.1717,239.6,0.3,125.8,East,Hillside,High,Low,Agricultural,Alluvial,3.78
+Nanded,Maharashtra,NAN_023,18.8416,77.1003,334.6,8.0,182.1,South,Hillside,High,Low,Agricultural,Rocky,2.15
+Nanded,Maharashtra,NAN_024,18.8629,77.5707,365.2,7.9,153.2,South,Hillside,High,Low,Urban,Black Cotton,1.19
+Nanded,Maharashtra,NAN_025,19.1981,77.5726,172.5,4.2,227.5,West,Valley,High,Low,Forest,Sandy,3.35
+Nanded,Maharashtra,NAN_026,19.3254,77.6024,407.8,8.0,50.5,East,Hillside,Moderate,Low,Urban,Red Laterite,2.24
+Nanded,Maharashtra,NAN_027,19.2303,77.103,415.6,8.2,261.9,West,Hillside,Moderate,Low,Forest,Rocky,3.63
+Nanded,Maharashtra,NAN_028,18.9792,77.3631,567.6,7.6,90.5,East,Peak,Moderate,Low,Forest,Red Laterite,3.07
+Nanded,Maharashtra,NAN_029,19.0841,77.1768,422.5,3.0,279.7,West,Hillside,Moderate,Low,Forest,Alluvial,1.49
+Nanded,Maharashtra,NAN_030,19.3088,77.6056,383.7,4.9,158.6,South,Hillside,High,Low,Agricultural,Rocky,3.09
+Nandurbar,Maharashtra,NAN_001,21.2177,74.079,72.2,13.4,87.9,East,Valley,Very High,Moderate,Forest,Black Cotton,3.74
+Nandurbar,Maharashtra,NAN_002,21.1465,74.0541,118.4,10.8,24.7,North,Valley,High,Moderate,Forest,Alluvial,4.18
+Nandurbar,Maharashtra,NAN_003,21.4475,73.9971,145.0,6.0,251.4,West,Hillside,High,Low,Barren,Red Laterite,1.59
+Nandurbar,Maharashtra,NAN_004,21.2263,74.4276,167.2,9.4,8.9,North,Hillside,High,Low,Forest,Alluvial,4.03
+Nandurbar,Maharashtra,NAN_005,21.5158,74.5221,115.4,11.7,339.4,North,Valley,High,Moderate,Forest,Sandy,2.24
+Nandurbar,Maharashtra,NAN_006,21.3221,74.4203,134.8,6.1,268.1,West,Hillside,High,Low,Agricultural,Red Laterite,3.95
+Nandurbar,Maharashtra,NAN_007,21.6202,74.4195,285.2,12.2,223.8,South,Peak,High,Moderate,Forest,Alluvial,2.22
+Nandurbar,Maharashtra,NAN_008,21.3132,74.2962,156.0,9.7,233.0,West,Hillside,High,Low,Forest,Black Cotton,3.72
+Nandurbar,Maharashtra,NAN_009,21.2457,74.4998,270.6,12.0,12.9,North,Peak,High,Moderate,Agricultural,Black Cotton,2.9
+Nandurbar,Maharashtra,NAN_010,21.1006,74.0709,232.7,13.7,208.7,South,Hillside,High,Moderate,Forest,Red Laterite,1.39
+Nandurbar,Maharashtra,NAN_011,21.1732,74.3251,301.5,8.2,29.5,North,Peak,High,Low,Forest,Red Laterite,1.66
+Nandurbar,Maharashtra,NAN_012,21.1444,74.4906,195.4,11.9,97.7,East,Hillside,High,Moderate,Urban,Black Cotton,2.39
+Nandurbar,Maharashtra,NAN_013,21.2292,74.3764,268.7,5.5,93.7,East,Peak,High,Low,Forest,Red Laterite,0.86
+Nandurbar,Maharashtra,NAN_014,21.318,74.2078,210.5,15.1,125.3,East,Hillside,High,Moderate,Agricultural,Rocky,3.69
+Nandurbar,Maharashtra,NAN_015,21.3801,74.2517,309.0,11.7,22.8,North,Peak,High,Moderate,Forest,Alluvial,1.13
+Nandurbar,Maharashtra,NAN_016,21.3477,74.4381,264.6,11.4,333.7,North,Peak,High,Moderate,Forest,Alluvial,1.61
+Nandurbar,Maharashtra,NAN_017,21.4522,74.3851,227.9,9.6,210.8,South,Hillside,High,Low,Agricultural,Sandy,0.75
+Nandurbar,Maharashtra,NAN_018,21.3304,74.0579,230.1,14.2,142.9,South,Hillside,High,Moderate,Forest,Red Laterite,1.01
+Nandurbar,Maharashtra,NAN_019,21.4798,73.9663,254.6,7.2,356.7,North,Peak,High,Low,Urban,Alluvial,4.48
+Nandurbar,Maharashtra,NAN_020,21.3677,73.9636,137.6,5.5,126.1,East,Hillside,High,Low,Barren,Black Cotton,2.01
+Nandurbar,Maharashtra,NAN_021,21.2808,74.4732,139.9,12.0,50.2,East,Hillside,High,Moderate,Urban,Red Laterite,0.95
+Nandurbar,Maharashtra,NAN_022,21.4596,74.3057,126.5,8.3,151.2,South,Hillside,High,Low,Agricultural,Black Cotton,3.02
+Nandurbar,Maharashtra,NAN_023,21.1818,74.0596,221.3,7.1,237.9,West,Hillside,High,Low,Urban,Sandy,3.19
+Nandurbar,Maharashtra,NAN_024,21.1535,74.193,223.4,14.1,179.2,South,Hillside,High,Moderate,Forest,Sandy,4.43
+Nandurbar,Maharashtra,NAN_025,21.5881,74.4177,155.8,11.4,124.2,East,Hillside,High,Moderate,Agricultural,Alluvial,1.15
+Nandurbar,Maharashtra,NAN_026,21.1521,74.4306,324.5,11.6,342.0,North,Peak,High,Moderate,Agricultural,Black Cotton,3.6
+Nandurbar,Maharashtra,NAN_027,21.6272,74.4655,256.6,8.8,318.5,North,Peak,High,Low,Barren,Rocky,2.47
+Nandurbar,Maharashtra,NAN_028,21.2371,74.0138,126.5,1.2,82.2,East,Hillside,High,Low,Forest,Alluvial,4.29
+Nandurbar,Maharashtra,NAN_029,21.4747,74.4183,310.1,14.0,166.7,South,Peak,High,Moderate,Urban,Rocky,2.43
+Nandurbar,Maharashtra,NAN_030,21.4956,74.3591,334.9,19.6,64.7,East,Peak,High,Moderate,Agricultural,Alluvial,3.88
+Nashik,Maharashtra,NAS_001,20.113,73.6905,292.4,7.4,188.1,South,Valley,High,Low,Barren,Red Laterite,0.97
+Nashik,Maharashtra,NAS_002,19.7072,73.7341,279.6,17.5,42.7,North,Valley,High,Moderate,Forest,Red Laterite,0.79
+Nashik,Maharashtra,NAS_003,20.0639,74.085,696.7,12.0,19.6,North,Hillside,Moderate,Moderate,Forest,Red Laterite,4.44
+Nashik,Maharashtra,NAS_004,20.1111,73.5411,1068.7,14.0,59.7,East,Peak,Low,Moderate,Agricultural,Black Cotton,4.36
+Nashik,Maharashtra,NAS_005,20.2094,74.0005,276.5,17.9,180.9,South,Valley,High,Moderate,Agricultural,Sandy,1.24
+Nashik,Maharashtra,NAS_006,20.1225,74.0804,420.1,12.0,120.2,East,Hillside,Moderate,Moderate,Forest,Sandy,1.59
+Nashik,Maharashtra,NAS_007,19.8242,73.6141,806.3,10.0,136.0,South,Hillside,Moderate,Moderate,Forest,Black Cotton,2.19
+Nashik,Maharashtra,NAS_008,20.2818,73.6337,859.5,16.0,164.6,South,Peak,Moderate,Moderate,Agricultural,Rocky,3.53
+Nashik,Maharashtra,NAS_009,20.0834,73.6495,574.1,4.3,101.2,East,Hillside,Moderate,Low,Forest,Red Laterite,3.75
+Nashik,Maharashtra,NAS_010,19.9895,73.8326,834.9,12.9,183.4,South,Hillside,Moderate,Moderate,Agricultural,Black Cotton,2.23
+Nashik,Maharashtra,NAS_011,19.8176,73.968,428.1,11.9,125.6,East,Hillside,Moderate,Moderate,Agricultural,Sandy,2.91
+Nashik,Maharashtra,NAS_012,19.6978,73.9275,845.0,4.8,223.2,South,Peak,Moderate,Low,Urban,Alluvial,0.7
+Nashik,Maharashtra,NAS_013,20.0437,73.8533,764.9,0.0,357.9,North,Hillside,Moderate,Low,Agricultural,Sandy,2.1
+Nashik,Maharashtra,NAS_014,20.2312,74.0205,653.7,9.4,199.1,South,Hillside,Moderate,Low,Barren,Black Cotton,3.99
+Nashik,Maharashtra,NAS_015,20.042,74.072,535.3,7.6,107.2,East,Hillside,Moderate,Low,Agricultural,Sandy,2.38
+Nashik,Maharashtra,NAS_016,19.949,73.9964,284.7,6.2,224.4,South,Valley,High,Low,Forest,Red Laterite,3.77
+Nashik,Maharashtra,NAS_017,20.1529,73.5323,717.4,12.1,133.0,East,Hillside,Moderate,Moderate,Agricultural,Red Laterite,2.99
+Nashik,Maharashtra,NAS_018,19.8604,73.5435,820.3,9.2,142.0,South,Hillside,Moderate,Low,Forest,Alluvial,0.8
+Nashik,Maharashtra,NAS_019,19.7369,73.7109,939.0,8.8,249.8,West,Peak,Low,Low,Barren,Sandy,3.58
+Nashik,Maharashtra,NAS_020,19.8199,73.8206,311.1,9.7,351.9,North,Valley,High,Low,Agricultural,Black Cotton,4.19
+Nashik,Maharashtra,NAS_021,20.0105,73.6299,805.1,9.0,19.8,North,Hillside,Moderate,Low,Agricultural,Red Laterite,3.53
+Nashik,Maharashtra,NAS_022,20.089,74.0667,699.3,13.5,184.3,South,Hillside,Moderate,Moderate,Agricultural,Red Laterite,3.31
+Nashik,Maharashtra,NAS_023,19.733,73.857,653.0,9.3,186.5,South,Hillside,Moderate,Low,Agricultural,Black Cotton,0.99
+Nashik,Maharashtra,NAS_024,19.9902,73.6086,520.7,7.1,157.9,South,Hillside,Moderate,Low,Urban,Red Laterite,2.62
+Nashik,Maharashtra,NAS_025,19.8869,74.0442,650.4,3.7,232.9,West,Hillside,Moderate,Low,Urban,Black Cotton,3.31
+Nashik,Maharashtra,NAS_026,19.9341,73.8263,994.6,16.0,87.3,East,Peak,Low,Moderate,Forest,Red Laterite,3.77
+Nashik,Maharashtra,NAS_027,19.8728,74.0661,917.4,14.5,40.5,North,Peak,Low,Moderate,Forest,Black Cotton,3.21
+Nashik,Maharashtra,NAS_028,19.777,73.634,739.3,9.8,80.9,East,Hillside,Moderate,Low,Agricultural,Red Laterite,3.46
+Nashik,Maharashtra,NAS_029,20.1499,73.8323,571.7,10.7,268.2,West,Hillside,Moderate,Moderate,Agricultural,Rocky,2.44
+Nashik,Maharashtra,NAS_030,20.0402,74.0567,799.4,4.7,183.7,South,Hillside,Moderate,Low,Barren,Alluvial,1.65
+Osmanabad,Maharashtra,OSM_001,18.132,75.9984,890.4,8.0,337.7,North,Peak,Moderate,Low,Forest,Alluvial,1.82
+Osmanabad,Maharashtra,OSM_002,18.3208,76.1562,481.7,11.8,68.3,East,Hillside,Moderate,Moderate,Forest,Black Cotton,0.66
+Osmanabad,Maharashtra,OSM_003,18.2066,76.322,650.5,8.3,194.7,South,Hillside,Moderate,Low,Urban,Black Cotton,0.63
+Osmanabad,Maharashtra,OSM_004,18.4195,76.1551,752.1,5.3,215.4,South,Hillside,Moderate,Low,Urban,Alluvial,2.6
+Osmanabad,Maharashtra,OSM_005,18.2151,75.8771,795.3,3.6,353.6,North,Peak,Moderate,Low,Forest,Alluvial,2.45
+Osmanabad,Maharashtra,OSM_006,18.2046,75.9197,493.6,4.1,77.9,East,Hillside,Moderate,Low,Forest,Rocky,3.76
+Osmanabad,Maharashtra,OSM_007,18.2413,76.0062,425.8,10.5,135.4,South,Hillside,Moderate,Moderate,Agricultural,Red Laterite,2.38
+Osmanabad,Maharashtra,OSM_008,18.443,76.1397,496.7,6.1,123.3,East,Hillside,Moderate,Low,Forest,Rocky,4.32
+Osmanabad,Maharashtra,OSM_009,18.2765,75.9161,675.2,5.3,1.2,North,Hillside,Moderate,Low,Agricultural,Sandy,4.46
+Osmanabad,Maharashtra,OSM_010,18.3065,75.9486,682.4,7.0,87.9,East,Hillside,Moderate,Low,Agricultural,Alluvial,1.8
+Osmanabad,Maharashtra,OSM_011,18.2022,75.7441,758.0,5.9,59.6,East,Hillside,Moderate,Low,Urban,Black Cotton,4.07
+Osmanabad,Maharashtra,OSM_012,18.2188,76.163,587.5,7.2,232.2,West,Hillside,Moderate,Low,Agricultural,Black Cotton,3.92
+Osmanabad,Maharashtra,OSM_013,18.3978,76.2163,763.7,8.9,70.0,East,Hillside,Moderate,Low,Urban,Black Cotton,3.53
+Osmanabad,Maharashtra,OSM_014,18.307,75.7854,628.4,9.1,314.6,West,Hillside,Moderate,Low,Forest,Rocky,1.67
+Osmanabad,Maharashtra,OSM_015,17.9272,75.8354,608.7,6.1,209.9,South,Hillside,Moderate,Low,Urban,Black Cotton,3.05
+Osmanabad,Maharashtra,OSM_016,17.9698,75.933,842.0,2.3,56.6,East,Peak,Moderate,Low,Forest,Black Cotton,2.02
+Osmanabad,Maharashtra,OSM_017,18.2168,76.0015,499.7,6.6,287.1,West,Hillside,Moderate,Low,Agricultural,Rocky,2.12
+Osmanabad,Maharashtra,OSM_018,18.0817,75.8396,767.8,8.2,214.8,South,Hillside,Moderate,Low,Urban,Alluvial,3.27
+Osmanabad,Maharashtra,OSM_019,17.9218,75.9493,1025.4,11.4,22.8,North,Peak,Low,Moderate,Agricultural,Sandy,3.13
+Osmanabad,Maharashtra,OSM_020,18.2661,76.2556,564.5,6.5,348.6,North,Hillside,Moderate,Low,Agricultural,Alluvial,3.83
+Osmanabad,Maharashtra,OSM_021,18.1204,76.1091,209.3,11.2,235.8,West,Valley,High,Moderate,Forest,Alluvial,2.94
+Osmanabad,Maharashtra,OSM_022,18.4091,76.2632,810.6,7.9,290.5,West,Peak,Moderate,Low,Urban,Alluvial,2.74
+Osmanabad,Maharashtra,OSM_023,18.0151,76.1728,664.6,12.8,41.0,North,Hillside,Moderate,Moderate,Forest,Red Laterite,2.51
+Osmanabad,Maharashtra,OSM_024,17.9665,76.1722,811.5,6.3,358.8,North,Peak,Moderate,Low,Water Body,Black Cotton,2.82
+Osmanabad,Maharashtra,OSM_025,18.1893,76.2793,950.6,11.8,280.3,West,Peak,Low,Moderate,Forest,Alluvial,4.24
+Osmanabad,Maharashtra,OSM_026,17.9994,76.1363,830.7,9.4,142.0,South,Peak,Moderate,Low,Urban,Black Cotton,2.74
+Osmanabad,Maharashtra,OSM_027,18.3853,76.101,1052.2,0.6,115.9,East,Peak,Low,Low,Urban,Red Laterite,1.83
+Osmanabad,Maharashtra,OSM_028,18.1412,75.9849,721.9,7.9,125.4,East,Hillside,Moderate,Low,Forest,Alluvial,0.71
+Osmanabad,Maharashtra,OSM_029,18.2272,76.2259,772.3,8.1,61.7,East,Hillside,Moderate,Low,Agricultural,Rocky,4.19
+Osmanabad,Maharashtra,OSM_030,18.3049,75.8019,699.6,4.4,134.8,East,Hillside,Moderate,Low,Water Body,Red Laterite,4.49
+Palghar,Maharashtra,PAL_001,19.5011,72.9159,39.8,10.0,205.3,South,Peak,Very High,Low,Forest,Red Laterite,4.24
+Palghar,Maharashtra,PAL_002,19.8911,72.4913,43.8,17.6,20.2,North,Peak,Very High,Moderate,Agricultural,Sandy,1.35
+Palghar,Maharashtra,PAL_003,19.4816,72.532,34.4,3.4,170.6,South,Hillside,Very High,Low,Forest,Rocky,2.58
+Palghar,Maharashtra,PAL_004,19.914,72.5027,30.8,15.0,343.8,North,Hillside,Very High,Moderate,Agricultural,Black Cotton,2.7
+Palghar,Maharashtra,PAL_005,19.4868,72.8375,20.3,6.0,329.6,North,Hillside,Very High,Low,Water Body,Red Laterite,3.72
+Palghar,Maharashtra,PAL_006,19.8423,72.9616,15.3,8.5,315.2,North,Valley,Very High,Low,Forest,Black Cotton,3.27
+Palghar,Maharashtra,PAL_007,19.9487,72.6873,25.3,1.0,199.2,South,Hillside,Very High,Low,Urban,Alluvial,2.59
+Palghar,Maharashtra,PAL_008,19.7641,72.7265,27.0,12.5,108.2,East,Hillside,Very High,Moderate,Forest,Sandy,3.92
+Palghar,Maharashtra,PAL_009,19.5596,72.4687,23.0,14.1,1.9,North,Hillside,Very High,Moderate,Agricultural,Red Laterite,3.67
+Palghar,Maharashtra,PAL_010,19.6427,72.8599,27.7,14.5,343.5,North,Hillside,Very High,Moderate,Urban,Sandy,1.34
+Palghar,Maharashtra,PAL_011,19.9893,72.6146,17.5,14.4,86.1,East,Valley,Very High,Moderate,Agricultural,Red Laterite,2.26
+Palghar,Maharashtra,PAL_012,19.8718,72.6173,12.8,7.9,352.7,North,Valley,Very High,Low,Forest,Black Cotton,3.56
+Palghar,Maharashtra,PAL_013,19.5497,72.7553,20.2,11.4,167.4,South,Hillside,Very High,Moderate,Agricultural,Red Laterite,3.49
+Palghar,Maharashtra,PAL_014,19.4482,73.0426,14.5,9.2,318.0,North,Valley,Very High,Low,Forest,Alluvial,3.18
+Palghar,Maharashtra,PAL_015,19.9534,72.6423,33.1,21.9,216.4,South,Hillside,Very High,High,Barren,Black Cotton,1.98
+Palghar,Maharashtra,PAL_016,19.4198,72.8596,27.4,11.4,23.0,North,Hillside,Very High,Moderate,Forest,Rocky,2.18
+Palghar,Maharashtra,PAL_017,19.3971,72.6522,26.7,13.8,119.6,East,Hillside,Very High,Moderate,Forest,Red Laterite,1.54
+Palghar,Maharashtra,PAL_018,19.7737,72.986,30.8,19.5,355.8,North,Hillside,Very High,Moderate,Urban,Red Laterite,1.44
+Palghar,Maharashtra,PAL_019,19.8347,72.7403,37.7,20.3,137.4,South,Peak,Very High,High,Urban,Black Cotton,4.18
+Palghar,Maharashtra,PAL_020,19.8188,73.0326,37.5,8.2,29.3,North,Peak,Very High,Low,Barren,Alluvial,1.33
+Palghar,Maharashtra,PAL_021,19.7206,72.5962,20.0,20.1,43.4,North,Hillside,Very High,High,Agricultural,Rocky,3.35
+Palghar,Maharashtra,PAL_022,19.9356,72.7507,23.5,6.2,69.7,East,Hillside,Very High,Low,Agricultural,Alluvial,3.74
+Palghar,Maharashtra,PAL_023,19.4389,72.5333,21.6,9.2,258.4,West,Hillside,Very High,Low,Forest,Rocky,0.8
+Palghar,Maharashtra,PAL_024,19.5713,72.9095,34.9,8.3,313.9,West,Hillside,Very High,Low,Agricultural,Sandy,2.93
+Palghar,Maharashtra,PAL_025,19.6358,72.9254,30.2,5.0,295.5,West,Hillside,Very High,Low,Urban,Sandy,3.82
+Palghar,Maharashtra,PAL_026,19.7326,72.7505,23.7,14.4,298.9,West,Hillside,Very High,Moderate,Barren,Sandy,3.1
+Palghar,Maharashtra,PAL_027,19.7266,72.8988,38.0,17.7,108.0,East,Peak,Very High,Moderate,Agricultural,Red Laterite,3.4
+Palghar,Maharashtra,PAL_028,19.4603,72.9662,21.2,20.2,101.6,East,Hillside,Very High,High,Forest,Red Laterite,2.43
+Palghar,Maharashtra,PAL_029,19.9015,72.9121,26.1,17.8,347.8,North,Hillside,Very High,Moderate,Agricultural,Alluvial,3.15
+Palghar,Maharashtra,PAL_030,19.8696,73.0503,30.0,23.0,350.8,North,Hillside,Very High,High,Agricultural,Black Cotton,2.32
+Parbhani,Maharashtra,PAR_001,19.4688,76.7986,511.5,2.6,263.7,West,Peak,Moderate,Low,Agricultural,Alluvial,3.83
+Parbhani,Maharashtra,PAR_002,19.1263,76.7131,343.0,7.5,156.7,South,Hillside,High,Low,Agricultural,Red Laterite,0.8
+Parbhani,Maharashtra,PAR_003,19.3991,77.0093,362.6,0.0,202.1,South,Hillside,High,Low,Forest,Rocky,1.81
+Parbhani,Maharashtra,PAR_004,19.311,76.8253,538.9,8.4,129.9,East,Peak,Moderate,Low,Forest,Rocky,3.47
+Parbhani,Maharashtra,PAR_005,19.3381,76.8086,459.9,1.2,152.4,South,Hillside,Moderate,Low,Forest,Sandy,1.26
+Parbhani,Maharashtra,PAR_006,19.3807,76.8057,468.2,6.3,225.1,West,Hillside,Moderate,Low,Forest,Red Laterite,2.66
+Parbhani,Maharashtra,PAR_007,19.5431,76.848,470.8,6.9,13.2,North,Hillside,Moderate,Low,Agricultural,Rocky,0.83
+Parbhani,Maharashtra,PAR_008,19.4492,76.6783,516.4,7.5,27.1,North,Peak,Moderate,Low,Urban,Alluvial,3.97
+Parbhani,Maharashtra,PAR_009,19.4964,76.9169,421.5,10.0,240.0,West,Hillside,Moderate,Moderate,Forest,Red Laterite,0.65
+Parbhani,Maharashtra,PAR_010,19.1238,76.477,546.5,8.1,353.9,North,Peak,Moderate,Low,Forest,Rocky,1.36
+Parbhani,Maharashtra,PAR_011,19.1354,76.818,468.4,3.5,56.2,East,Hillside,Moderate,Low,Forest,Black Cotton,2.21
+Parbhani,Maharashtra,PAR_012,19.4874,76.848,518.4,7.2,238.4,West,Peak,Moderate,Low,Forest,Red Laterite,1.72
+Parbhani,Maharashtra,PAR_013,19.5568,76.7644,564.6,1.8,289.7,West,Peak,Moderate,Low,Agricultural,Red Laterite,2.25
+Parbhani,Maharashtra,PAR_014,19.0621,77.0618,148.9,4.1,101.6,East,Valley,High,Low,Urban,Alluvial,3.27
+Parbhani,Maharashtra,PAR_015,19.4559,76.6672,174.2,8.0,219.7,South,Valley,High,Low,Forest,Sandy,2.65
+Parbhani,Maharashtra,PAR_016,19.353,76.8413,376.9,5.1,189.4,South,Hillside,High,Low,Agricultural,Red Laterite,4.23
+Parbhani,Maharashtra,PAR_017,19.4443,76.6228,519.3,5.6,322.1,North,Peak,Moderate,Low,Agricultural,Sandy,0.55
+Parbhani,Maharashtra,PAR_018,19.0629,76.6788,532.7,6.2,209.3,South,Peak,Moderate,Low,Forest,Black Cotton,3.91
+Parbhani,Maharashtra,PAR_019,19.2857,76.8082,406.0,5.0,267.7,West,Hillside,Moderate,Low,Agricultural,Sandy,1.84
+Parbhani,Maharashtra,PAR_020,19.3586,76.6427,342.9,4.0,216.7,South,Hillside,High,Low,Barren,Sandy,1.28
+Parbhani,Maharashtra,PAR_021,19.0808,76.8971,448.1,7.7,270.9,West,Hillside,Moderate,Low,Forest,Alluvial,2.77
+Parbhani,Maharashtra,PAR_022,19.5323,76.7968,496.1,8.6,339.0,North,Peak,Moderate,Low,Agricultural,Black Cotton,1.1
+Parbhani,Maharashtra,PAR_023,19.0358,76.976,363.4,4.1,282.1,West,Hillside,High,Low,Urban,Red Laterite,1.69
+Parbhani,Maharashtra,PAR_024,19.3592,76.8138,316.0,7.4,125.9,East,Hillside,High,Low,Urban,Black Cotton,3.58
+Parbhani,Maharashtra,PAR_025,19.0372,76.9999,463.7,8.9,97.5,East,Hillside,Moderate,Low,Forest,Rocky,0.71
+Parbhani,Maharashtra,PAR_026,19.5073,76.984,426.3,6.5,146.4,South,Hillside,Moderate,Low,Agricultural,Sandy,0.56
+Parbhani,Maharashtra,PAR_027,19.1377,76.9167,255.6,6.2,328.2,North,Hillside,High,Low,Agricultural,Sandy,2.98
+Parbhani,Maharashtra,PAR_028,19.402,76.7497,367.8,7.0,286.2,West,Hillside,High,Low,Agricultural,Sandy,3.88
+Parbhani,Maharashtra,PAR_029,19.0835,76.6255,184.5,3.2,183.6,South,Valley,High,Low,Agricultural,Black Cotton,2.57
+Parbhani,Maharashtra,PAR_030,19.3901,76.4736,478.3,7.2,6.6,North,Hillside,Moderate,Low,Agricultural,Alluvial,4.15
+Pune,Maharashtra,PUN_001,18.5942,73.622,616.5,4.2,230.7,West,Hillside,Moderate,Low,Agricultural,Black Cotton,4.4
+Pune,Maharashtra,PUN_002,18.6671,73.913,1011.3,6.6,357.3,North,Peak,Low,Low,Agricultural,Red Laterite,0.64
+Pune,Maharashtra,PUN_003,18.6278,74.1348,443.5,13.3,235.0,West,Hillside,Moderate,Moderate,Urban,Black Cotton,1.72
+Pune,Maharashtra,PUN_004,18.4482,73.8889,905.6,6.4,142.8,South,Peak,Low,Low,Water Body,Black Cotton,3.28
+Pune,Maharashtra,PUN_005,18.316,74.0324,759.5,4.2,208.8,South,Hillside,Moderate,Low,Forest,Alluvial,4.35
+Pune,Maharashtra,PUN_006,18.539,74.0079,880.4,16.9,319.2,North,Peak,Moderate,Moderate,Forest,Alluvial,2.32
+Pune,Maharashtra,PUN_007,18.28,73.5584,762.3,9.9,337.8,North,Hillside,Moderate,Low,Agricultural,Rocky,1.53
+Pune,Maharashtra,PUN_008,18.4862,73.8068,590.3,15.8,87.3,East,Hillside,Moderate,Moderate,Agricultural,Rocky,3.18
+Pune,Maharashtra,PUN_009,18.6503,73.5625,614.0,10.6,123.0,East,Hillside,Moderate,Moderate,Forest,Red Laterite,2.94
+Pune,Maharashtra,PUN_010,18.7339,74.0271,698.3,5.8,84.7,East,Hillside,Moderate,Low,Forest,Red Laterite,3.4
+Pune,Maharashtra,PUN_011,18.3764,74.1001,659.6,6.7,315.5,North,Hillside,Moderate,Low,Agricultural,Alluvial,2.3
+Pune,Maharashtra,PUN_012,18.343,73.9544,630.2,13.6,152.4,South,Hillside,Moderate,Moderate,Agricultural,Rocky,0.97
+Pune,Maharashtra,PUN_013,18.4084,73.6547,1089.8,10.0,207.4,South,Peak,Low,Low,Urban,Black Cotton,1.5
+Pune,Maharashtra,PUN_014,18.5844,73.7761,601.4,12.0,102.7,East,Hillside,Moderate,Moderate,Agricultural,Sandy,3.66
+Pune,Maharashtra,PUN_015,18.6889,74.1356,1040.7,9.9,225.8,West,Peak,Low,Low,Urban,Alluvial,4.23
+Pune,Maharashtra,PUN_016,18.3668,74.0949,983.7,19.9,5.8,North,Peak,Low,Moderate,Forest,Alluvial,2.94
+Pune,Maharashtra,PUN_017,18.4828,74.0887,665.6,0.2,287.3,West,Hillside,Moderate,Low,Barren,Sandy,1.52
+Pune,Maharashtra,PUN_018,18.4178,73.6716,462.1,9.8,47.2,East,Hillside,Moderate,Low,Agricultural,Black Cotton,2.46
+Pune,Maharashtra,PUN_019,18.6173,73.7591,546.3,15.3,321.1,North,Hillside,Moderate,Moderate,Forest,Black Cotton,3.57
+Pune,Maharashtra,PUN_020,18.6375,73.7742,618.6,8.8,298.3,West,Hillside,Moderate,Low,Urban,Red Laterite,4.24
+Pune,Maharashtra,PUN_021,18.726,73.969,890.7,12.1,257.4,West,Peak,Moderate,Moderate,Water Body,Black Cotton,2.7
+Pune,Maharashtra,PUN_022,18.2842,74.1461,573.8,12.1,120.5,East,Hillside,Moderate,Moderate,Agricultural,Sandy,2.57
+Pune,Maharashtra,PUN_023,18.3895,73.7785,552.6,4.9,143.7,South,Hillside,Moderate,Low,Forest,Alluvial,0.93
+Pune,Maharashtra,PUN_024,18.7942,73.6692,964.9,10.0,331.8,North,Peak,Low,Low,Agricultural,Red Laterite,3.15
+Pune,Maharashtra,PUN_025,18.5889,73.7782,534.1,9.6,359.5,North,Hillside,Moderate,Low,Forest,Alluvial,2.08
+Pune,Maharashtra,PUN_026,18.7653,73.655,583.3,2.2,294.0,West,Hillside,Moderate,Low,Forest,Rocky,2.96
+Pune,Maharashtra,PUN_027,18.3759,73.6086,598.0,10.7,242.7,West,Hillside,Moderate,Moderate,Urban,Sandy,3.25
+Pune,Maharashtra,PUN_028,18.3447,73.8468,804.6,14.6,256.4,West,Hillside,Moderate,Moderate,Forest,Alluvial,1.37
+Pune,Maharashtra,PUN_029,18.748,73.6366,450.0,6.6,235.8,West,Hillside,Moderate,Low,Agricultural,Black Cotton,2.27
+Pune,Maharashtra,PUN_030,18.579,73.6373,1159.5,7.0,181.8,South,Peak,Low,Low,Agricultural,Sandy,0.87
+Raigad,Maharashtra,RAI_001,18.3283,73.4004,276.1,15.6,131.5,East,Hillside,High,Moderate,Agricultural,Rocky,4.26
+Raigad,Maharashtra,RAI_002,18.583,73.0021,395.8,17.3,91.2,East,Peak,High,Moderate,Forest,Alluvial,1.5
+Raigad,Maharashtra,RAI_003,18.7545,73.3341,356.7,19.3,271.9,West,Hillside,High,Moderate,Forest,Sandy,2.99
+Raigad,Maharashtra,RAI_004,18.5714,73.1697,370.3,22.2,315.2,North,Hillside,High,High,Forest,Black Cotton,3.17
+Raigad,Maharashtra,RAI_005,18.622,73.071,310.8,19.5,15.5,North,Hillside,High,Moderate,Agricultural,Alluvial,1.09
+Raigad,Maharashtra,RAI_006,18.791,73.0172,385.9,15.5,218.2,South,Peak,High,Moderate,Forest,Rocky,2.72
+Raigad,Maharashtra,RAI_007,18.3163,73.299,453.5,8.6,2.2,North,Peak,Moderate,Low,Forest,Sandy,3.94
+Raigad,Maharashtra,RAI_008,18.7569,73.1712,128.9,24.6,340.5,North,Valley,High,High,Forest,Black Cotton,4.05
+Raigad,Maharashtra,RAI_009,18.3335,73.0049,157.0,9.5,211.7,South,Valley,High,Low,Forest,Red Laterite,0.52
+Raigad,Maharashtra,RAI_010,18.562,73.0346,297.7,12.2,287.8,West,Hillside,High,Moderate,Forest,Rocky,1.25
+Raigad,Maharashtra,RAI_011,18.7769,73.0181,241.7,12.0,12.3,North,Hillside,High,Moderate,Forest,Alluvial,2.85
+Raigad,Maharashtra,RAI_012,18.7469,73.2736,297.8,10.3,323.9,North,Hillside,High,Moderate,Barren,Alluvial,0.53
+Raigad,Maharashtra,RAI_013,18.294,72.8809,352.2,12.6,220.8,South,Hillside,High,Moderate,Agricultural,Rocky,1.2
+Raigad,Maharashtra,RAI_014,18.3898,73.208,94.0,19.3,156.4,South,Valley,Very High,Moderate,Agricultural,Red Laterite,3.59
+Raigad,Maharashtra,RAI_015,18.3647,73.441,345.3,12.4,128.9,East,Hillside,High,Moderate,Barren,Black Cotton,1.87
+Raigad,Maharashtra,RAI_016,18.3352,73.4187,273.7,7.8,52.1,East,Hillside,High,Low,Water Body,Sandy,2.99
+Raigad,Maharashtra,RAI_017,18.5592,73.1874,190.2,10.2,304.1,West,Valley,High,Moderate,Water Body,Rocky,1.1
+Raigad,Maharashtra,RAI_018,18.4231,73.3918,413.4,14.4,282.4,West,Peak,Moderate,Moderate,Agricultural,Alluvial,1.32
+Raigad,Maharashtra,RAI_019,18.4767,73.1674,223.1,10.8,179.2,South,Hillside,High,Moderate,Water Body,Black Cotton,1.14
+Raigad,Maharashtra,RAI_020,18.5525,73.2842,124.1,11.2,188.2,South,Valley,High,Moderate,Agricultural,Red Laterite,3.81
+Raigad,Maharashtra,RAI_021,18.3811,73.1199,105.2,18.0,342.5,North,Valley,High,Moderate,Agricultural,Black Cotton,2.45
+Raigad,Maharashtra,RAI_022,18.6384,73.335,276.7,11.3,238.2,West,Hillside,High,Moderate,Agricultural,Black Cotton,3.77
+Raigad,Maharashtra,RAI_023,18.4648,73.401,412.0,10.7,148.6,South,Peak,Moderate,Moderate,Agricultural,Alluvial,1.55
+Raigad,Maharashtra,RAI_024,18.5289,73.0249,343.1,15.9,149.9,South,Hillside,High,Moderate,Forest,Sandy,1.09
+Raigad,Maharashtra,RAI_025,18.7661,73.101,213.9,11.3,108.6,East,Hillside,High,Moderate,Forest,Alluvial,1.92
+Raigad,Maharashtra,RAI_026,18.8047,73.3558,354.2,10.3,74.8,East,Hillside,High,Moderate,Forest,Black Cotton,4.17
+Raigad,Maharashtra,RAI_027,18.5501,72.9654,291.8,12.7,203.5,South,Hillside,High,Moderate,Barren,Rocky,4.23
+Raigad,Maharashtra,RAI_028,18.6162,73.2718,201.8,21.2,234.7,West,Hillside,High,High,Urban,Red Laterite,3.33
+Raigad,Maharashtra,RAI_029,18.3863,73.3907,290.4,6.8,311.2,West,Hillside,High,Low,Urban,Sandy,2.45
+Raigad,Maharashtra,RAI_030,18.2296,73.238,364.6,13.4,16.6,North,Hillside,High,Moderate,Forest,Alluvial,1.94
+Ratnagiri,Maharashtra,RAT_001,17.2439,73.3618,199.3,16.0,130.3,East,Hillside,High,Moderate,Urban,Red Laterite,2.07
+Ratnagiri,Maharashtra,RAT_002,17.1397,73.551,169.7,26.6,122.3,East,Hillside,High,High,Forest,Sandy,0.54
+Ratnagiri,Maharashtra,RAT_003,17.1372,73.5423,232.0,13.9,78.5,East,Hillside,High,Moderate,Agricultural,Sandy,3.87
+Ratnagiri,Maharashtra,RAT_004,17.0486,73.3368,274.0,29.8,127.1,East,Hillside,High,High,Urban,Red Laterite,2.97
+Ratnagiri,Maharashtra,RAT_005,16.848,73.1342,192.1,21.9,182.9,South,Hillside,High,High,Agricultural,Rocky,1.66
+Ratnagiri,Maharashtra,RAT_006,16.9592,73.2422,285.0,23.8,305.1,West,Hillside,High,High,Agricultural,Alluvial,4.06
+Ratnagiri,Maharashtra,RAT_007,16.8471,73.4322,211.9,21.1,274.0,West,Hillside,High,High,Forest,Alluvial,1.91
+Ratnagiri,Maharashtra,RAT_008,17.1408,73.0556,319.7,18.7,242.9,West,Hillside,High,Moderate,Forest,Black Cotton,3.98
+Ratnagiri,Maharashtra,RAT_009,17.0272,73.539,269.5,21.2,23.1,North,Hillside,High,High,Agricultural,Alluvial,1.95
+Ratnagiri,Maharashtra,RAT_010,17.0986,73.2325,396.7,17.0,57.1,East,Peak,High,Moderate,Forest,Red Laterite,3.72
+Ratnagiri,Maharashtra,RAT_011,17.048,73.4901,274.7,17.4,139.2,South,Hillside,High,Moderate,Barren,Alluvial,1.3
+Ratnagiri,Maharashtra,RAT_012,16.8836,73.5849,283.3,12.6,241.0,West,Hillside,High,Moderate,Forest,Rocky,3.34
+Ratnagiri,Maharashtra,RAT_013,17.1828,73.185,258.5,22.8,156.7,South,Hillside,High,High,Forest,Black Cotton,3.4
+Ratnagiri,Maharashtra,RAT_014,16.9951,73.3632,148.1,11.2,110.3,East,Valley,High,Moderate,Forest,Red Laterite,2.97
+Ratnagiri,Maharashtra,RAT_015,16.8566,73.0244,371.0,21.0,5.4,North,Peak,High,High,Agricultural,Rocky,1.9
+Ratnagiri,Maharashtra,RAT_016,16.8946,73.3377,362.0,22.2,213.2,South,Peak,High,High,Urban,Black Cotton,3.07
+Ratnagiri,Maharashtra,RAT_017,16.879,73.3507,99.0,26.1,259.5,West,Valley,Very High,High,Forest,Sandy,1.35
+Ratnagiri,Maharashtra,RAT_018,17.1186,73.3276,465.7,12.7,39.4,North,Peak,Moderate,Moderate,Forest,Sandy,1.1
+Ratnagiri,Maharashtra,RAT_019,16.7499,73.5665,236.2,22.2,190.0,South,Hillside,High,High,Agricultural,Red Laterite,4.42
+Ratnagiri,Maharashtra,RAT_020,17.0602,73.533,247.9,16.0,158.1,South,Hillside,High,Moderate,Urban,Red Laterite,2.28
+Ratnagiri,Maharashtra,RAT_021,16.9356,73.1151,295.6,21.8,269.1,West,Hillside,High,High,Urban,Red Laterite,0.91
+Ratnagiri,Maharashtra,RAT_022,16.93,73.319,188.8,7.6,187.2,South,Hillside,High,Low,Forest,Alluvial,2.32
+Ratnagiri,Maharashtra,RAT_023,17.2291,73.5727,304.0,33.2,2.6,North,Hillside,High,Very High,Urban,Red Laterite,4.11
+Ratnagiri,Maharashtra,RAT_024,16.9669,73.3326,412.4,12.3,269.3,West,Peak,Moderate,Moderate,Forest,Black Cotton,0.93
+Ratnagiri,Maharashtra,RAT_025,16.8833,73.332,200.6,14.7,26.2,North,Hillside,High,Moderate,Agricultural,Alluvial,3.63
+Ratnagiri,Maharashtra,RAT_026,16.9818,73.5785,192.6,26.1,101.6,East,Hillside,High,High,Urban,Alluvial,4.0
+Ratnagiri,Maharashtra,RAT_027,17.0064,73.1143,178.7,22.5,290.4,West,Hillside,High,High,Barren,Sandy,2.2
+Ratnagiri,Maharashtra,RAT_028,17.0401,73.3841,189.6,2.9,227.1,West,Hillside,High,Low,Forest,Sandy,3.16
+Ratnagiri,Maharashtra,RAT_029,17.2132,73.3864,312.6,13.1,348.0,North,Hillside,High,Moderate,Urban,Black Cotton,4.47
+Ratnagiri,Maharashtra,RAT_030,16.8381,73.2639,161.8,10.4,237.0,West,Valley,High,Moderate,Forest,Alluvial,2.81
+Sangli,Maharashtra,SAN_001,17.0121,74.4504,572.4,3.1,143.5,South,Hillside,Moderate,Low,Agricultural,Black Cotton,2.39
+Sangli,Maharashtra,SAN_002,16.6457,74.7489,527.9,8.4,316.2,North,Hillside,Moderate,Low,Forest,Sandy,3.3
+Sangli,Maharashtra,SAN_003,17.0307,74.3592,626.5,10.0,142.8,South,Hillside,Moderate,Low,Forest,Alluvial,1.14
+Sangli,Maharashtra,SAN_004,16.5951,74.5489,737.1,5.2,126.3,East,Hillside,Moderate,Low,Forest,Sandy,2.01
+Sangli,Maharashtra,SAN_005,16.8554,74.4744,230.1,6.3,234.2,West,Valley,High,Low,Urban,Red Laterite,2.49
+Sangli,Maharashtra,SAN_006,16.8596,74.871,1042.1,1.4,132.8,East,Peak,Low,Low,Urban,Alluvial,1.43
+Sangli,Maharashtra,SAN_007,17.0382,74.7287,794.4,5.2,161.4,South,Hillside,Moderate,Low,Urban,Red Laterite,2.04
+Sangli,Maharashtra,SAN_008,17.0365,74.4397,800.0,11.6,358.1,North,Hillside,Moderate,Moderate,Barren,Red Laterite,1.37
+Sangli,Maharashtra,SAN_009,16.7449,74.6711,439.0,5.8,326.1,North,Hillside,Moderate,Low,Agricultural,Alluvial,0.79
+Sangli,Maharashtra,SAN_010,16.9281,74.631,536.3,2.6,276.7,West,Hillside,Moderate,Low,Forest,Black Cotton,2.75
+Sangli,Maharashtra,SAN_011,16.6771,74.8747,796.9,6.4,138.8,South,Hillside,Moderate,Low,Agricultural,Alluvial,2.74
+Sangli,Maharashtra,SAN_012,16.5834,74.5572,762.5,7.8,234.3,West,Hillside,Moderate,Low,Forest,Sandy,2.39
+Sangli,Maharashtra,SAN_013,16.6552,74.3956,603.0,3.2,147.6,South,Hillside,Moderate,Low,Forest,Black Cotton,4.34
+Sangli,Maharashtra,SAN_014,16.7121,74.5253,628.6,9.8,71.1,East,Hillside,Moderate,Low,Forest,Black Cotton,3.84
+Sangli,Maharashtra,SAN_015,17.0387,74.6405,652.5,7.1,101.1,East,Hillside,Moderate,Low,Urban,Sandy,2.27
+Sangli,Maharashtra,SAN_016,16.6349,74.5855,716.9,13.4,123.9,East,Hillside,Moderate,Moderate,Forest,Sandy,1.04
+Sangli,Maharashtra,SAN_017,16.64,74.6234,920.9,0.2,229.1,West,Peak,Low,Low,Agricultural,Alluvial,4.39
+Sangli,Maharashtra,SAN_018,16.9162,74.4527,730.9,10.8,267.8,West,Hillside,Moderate,Moderate,Forest,Black Cotton,3.26
+Sangli,Maharashtra,SAN_019,17.0571,74.7833,832.2,5.2,222.4,South,Hillside,Moderate,Low,Agricultural,Sandy,2.08
+Sangli,Maharashtra,SAN_020,16.901,74.6476,509.4,11.4,225.9,West,Hillside,Moderate,Moderate,Agricultural,Sandy,0.85
+Sangli,Maharashtra,SAN_021,17.0359,74.5942,1138.0,6.1,107.3,East,Peak,Low,Low,Forest,Red Laterite,3.98
+Sangli,Maharashtra,SAN_022,17.0311,74.6484,850.5,7.9,35.4,North,Peak,Moderate,Low,Forest,Black Cotton,1.84
+Sangli,Maharashtra,SAN_023,16.874,74.6818,512.3,10.3,5.1,North,Hillside,Moderate,Moderate,Agricultural,Red Laterite,1.58
+Sangli,Maharashtra,SAN_024,16.9604,74.5429,914.4,10.6,160.5,South,Peak,Low,Moderate,Forest,Black Cotton,3.91
+Sangli,Maharashtra,SAN_025,16.7224,74.6263,928.3,5.0,239.9,West,Peak,Low,Low,Barren,Black Cotton,3.7
+Sangli,Maharashtra,SAN_026,17.0459,74.3116,585.7,8.8,192.7,South,Hillside,Moderate,Low,Barren,Alluvial,3.84
+Sangli,Maharashtra,SAN_027,17.0862,74.8729,708.6,5.1,300.2,West,Hillside,Moderate,Low,Agricultural,Rocky,3.79
+Sangli,Maharashtra,SAN_028,16.9959,74.5589,968.2,11.9,2.9,North,Peak,Low,Moderate,Barren,Alluvial,1.99
+Sangli,Maharashtra,SAN_029,17.1048,74.8223,480.3,9.3,11.7,North,Hillside,Moderate,Low,Forest,Alluvial,2.71
+Sangli,Maharashtra,SAN_030,16.5664,74.523,434.3,10.0,64.0,East,Hillside,Moderate,Low,Forest,Black Cotton,2.0
+Satara,Maharashtra,SAT_001,17.4307,74.1649,692.6,5.2,89.6,East,Hillside,Moderate,Low,Forest,Red Laterite,2.1
+Satara,Maharashtra,SAT_002,17.8394,74.0736,851.5,12.6,12.4,North,Hillside,Moderate,Moderate,Agricultural,Black Cotton,2.05
+Satara,Maharashtra,SAT_003,17.5278,73.7461,890.9,4.8,208.6,South,Hillside,Moderate,Low,Agricultural,Alluvial,3.85
+Satara,Maharashtra,SAT_004,17.4974,74.1394,754.0,6.5,91.7,East,Hillside,Moderate,Low,Agricultural,Alluvial,4.21
+Satara,Maharashtra,SAT_005,17.5484,73.7694,613.0,12.8,75.4,East,Hillside,Moderate,Moderate,Barren,Alluvial,2.26
+Satara,Maharashtra,SAT_006,17.7229,73.7593,855.3,6.5,55.4,East,Hillside,Moderate,Low,Agricultural,Sandy,3.85
+Satara,Maharashtra,SAT_007,17.744,73.9438,895.0,8.6,207.6,South,Hillside,Moderate,Low,Forest,Alluvial,1.71
+Satara,Maharashtra,SAT_008,17.9591,73.7562,804.4,6.9,102.1,East,Hillside,Moderate,Low,Agricultural,Rocky,3.32
+Satara,Maharashtra,SAT_009,17.769,73.988,715.3,14.6,262.4,West,Hillside,Moderate,Moderate,Agricultural,Black Cotton,4.1
+Satara,Maharashtra,SAT_010,17.6303,74.2132,556.3,3.5,290.4,West,Hillside,Moderate,Low,Agricultural,Sandy,1.89
+Satara,Maharashtra,SAT_011,17.6933,73.7743,223.8,18.6,206.1,South,Valley,High,Moderate,Forest,Sandy,1.43
+Satara,Maharashtra,SAT_012,17.8207,74.018,314.1,14.7,213.7,South,Valley,High,Moderate,Forest,Alluvial,3.94
+Satara,Maharashtra,SAT_013,17.4305,73.8005,635.3,7.1,270.4,West,Hillside,Moderate,Low,Forest,Black Cotton,4.09
+Satara,Maharashtra,SAT_014,17.79,74.1004,764.2,4.0,304.1,West,Hillside,Moderate,Low,Water Body,Rocky,4.49
+Satara,Maharashtra,SAT_015,17.7117,73.8186,196.8,18.8,69.5,East,Valley,High,Moderate,Urban,Alluvial,1.48
+Satara,Maharashtra,SAT_016,17.8012,73.9268,494.7,12.8,254.2,West,Hillside,Moderate,Moderate,Agricultural,Black Cotton,3.78
+Satara,Maharashtra,SAT_017,17.4264,74.1322,792.0,10.3,246.1,West,Hillside,Moderate,Moderate,Forest,Sandy,3.86
+Satara,Maharashtra,SAT_018,17.781,73.7355,600.6,10.8,297.1,West,Hillside,Moderate,Moderate,Agricultural,Alluvial,3.54
+Satara,Maharashtra,SAT_019,17.8781,74.1034,732.6,8.6,84.9,East,Hillside,Moderate,Low,Agricultural,Rocky,3.52
+Satara,Maharashtra,SAT_020,17.4455,74.3036,809.8,10.5,166.3,South,Hillside,Moderate,Moderate,Barren,Black Cotton,3.61
+Satara,Maharashtra,SAT_021,17.4545,74.2315,1134.4,5.3,331.0,North,Peak,Low,Low,Forest,Sandy,3.29
+Satara,Maharashtra,SAT_022,17.5307,73.766,559.3,10.2,179.6,South,Hillside,Moderate,Moderate,Urban,Alluvial,3.06
+Satara,Maharashtra,SAT_023,17.9046,73.8535,949.8,13.5,204.4,South,Peak,Low,Moderate,Urban,Sandy,0.61
+Satara,Maharashtra,SAT_024,17.7021,73.7637,636.2,10.2,94.5,East,Hillside,Moderate,Moderate,Agricultural,Sandy,3.97
+Satara,Maharashtra,SAT_025,17.9754,73.8185,539.5,10.0,71.0,East,Hillside,Moderate,Moderate,Agricultural,Red Laterite,2.7
+Satara,Maharashtra,SAT_026,17.9461,74.0929,767.6,13.6,209.0,South,Hillside,Moderate,Moderate,Water Body,Red Laterite,2.12
+Satara,Maharashtra,SAT_027,17.9752,74.0981,931.6,6.4,281.6,West,Peak,Low,Low,Barren,Black Cotton,3.84
+Satara,Maharashtra,SAT_028,17.7019,74.2175,727.2,17.6,9.3,North,Hillside,Moderate,Moderate,Agricultural,Black Cotton,2.73
+Satara,Maharashtra,SAT_029,17.6328,73.7535,580.0,9.5,260.6,West,Hillside,Moderate,Low,Forest,Rocky,2.76
+Satara,Maharashtra,SAT_030,17.7241,74.0975,1151.1,8.5,175.5,South,Peak,Low,Low,Agricultural,Rocky,4.29
+Sindhudurg,Maharashtra,SIN_001,16.4414,74.0368,59.2,25.1,30.9,North,Valley,Very High,High,Agricultural,Sandy,2.63
+Sindhudurg,Maharashtra,SIN_002,16.4045,74.0327,112.7,16.7,263.7,West,Hillside,High,Moderate,Forest,Rocky,3.36
+Sindhudurg,Maharashtra,SIN_003,16.3062,73.6094,185.8,18.2,27.1,North,Peak,High,Moderate,Agricultural,Sandy,1.16
+Sindhudurg,Maharashtra,SIN_004,16.4775,73.7535,108.5,18.0,265.9,West,Hillside,High,Moderate,Urban,Red Laterite,2.32
+Sindhudurg,Maharashtra,SIN_005,16.3469,73.5833,108.0,21.8,343.1,North,Hillside,High,High,Agricultural,Alluvial,3.3
+Sindhudurg,Maharashtra,SIN_006,16.5876,74.0539,82.2,20.5,260.2,West,Hillside,Very High,High,Agricultural,Black Cotton,3.71
+Sindhudurg,Maharashtra,SIN_007,16.562,73.7987,144.9,38.5,341.4,North,Peak,High,Very High,Barren,Black Cotton,4.1
+Sindhudurg,Maharashtra,SIN_008,16.0747,73.7289,44.8,26.7,34.9,North,Valley,Very High,High,Agricultural,Sandy,1.39
+Sindhudurg,Maharashtra,SIN_009,16.2243,73.8406,95.2,18.8,332.7,North,Hillside,Very High,Moderate,Forest,Alluvial,1.1
+Sindhudurg,Maharashtra,SIN_010,16.3925,73.9753,99.7,24.5,22.4,North,Hillside,Very High,High,Forest,Sandy,3.91
+Sindhudurg,Maharashtra,SIN_011,16.2859,73.6917,113.5,31.2,223.5,South,Hillside,High,Very High,Forest,Alluvial,3.04
+Sindhudurg,Maharashtra,SIN_012,16.5194,73.6656,104.1,17.3,5.8,North,Hillside,High,Moderate,Forest,Black Cotton,3.71
+Sindhudurg,Maharashtra,SIN_013,16.1657,73.8204,123.4,17.3,152.6,South,Peak,High,Moderate,Barren,Rocky,1.73
+Sindhudurg,Maharashtra,SIN_014,16.1937,73.967,87.3,22.6,269.1,West,Hillside,Very High,High,Agricultural,Sandy,4.21
+Sindhudurg,Maharashtra,SIN_015,16.2603,74.0896,32.1,26.4,130.8,East,Valley,Very High,High,Agricultural,Alluvial,1.57
+Sindhudurg,Maharashtra,SIN_016,16.3459,74.023,78.9,28.5,223.1,South,Hillside,Very High,High,Agricultural,Black Cotton,0.74
+Sindhudurg,Maharashtra,SIN_017,16.0782,74.1377,101.9,33.4,191.2,South,Hillside,High,Very High,Agricultural,Black Cotton,3.74
+Sindhudurg,Maharashtra,SIN_018,16.4089,73.878,78.5,13.0,76.7,East,Hillside,Very High,Moderate,Agricultural,Rocky,1.98
+Sindhudurg,Maharashtra,SIN_019,16.6223,73.585,137.5,9.2,89.5,East,Peak,High,Low,Forest,Alluvial,4.11
+Sindhudurg,Maharashtra,SIN_020,16.629,73.8295,88.7,31.9,149.2,South,Hillside,Very High,Very High,Urban,Sandy,2.11
+Sindhudurg,Maharashtra,SIN_021,16.6217,73.8229,117.8,19.4,79.5,East,Hillside,High,Moderate,Agricultural,Red Laterite,4.37
+Sindhudurg,Maharashtra,SIN_022,16.597,73.918,154.7,24.6,153.9,South,Peak,High,High,Agricultural,Alluvial,1.24
+Sindhudurg,Maharashtra,SIN_023,16.0836,73.6755,82.0,13.6,221.2,South,Hillside,Very High,Moderate,Forest,Red Laterite,1.68
+Sindhudurg,Maharashtra,SIN_024,16.4541,74.1375,141.5,30.1,25.9,North,Peak,High,Very High,Agricultural,Black Cotton,2.8
+Sindhudurg,Maharashtra,SIN_025,16.0745,73.8502,107.4,0.0,82.7,East,Hillside,High,Low,Forest,Red Laterite,1.5
+Sindhudurg,Maharashtra,SIN_026,16.1573,73.9683,76.3,24.9,198.4,South,Hillside,Very High,High,Agricultural,Sandy,3.31
+Sindhudurg,Maharashtra,SIN_027,16.1098,73.6831,101.2,29.5,322.8,North,Hillside,High,High,Forest,Sandy,4.43
+Sindhudurg,Maharashtra,SIN_028,16.3812,74.14,101.7,24.8,337.9,North,Hillside,High,High,Barren,Black Cotton,3.95
+Sindhudurg,Maharashtra,SIN_029,16.1366,74.075,71.3,21.2,319.3,North,Hillside,Very High,High,Forest,Alluvial,0.84
+Sindhudurg,Maharashtra,SIN_030,16.537,73.7216,125.8,17.8,344.5,North,Peak,High,Moderate,Urban,Red Laterite,1.91
+Solapur,Maharashtra,SOL_001,17.8333,76.1116,529.7,4.5,111.2,East,Hillside,Moderate,Low,Forest,Alluvial,4.16
+Solapur,Maharashtra,SOL_002,17.4177,76.0241,664.5,5.5,130.9,East,Peak,Moderate,Low,Agricultural,Black Cotton,1.86
+Solapur,Maharashtra,SOL_003,17.545,75.648,263.4,6.3,147.2,South,Valley,High,Low,Agricultural,Red Laterite,4.04
+Solapur,Maharashtra,SOL_004,17.4223,76.125,538.8,1.8,207.0,South,Hillside,Moderate,Low,Urban,Rocky,1.9
+Solapur,Maharashtra,SOL_005,17.7965,75.9321,606.5,1.6,15.2,North,Peak,Moderate,Low,Agricultural,Red Laterite,2.37
+Solapur,Maharashtra,SOL_006,17.7588,75.7241,634.3,2.7,358.0,North,Peak,Moderate,Low,Agricultural,Alluvial,2.75
+Solapur,Maharashtra,SOL_007,17.9358,75.6767,165.6,6.6,286.2,West,Valley,High,Low,Forest,Black Cotton,1.28
+Solapur,Maharashtra,SOL_008,17.5362,75.9249,399.1,6.5,179.2,South,Hillside,High,Low,Forest,Red Laterite,3.26
+Solapur,Maharashtra,SOL_009,17.7938,75.6101,175.3,5.5,77.2,East,Valley,High,Low,Agricultural,Rocky,4.48
+Solapur,Maharashtra,SOL_010,17.5031,76.1967,399.2,4.2,112.4,East,Hillside,High,Low,Urban,Rocky,2.64
+Solapur,Maharashtra,SOL_011,17.3903,75.951,483.2,3.3,19.3,North,Hillside,Moderate,Low,Forest,Rocky,2.21
+Solapur,Maharashtra,SOL_012,17.8809,75.923,548.2,5.4,65.9,East,Hillside,Moderate,Low,Agricultural,Rocky,1.87
+Solapur,Maharashtra,SOL_013,17.6771,76.1193,386.1,5.7,154.7,South,Hillside,High,Low,Forest,Rocky,4.04
+Solapur,Maharashtra,SOL_014,17.4441,75.6638,478.1,5.3,33.7,North,Hillside,Moderate,Low,Agricultural,Sandy,3.7
+Solapur,Maharashtra,SOL_015,17.564,75.9844,527.4,8.9,343.4,North,Hillside,Moderate,Low,Agricultural,Red Laterite,0.58
+Solapur,Maharashtra,SOL_016,17.6878,76.1516,282.2,7.8,313.7,West,Valley,High,Low,Forest,Rocky,0.85
+Solapur,Maharashtra,SOL_017,17.5742,75.8339,357.7,4.4,241.8,West,Hillside,High,Low,Forest,Sandy,1.99
+Solapur,Maharashtra,SOL_018,17.8182,75.8418,563.8,7.6,111.7,East,Hillside,Moderate,Low,Agricultural,Alluvial,3.96
+Solapur,Maharashtra,SOL_019,17.7517,76.0081,397.4,3.5,26.5,North,Hillside,High,Low,Forest,Black Cotton,4.04
+Solapur,Maharashtra,SOL_020,17.5934,75.7253,614.0,4.4,189.9,South,Peak,Moderate,Low,Barren,Sandy,0.65
+Solapur,Maharashtra,SOL_021,17.8226,75.9448,458.4,8.1,344.6,North,Hillside,Moderate,Low,Forest,Black Cotton,2.84
+Solapur,Maharashtra,SOL_022,17.7507,75.695,457.1,5.2,202.3,South,Hillside,Moderate,Low,Agricultural,Red Laterite,2.45
+Solapur,Maharashtra,SOL_023,17.8709,75.8756,629.1,0.4,33.1,North,Peak,Moderate,Low,Agricultural,Alluvial,1.58
+Solapur,Maharashtra,SOL_024,17.5717,76.1298,559.4,6.3,166.9,South,Hillside,Moderate,Low,Agricultural,Red Laterite,1.22
+Solapur,Maharashtra,SOL_025,17.936,75.7319,393.9,6.2,289.9,West,Hillside,High,Low,Forest,Rocky,2.24
+Solapur,Maharashtra,SOL_026,17.784,75.8357,837.4,3.9,97.6,East,Peak,Moderate,Low,Forest,Alluvial,2.65
+Solapur,Maharashtra,SOL_027,17.414,75.8714,536.6,2.6,17.1,North,Hillside,Moderate,Low,Agricultural,Black Cotton,4.28
+Solapur,Maharashtra,SOL_028,17.5286,76.0,283.7,6.9,312.3,West,Valley,High,Low,Urban,Rocky,3.9
+Solapur,Maharashtra,SOL_029,17.8958,76.0417,285.4,4.0,317.1,North,Valley,High,Low,Agricultural,Sandy,4.08
+Solapur,Maharashtra,SOL_030,17.7147,75.7057,371.5,6.5,120.0,East,Hillside,High,Low,Agricultural,Alluvial,2.62
+Thane,Maharashtra,THA_001,19.4873,72.861,12.0,16.7,304.6,West,Hillside,Very High,Moderate,Agricultural,Black Cotton,0.58
+Thane,Maharashtra,THA_002,19.164,73.1093,7.4,6.2,244.4,West,Valley,Very High,Low,Urban,Alluvial,3.5
+Thane,Maharashtra,THA_003,19.175,73.0595,19.5,9.3,219.6,South,Peak,Very High,Low,Urban,Black Cotton,2.35
+Thane,Maharashtra,THA_004,19.3284,72.7403,17.2,6.2,33.9,North,Hillside,Very High,Low,Forest,Black Cotton,4.3
+Thane,Maharashtra,THA_005,19.0378,73.1928,21.2,6.6,219.6,South,Peak,Very High,Low,Water Body,Black Cotton,1.69
+Thane,Maharashtra,THA_006,19.1884,72.8806,15.1,9.7,93.4,East,Hillside,Very High,Low,Agricultural,Black Cotton,1.71
+Thane,Maharashtra,THA_007,19.3001,72.9953,16.5,5.8,15.5,North,Hillside,Very High,Low,Agricultural,Alluvial,2.56
+Thane,Maharashtra,THA_008,19.2281,73.2048,13.8,11.5,263.6,West,Hillside,Very High,Moderate,Forest,Alluvial,2.43
+Thane,Maharashtra,THA_009,19.3901,73.0909,13.7,8.0,11.1,North,Hillside,Very High,Low,Urban,Alluvial,2.25
+Thane,Maharashtra,THA_010,19.2811,73.1969,19.0,8.5,23.8,North,Peak,Very High,Low,Forest,Rocky,4.25
+Thane,Maharashtra,THA_011,19.1374,73.1713,19.4,8.8,43.4,North,Peak,Very High,Low,Barren,Rocky,3.73
+Thane,Maharashtra,THA_012,18.9519,72.8895,20.1,4.9,355.6,North,Peak,Very High,Low,Forest,Sandy,3.09
+Thane,Maharashtra,THA_013,19.0684,73.0025,13.9,2.6,336.8,North,Hillside,Very High,Low,Forest,Black Cotton,2.59
+Thane,Maharashtra,THA_014,18.9183,72.7509,17.6,10.4,335.5,North,Hillside,Very High,Moderate,Water Body,Red Laterite,4.4
+Thane,Maharashtra,THA_015,19.3599,73.2224,16.5,7.7,131.7,East,Hillside,Very High,Low,Agricultural,Red Laterite,3.08
+Thane,Maharashtra,THA_016,19.0551,72.8574,12.4,15.4,17.6,North,Hillside,Very High,Moderate,Urban,Black Cotton,3.26
+Thane,Maharashtra,THA_017,18.9972,73.0368,14.9,6.5,123.6,East,Hillside,Very High,Low,Agricultural,Alluvial,2.48
+Thane,Maharashtra,THA_018,19.053,72.9013,8.8,5.1,182.3,South,Valley,Very High,Low,Barren,Black Cotton,2.13
+Thane,Maharashtra,THA_019,19.4909,73.2099,12.0,10.5,289.6,West,Hillside,Very High,Moderate,Forest,Red Laterite,4.26
+Thane,Maharashtra,THA_020,19.2423,72.9804,12.4,7.7,166.1,South,Hillside,Very High,Low,Urban,Red Laterite,4.21
+Thane,Maharashtra,THA_021,19.2365,72.7425,8.3,6.1,189.9,South,Valley,Very High,Low,Agricultural,Sandy,3.44
+Thane,Maharashtra,THA_022,19.1665,73.1086,20.1,4.8,202.8,South,Peak,Very High,Low,Agricultural,Alluvial,4.34
+Thane,Maharashtra,THA_023,19.2306,72.7903,9.7,4.9,51.5,East,Hillside,Very High,Low,Urban,Alluvial,0.8
+Thane,Maharashtra,THA_024,19.4131,73.2601,6.7,11.2,215.4,South,Valley,Very High,Moderate,Urban,Red Laterite,2.82
+Thane,Maharashtra,THA_025,19.2885,73.0638,14.8,7.3,338.2,North,Hillside,Very High,Low,Urban,Red Laterite,4.33
+Thane,Maharashtra,THA_026,19.1916,73.272,18.7,8.7,214.3,South,Peak,Very High,Low,Agricultural,Red Laterite,4.27
+Thane,Maharashtra,THA_027,19.3745,72.8262,12.3,7.4,201.1,South,Hillside,Very High,Low,Barren,Alluvial,2.52
+Thane,Maharashtra,THA_028,19.2714,72.7717,22.9,10.6,62.2,East,Peak,Very High,Moderate,Agricultural,Black Cotton,0.52
+Thane,Maharashtra,THA_029,19.2082,72.8934,9.0,6.9,286.1,West,Valley,Very High,Low,Agricultural,Rocky,1.47
+Thane,Maharashtra,THA_030,19.4894,72.7125,19.2,7.0,48.0,East,Peak,Very High,Low,Agricultural,Alluvial,3.93
+Wardha,Maharashtra,WAR_001,20.5353,78.6684,172.5,5.7,221.1,South,Hillside,High,Low,Agricultural,Black Cotton,3.12
+Wardha,Maharashtra,WAR_002,20.6639,78.3662,329.0,4.6,139.1,South,Hillside,High,Low,Forest,Black Cotton,3.93
+Wardha,Maharashtra,WAR_003,20.485,78.829,141.6,5.2,228.3,West,Valley,High,Low,Forest,Black Cotton,3.16
+Wardha,Maharashtra,WAR_004,20.4896,78.793,293.1,5.9,155.1,South,Hillside,High,Low,Agricultural,Red Laterite,1.4
+Wardha,Maharashtra,WAR_005,20.4798,78.4907,220.8,1.6,215.4,South,Hillside,High,Low,Urban,Black Cotton,3.06
+Wardha,Maharashtra,WAR_006,20.4676,78.6866,324.3,6.6,322.8,North,Hillside,High,Low,Agricultural,Alluvial,3.6
+Wardha,Maharashtra,WAR_007,20.7554,78.7088,182.2,1.8,248.1,West,Hillside,High,Low,Agricultural,Sandy,4.06
+Wardha,Maharashtra,WAR_008,20.6294,78.532,388.1,1.5,129.9,East,Peak,High,Low,Forest,Red Laterite,0.87
+Wardha,Maharashtra,WAR_009,20.7976,78.7637,313.8,5.7,144.2,South,Hillside,High,Low,Agricultural,Alluvial,0.96
+Wardha,Maharashtra,WAR_010,20.8288,78.5098,132.2,9.1,346.9,North,Valley,High,Low,Agricultural,Alluvial,4.29
+Wardha,Maharashtra,WAR_011,20.6576,78.8619,279.8,6.9,358.4,North,Hillside,High,Low,Agricultural,Red Laterite,2.8
+Wardha,Maharashtra,WAR_012,20.48,78.4027,234.2,5.5,43.4,North,Hillside,High,Low,Forest,Black Cotton,3.0
+Wardha,Maharashtra,WAR_013,20.8098,78.4481,350.1,4.7,346.8,North,Peak,High,Low,Agricultural,Sandy,4.45
+Wardha,Maharashtra,WAR_014,20.8721,78.5475,239.4,5.2,203.8,South,Hillside,High,Low,Urban,Alluvial,2.5
+Wardha,Maharashtra,WAR_015,20.5732,78.3534,245.4,6.6,23.6,North,Hillside,High,Low,Forest,Sandy,1.3
+Wardha,Maharashtra,WAR_016,20.6957,78.4594,310.6,7.0,75.6,East,Hillside,High,Low,Agricultural,Rocky,1.01
+Wardha,Maharashtra,WAR_017,20.6467,78.5425,227.2,2.2,73.7,East,Hillside,High,Low,Forest,Sandy,0.9
+Wardha,Maharashtra,WAR_018,20.8684,78.8456,243.7,10.5,49.0,East,Hillside,High,Moderate,Agricultural,Black Cotton,1.47
+Wardha,Maharashtra,WAR_019,20.6036,78.3235,335.7,5.8,327.1,North,Hillside,High,Low,Water Body,Red Laterite,2.83
+Wardha,Maharashtra,WAR_020,20.6697,78.6128,245.4,7.5,34.5,North,Hillside,High,Low,Agricultural,Black Cotton,3.59
+Wardha,Maharashtra,WAR_021,20.6357,78.4887,295.5,4.6,178.5,South,Hillside,High,Low,Forest,Red Laterite,3.49
+Wardha,Maharashtra,WAR_022,20.9142,78.8879,297.2,4.9,98.3,East,Hillside,High,Low,Urban,Alluvial,3.49
+Wardha,Maharashtra,WAR_023,20.7967,78.4871,252.6,4.4,158.0,South,Hillside,High,Low,Agricultural,Sandy,3.3
+Wardha,Maharashtra,WAR_024,20.681,78.7722,168.1,0.0,49.0,East,Valley,High,Low,Urban,Black Cotton,1.92
+Wardha,Maharashtra,WAR_025,20.503,78.4143,278.9,6.0,55.5,East,Hillside,High,Low,Urban,Red Laterite,4.31
+Wardha,Maharashtra,WAR_026,20.658,78.5257,274.0,4.6,88.3,East,Hillside,High,Low,Forest,Black Cotton,3.97
+Wardha,Maharashtra,WAR_027,20.9848,78.6031,424.4,5.5,317.3,North,Peak,Moderate,Low,Agricultural,Alluvial,3.4
+Wardha,Maharashtra,WAR_028,20.9454,78.5013,218.3,5.1,85.8,East,Hillside,High,Low,Forest,Alluvial,1.36
+Wardha,Maharashtra,WAR_029,20.4501,78.6264,359.0,6.9,253.8,West,Peak,High,Low,Forest,Black Cotton,2.8
+Wardha,Maharashtra,WAR_030,20.8416,78.8834,181.3,5.0,118.5,East,Hillside,High,Low,Agricultural,Sandy,3.03
+Washim,Maharashtra,WAS_001,19.8219,76.909,446.7,2.0,175.6,South,Hillside,Moderate,Low,Agricultural,Alluvial,2.53
+Washim,Maharashtra,WAS_002,20.2668,77.1581,294.3,7.8,291.8,West,Hillside,High,Low,Urban,Alluvial,4.15
+Washim,Maharashtra,WAS_003,20.3176,77.4307,404.1,2.0,84.1,East,Hillside,Moderate,Low,Forest,Rocky,1.21
+Washim,Maharashtra,WAS_004,20.1676,77.239,488.0,9.0,71.4,East,Hillside,Moderate,Low,Forest,Alluvial,3.99
+Washim,Maharashtra,WAS_005,20.0841,77.1127,279.5,5.5,96.0,East,Hillside,High,Low,Urban,Black Cotton,2.93
+Washim,Maharashtra,WAS_006,19.9975,77.3267,428.4,7.8,297.1,West,Hillside,Moderate,Low,Urban,Red Laterite,4.13
+Washim,Maharashtra,WAS_007,20.3243,77.3962,311.7,12.9,268.4,West,Hillside,High,Moderate,Water Body,Sandy,2.85
+Washim,Maharashtra,WAS_008,20.2394,76.9909,361.4,4.0,151.2,South,Hillside,High,Low,Forest,Black Cotton,1.17
+Washim,Maharashtra,WAS_009,19.8283,77.1368,474.6,6.0,155.0,South,Hillside,Moderate,Low,Water Body,Alluvial,2.94
+Washim,Maharashtra,WAS_010,20.3852,77.3691,506.7,4.5,16.3,North,Peak,Moderate,Low,Barren,Rocky,3.34
+Washim,Maharashtra,WAS_011,20.2613,77.2277,392.1,3.9,226.0,West,Hillside,High,Low,Forest,Alluvial,0.79
+Washim,Maharashtra,WAS_012,19.8941,76.9709,334.7,9.9,81.8,East,Hillside,High,Low,Urban,Rocky,4.22
+Washim,Maharashtra,WAS_013,20.3449,76.9515,538.6,6.3,161.4,South,Peak,Moderate,Low,Urban,Black Cotton,1.96
+Washim,Maharashtra,WAS_014,20.3117,77.2113,599.4,8.9,13.7,North,Peak,Moderate,Low,Urban,Black Cotton,1.99
+Washim,Maharashtra,WAS_015,19.8557,76.8502,224.3,9.6,258.8,West,Valley,High,Low,Urban,Alluvial,1.95
+Washim,Maharashtra,WAS_016,20.1293,77.3653,336.5,5.0,298.1,West,Hillside,High,Low,Forest,Rocky,1.19
+Washim,Maharashtra,WAS_017,20.2865,77.3966,321.6,6.4,266.6,West,Hillside,High,Low,Forest,Black Cotton,4.12
+Washim,Maharashtra,WAS_018,20.2754,77.1801,622.2,6.7,68.1,East,Peak,Moderate,Low,Forest,Red Laterite,4.23
+Washim,Maharashtra,WAS_019,20.1952,77.1672,327.3,5.2,19.7,North,Hillside,High,Low,Forest,Black Cotton,3.63
+Washim,Maharashtra,WAS_020,20.2047,77.1148,184.0,6.3,286.4,West,Valley,High,Low,Agricultural,Alluvial,1.25
+Washim,Maharashtra,WAS_021,20.0394,77.1658,421.8,6.6,50.5,East,Hillside,Moderate,Low,Forest,Alluvial,2.99
+Washim,Maharashtra,WAS_022,20.3114,77.221,336.1,5.4,229.9,West,Hillside,High,Low,Urban,Sandy,1.72
+Washim,Maharashtra,WAS_023,20.0601,76.9767,438.7,3.9,358.6,North,Hillside,Moderate,Low,Forest,Alluvial,1.5
+Washim,Maharashtra,WAS_024,20.1736,77.4038,424.3,1.9,131.7,East,Hillside,Moderate,Low,Forest,Sandy,3.51
+Washim,Maharashtra,WAS_025,20.3436,77.4303,385.7,7.5,12.8,North,Hillside,High,Low,Barren,Black Cotton,2.21
+Washim,Maharashtra,WAS_026,19.8351,76.9714,372.0,5.6,211.3,South,Hillside,High,Low,Agricultural,Sandy,2.25
+Washim,Maharashtra,WAS_027,20.1399,76.9583,478.5,3.8,69.7,East,Hillside,Moderate,Low,Urban,Rocky,1.7
+Washim,Maharashtra,WAS_028,20.2211,77.078,606.3,1.0,124.4,East,Peak,Moderate,Low,Agricultural,Alluvial,3.11
+Washim,Maharashtra,WAS_029,20.3313,76.9432,555.8,4.8,28.7,North,Peak,Moderate,Low,Forest,Black Cotton,2.34
+Washim,Maharashtra,WAS_030,20.4011,77.2688,297.4,3.6,311.1,West,Hillside,High,Low,Agricultural,Rocky,0.75
+Yavatmal,Maharashtra,YAV_001,20.5836,77.9373,744.5,7.0,64.4,East,Peak,Moderate,Low,Barren,Alluvial,3.63
+Yavatmal,Maharashtra,YAV_002,20.382,78.2226,412.6,7.7,285.9,West,Hillside,Moderate,Low,Barren,Red Laterite,4.29
+Yavatmal,Maharashtra,YAV_003,20.301,78.0078,695.3,7.6,88.7,East,Peak,Moderate,Low,Forest,Sandy,3.37
+Yavatmal,Maharashtra,YAV_004,20.4886,78.3729,259.3,8.1,87.0,East,Valley,High,Low,Urban,Rocky,2.72
+Yavatmal,Maharashtra,YAV_005,20.3971,78.293,609.9,2.9,19.5,North,Peak,Moderate,Low,Forest,Rocky,1.48
+Yavatmal,Maharashtra,YAV_006,20.2767,78.3479,495.8,5.2,300.1,West,Hillside,Moderate,Low,Forest,Black Cotton,1.05
+Yavatmal,Maharashtra,YAV_007,20.5401,77.9215,545.4,7.8,0.4,North,Hillside,Moderate,Low,Forest,Alluvial,3.69
+Yavatmal,Maharashtra,YAV_008,20.232,78.3718,550.4,4.7,131.5,East,Hillside,Moderate,Low,Forest,Alluvial,3.94
+Yavatmal,Maharashtra,YAV_009,20.1682,78.4196,503.5,7.5,41.6,North,Hillside,Moderate,Low,Agricultural,Alluvial,4.05
+Yavatmal,Maharashtra,YAV_010,20.6487,77.8796,356.2,5.9,106.4,East,Hillside,High,Low,Agricultural,Alluvial,3.33
+Yavatmal,Maharashtra,YAV_011,20.1417,77.9894,513.9,5.2,197.3,South,Hillside,Moderate,Low,Forest,Black Cotton,1.47
+Yavatmal,Maharashtra,YAV_012,20.1382,77.8741,364.4,7.0,87.7,East,Hillside,High,Low,Forest,Black Cotton,3.16
+Yavatmal,Maharashtra,YAV_013,20.2969,78.1,666.9,5.1,219.9,South,Peak,Moderate,Low,Agricultural,Black Cotton,1.14
+Yavatmal,Maharashtra,YAV_014,20.3752,78.2774,882.5,4.5,20.4,North,Peak,Moderate,Low,Barren,Black Cotton,3.42
+Yavatmal,Maharashtra,YAV_015,20.46,78.0002,628.2,10.2,294.0,West,Peak,Moderate,Moderate,Agricultural,Rocky,1.24
+Yavatmal,Maharashtra,YAV_016,20.2213,77.8295,703.8,7.0,315.8,North,Peak,Moderate,Low,Barren,Rocky,2.2
+Yavatmal,Maharashtra,YAV_017,20.2587,78.262,409.3,0.2,290.9,West,Hillside,Moderate,Low,Agricultural,Sandy,2.74
+Yavatmal,Maharashtra,YAV_018,20.1665,78.3453,158.1,9.4,182.8,South,Valley,High,Low,Forest,Rocky,3.92
+Yavatmal,Maharashtra,YAV_019,20.1028,77.838,637.4,10.1,21.0,North,Peak,Moderate,Moderate,Water Body,Red Laterite,3.74
+Yavatmal,Maharashtra,YAV_020,20.148,78.1829,654.4,7.3,121.4,East,Peak,Moderate,Low,Forest,Alluvial,2.12
+Yavatmal,Maharashtra,YAV_021,20.1936,78.0676,366.4,4.2,251.8,West,Hillside,High,Low,Forest,Alluvial,3.53
+Yavatmal,Maharashtra,YAV_022,20.3987,77.8232,505.8,11.4,294.5,West,Hillside,Moderate,Moderate,Forest,Alluvial,1.94
+Yavatmal,Maharashtra,YAV_023,20.4199,78.2669,392.8,9.8,318.7,North,Hillside,High,Low,Forest,Alluvial,3.26
+Yavatmal,Maharashtra,YAV_024,20.3488,78.0401,455.5,8.6,20.7,North,Hillside,Moderate,Low,Barren,Rocky,2.5
+Yavatmal,Maharashtra,YAV_025,20.0892,78.4107,408.3,5.6,301.5,West,Hillside,Moderate,Low,Agricultural,Alluvial,3.75
+Yavatmal,Maharashtra,YAV_026,20.571,77.8406,285.7,8.2,89.4,East,Hillside,High,Low,Agricultural,Red Laterite,2.3
+Yavatmal,Maharashtra,YAV_027,20.1249,78.1473,423.2,10.0,137.8,South,Hillside,Moderate,Low,Forest,Alluvial,4.36
+Yavatmal,Maharashtra,YAV_028,20.1266,78.223,427.9,5.7,50.4,East,Hillside,Moderate,Low,Forest,Red Laterite,0.51
+Yavatmal,Maharashtra,YAV_029,20.177,78.2716,474.1,2.6,357.0,North,Hillside,Moderate,Low,Urban,Alluvial,1.24
+Yavatmal,Maharashtra,YAV_030,20.4094,77.9756,585.9,6.1,298.8,West,Peak,Moderate,Low,Barren,Black Cotton,1.08
