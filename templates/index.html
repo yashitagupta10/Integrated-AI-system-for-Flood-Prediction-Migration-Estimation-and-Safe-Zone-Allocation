@@ -690,6 +690,7 @@ function onDistrictChange() {
   }
 
   infoGrid.style.display = 'grid';
+  fetchLiveRainfall(name);   // ← AUTO-FILLS RAINFALL FROM INTERNET
   document.getElementById('i-pop').textContent   = d.population.toLocaleString();
   document.getElementById('i-elev').textContent  = d.elevation + 'm';
   document.getElementById('i-river').textContent = d.river || 'N/A';
@@ -714,6 +715,42 @@ function onDistrictChange() {
     });
     addToMap(marker);
   }
+}
+
+// ══════════════════════════════════════════════════════════
+// AUTO-FETCH REAL-TIME RAINFALL WHEN DISTRICT IS SELECTED
+// ══════════════════════════════════════════════════════════
+function fetchLiveRainfall(districtName) {
+  if (!districtName) return;
+
+  // Show "fetching..." while we wait for the API
+  document.getElementById('rain-val').textContent = '⏳ fetching...';
+
+  fetch('/get_realtime_weather/' + encodeURIComponent(districtName))
+    .then(r => r.json())
+    .then(data => {
+      if (!data.success) {
+        document.getElementById('rain-val').textContent = '— (enter manually)';
+        return;
+      }
+
+      // Auto-fill rainfall slider and text box
+      const rain = Math.round(data.rainfall_mm);
+      document.getElementById('rainfall').value = rain;
+      document.getElementById('rainfall-range').value = Math.min(rain, 500);
+      document.getElementById('rain-val').textContent = rain + ' mm ⚡LIVE';
+
+      // Auto-fill affected area box
+      const area = Math.round(data.affected_area_km2);
+      document.getElementById('area').value = area;
+      document.getElementById('area-val').textContent = area + ' km²';
+
+      showToast('⚡ Live data loaded: ' + rain + 'mm rainfall · ' + area + 'km² area');
+    })
+    .catch(() => {
+      // If internet is down, silently fall back to manual entry
+      document.getElementById('rain-val').textContent = '— (enter manually)';
+    });
 }
 
 // ══════════════════════════════════════════════════════════
@@ -1004,4 +1041,4 @@ function showToast(msg) {
 loadDistricts('Maharashtra');
 </script>
 </body>
-</html>
+</html>pip install requests statsmodels scikit-learn joblib

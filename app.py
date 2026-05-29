@@ -9,7 +9,10 @@ New routes added:
   GET       /logout   - Logout
 All existing routes remain unchanged.
 """
-
+from weather_service import get_district_weather_package
+from hybrid_model import get_model, quick_predict
+from app_routes_patch import init_hybrid_models, register_new_routes
+import numpy as np
 from flask import Flask, render_template, request, jsonify, session, redirect, url_for
 import os
 
@@ -47,6 +50,11 @@ def login_required(f):
         return f(*args, **kwargs)
     return decorated
 
+# ─────────────────────────────────────────────────────────────
+# HYBRID AI MODEL INIT + NEW ROUTES (real-time weather & ARIMA+LSTM)
+# ─────────────────────────────────────────────────────────────
+init_hybrid_models(DATA)
+register_new_routes(app, DATA, login_required)
 
 # ─────────────────────────────────────────────────────────────
 # AUTH ROUTES
